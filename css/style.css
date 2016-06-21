@@ -962,7 +962,7 @@ code {
 }
 .article-summary a {
   text-decoration: none;
-  color: #2e9fff;
+  color: #633d83;
 }
 .article-summary .article-summary-inner {
   margin-right: 30px;
@@ -1045,7 +1045,7 @@ code {
   opacity: 0.7;
 }
 .article-summary:hover .article-title a {
-  color: #2e9fff;
+  color: #633d83;
 }
 .article-category {
   float: left;
