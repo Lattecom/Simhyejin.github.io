@@ -1045,7 +1045,7 @@ code {
   opacity: 0.7;
 }
 .article-summary:hover .article-title a {
-  color: #633d83;
+  color: #2e9fff;
 }
 .article-category {
   float: left;
@@ -1136,7 +1136,7 @@ a.article-title:hover {
   margin: 1.3em 0;
 }
 .article-entry a {
-  color: #633d83;
+  color: #2e9fff;
   text-decoration: none;
 }
 .article-entry a:hover {
