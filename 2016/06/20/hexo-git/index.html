@@ -17,7 +17,7 @@ GitHub Pages의">
 <meta property="og:description" content="GitHub PagesGitHub Pages는 GitHub에서 무료로 호스팅하는 공개 웹페이지입니다.GitHub의 저장소에서 개인이나 조직 또는 프로젝트 페이지를 호스팅하도록 설계되어 있습니다.GitHub에서 제공하는 페이지 제작 도구로 쉽게 페이지를 만들어 공개할 수도 있고, 로컬에서 git을 이용해 수동으로 만들 수도 있습니다.
 GitHub Pages의">
 <meta property="og:image" content="http://masatolan.com/images/2015/programming/1/hexo-blog-basic1.jpg">
-<meta property="og:updated_time" content="2016-06-22T08:14:08.000Z">
+<meta property="og:updated_time" content="2016-06-22T08:14:52.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="GitHub pages Hexo적용하기">
 <meta name="twitter:description" content="GitHub PagesGitHub Pages는 GitHub에서 무료로 호스팅하는 공개 웹페이지입니다.GitHub의 저장소에서 개인이나 조직 또는 프로젝트 페이지를 호스팅하도록 설계되어 있습니다.GitHub에서 제공하는 페이지 제작 도구로 쉽게 페이지를 만들어 공개할 수도 있고, 로컬에서 git을 이용해 수동으로 만들 수도 있습니다.
@@ -183,11 +183,11 @@ ga('send', 'pageview');
 <p>GitHub Pages에 대한 자세한 내용은 <a href="https://help.github.com/categories/github-pages-basics/" target="_blank" rel="external">GitHub help</a>에서 확인할 수 잇습니다.</p>
 <hr>
 <h2 id="Git-pages에-Hexo-적용"><a href="#Git-pages에-Hexo-적용" class="headerlink" title="Git pages에 Hexo 적용"></a>Git pages에 Hexo 적용</h2><p>먼저 <code>hexo-deployer-git</code>을 설치합니다.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
 <p><strong>ERROR</strong> Deployer not found: <strong>git</strong></p>
 <blockquote>
 <p>주의!<br><code>hexo-deployer-git</code>을 설치 하지 않으면 deploy시 위와 같은 ERROR가 발생합니다.</p>
 </blockquote>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
 <p>그 다음 <code>_config.ym</code> 파일을 열어 <code>#deploymeny</code> 부분을 수정합니다.</p>
 <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line"><span class="attr">  type:</span> git</span><br><span class="line"><span class="attr">  repo:</span> https://github.com/Simhyejin/Simhyejin.github.io.git</span><br><span class="line"><span class="attr">  branch:</span> master</span><br></pre></td></tr></table></figure>
 <p><code>repo</code>     : GitHub repository URL<br><code>branch</code>    : 브랜치 이름<br><code>message</code>    : 커밋 내용. 커스터마이징 가능합니다. (<em>Site updated:’YYYY-MM-DD HH:mm:ss’</em> 로 기본 설정되있습니다.)</p>
