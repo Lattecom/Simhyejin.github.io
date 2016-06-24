@@ -23,7 +23,7 @@ Hueman 테마 적용하기설치
 Hueman 테마 적용하기설치
 터미널을 열어 hexo init했던 폴더(이하 blog 폴더)에 들어갑니">
 <meta property="og:image" content="https://simhyejin.github.io/images/hueman.jpg">
-<meta property="og:updated_time" content="2016-06-24T11:13:08.000Z">
+<meta property="og:updated_time" content="2016-06-24T11:36:48.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="[블로그 만들기] Hexo 테마 적용하기">
 <meta name="twitter:description" content="Hexo는 다양한 테마를 지원해 줍니다. Hexo Themes에서 원하는 테마를 고를 수 있습니다. 
@@ -221,7 +221,7 @@ ga('send', 'pageview');
 <li>링크<br>등이 <code>Theme Color</code>가 적용됩니다.<br>저의 <code>Theme Color</code> 보라색인 링크 글씨과 검은색 글씨의 눈으로 보기에 차이가 나지않아서 링크 글씨의 색을 지금 보이는 것과 같은 <a href="https://simhyejin.github.io/2016/06/24/hexo-themes/">하늘색</a>으로 바꾸었습니다.</li>
 </ul>
 <p><strong> [링크 색 바꾸기] </strong><br><strong>themes/hueman/source/css/_partial</strong> 폴더의 <code>article.styl</code> 파일을 수정하면 됩니다.</p>
-<figure class="highlight styl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.article-entry</span></span><br><span class="line">    <span class="selector-tag">a</span> <span class="comment">//링크 </span></span><br><span class="line">        <span class="attribute">color</span>: <span class="string">"원하는색상"</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight styl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.article-entry</span></span><br><span class="line">    <span class="comment">//...</span></span><br><span class="line">    <span class="selector-tag">a</span> <span class="comment">//링크 </span></span><br><span class="line">        <span class="attribute">color</span>: <span class="string">"원하는색상"</span> </span><br><span class="line">    <span class="comment">//...</span></span><br></pre></td></tr></table></figure>
 <p>이 외에도 <code>styl 파일</code>을 수정하면 커스터마이징 가능합니다. </p>
 <hr>
 <h4 id="Thumbnail"><a href="#Thumbnail" class="headerlink" title="- Thumbnail"></a>- Thumbnail</h4><p><strong>themes/hueman</strong> 폴더에 있는 <code>_config.yml</code>에서 <em>true</em>, <em>false</em> 로 설정 할 수 있습니다.<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">customize:</span></span><br><span class="line">	thumbnail: <span class="literal">true</span> <span class="comment"># enable posts thumbnail, options: true, false</span></span><br></pre></td></tr></table></figure></p>
