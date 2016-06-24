@@ -22,8 +22,8 @@ Hueman 테마 적용하기설치
 
 Hueman 테마 적용하기설치
 터미널을 열어 hexo init했던 폴더(이하 blog 폴더)에 들어갑니">
-<meta property="og:image" content="https://simhyejin.github.io/css/images/hueman.jpg">
-<meta property="og:updated_time" content="2016-06-24T10:49:50.000Z">
+<meta property="og:image" content="https://simhyejin.github.io/images/hueman.jpg">
+<meta property="og:updated_time" content="2016-06-24T11:07:55.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="[블로그 만들기] Hexo 테마 적용하기">
 <meta name="twitter:description" content="Hexo는 다양한 테마를 지원해 줍니다. Hexo Themes에서 원하는 테마를 고를 수 있습니다. 
@@ -31,7 +31,7 @@ Hueman 테마 적용하기설치
 
 Hueman 테마 적용하기설치
 터미널을 열어 hexo init했던 폴더(이하 blog 폴더)에 들어갑니">
-<meta name="twitter:image" content="https://simhyejin.github.io/css/images/hueman.jpg">
+<meta name="twitter:image" content="https://simhyejin.github.io/images/hueman.jpg">
     
 
     
@@ -225,9 +225,9 @@ ga('send', 'pageview');
 <p>이 외에도 <code>styl 파일</code>을 수정하면 커스터마이징 가능합니다. </p>
 <hr>
 <h4 id="Thumbnail"><a href="#Thumbnail" class="headerlink" title="- Thumbnail"></a>- Thumbnail</h4><p><strong>themes/hueman</strong> 폴더에 있는 <code>_config.yml</code>에서 <em>true</em>, <em>false</em> 로 설정 할 수 있습니다.<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">customize:</span></span><br><span class="line">	thumbnail: <span class="literal">true</span> <span class="comment"># enable posts thumbnail, options: true, false</span></span><br></pre></td></tr></table></figure></p>
-<p><img src="/css/images/thumbnail.png" alt="thumbnail: false | thumbnail: true"></p>
+<p><img src="/images/thumbnail.png" alt="thumbnail: false | thumbnail: true"></p>
 <ul>
-<li><strong>포스트에 thumbnail  추가하기</strong><br><code>themes/hueman/source/css/images</code>에 이미지 파일을 넣고 포스트 <a href="https://hexo.io/docs/front-matter.html" target="_blank" rel="external">font-matter</a>에 <code>thumbnail</code>을 추가하고 이미지 경로를 넣어줍니다.<figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: "[블로그 만들기] Hexo 테마 적용하기"</span><br><span class="line">date: 2016-06-24 16:11:20</span><br><span class="line"><span class="section">thumbnail: /css/images/hueman.jpg</span><br><span class="line">---</span></span><br></pre></td></tr></table></figure>
+<li><strong>포스트에 thumbnail  추가하기</strong><br><code>source/images</code>에 이미지 파일을 넣고 포스트 <a href="https://hexo.io/docs/front-matter.html" target="_blank" rel="external">font-matter</a>에 <code>thumbnail</code>을 추가하고 이미지 경로를 넣어줍니다.<figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: "[블로그 만들기] Hexo 테마 적용하기"</span><br><span class="line">date: 2016-06-24 16:11:20</span><br><span class="line"><span class="section">thumbnail: /css/images/hueman.jpg</span><br><span class="line">---</span></span><br></pre></td></tr></table></figure>
 </li>
 </ul>
 <p>혹은 이미지 url인 경우에는 <code>thumbnail</code>을 추가하고 이미지 경로 url을 넣어줍니다.<br><figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: "[블로그 만들기] Hexo 테마 적용하기"</span><br><span class="line">date: 2016-06-24 16:11:20</span><br><span class="line"><span class="section">thumbnail: https://example.com/image.jpg</span><br><span class="line">---</span></span><br></pre></td></tr></table></figure></p>
@@ -235,8 +235,8 @@ ga('send', 'pageview');
 <h4 id="Disqus"><a href="#Disqus" class="headerlink" title="- Disqus"></a>- Disqus</h4><p><strong>themes/hueman</strong> 폴더에 있는 <code>_config.yml</code>에서 <code>#Comment</code> 부분의 <em>disqus</em> 에 <em>disqus shortname</em>을 적어줍니다.<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Comment</span></span><br><span class="line"><span class="attr">comment:</span></span><br><span class="line"><span class="attr">    disqus:</span> [Disqus Shortname] <span class="comment"># enter disqus shortname here</span></span><br></pre></td></tr></table></figure></p>
 <p><strong>[ShortName 만들기 및 확인하기]</strong><br>먼저 <a href="https://disqus.com/" target="_blank" rel="external">Disqus</a> 계정이 있어야합니다. 회원가입 또는 SNS(페이스북, 트위터, 구글)로 로그인 가능합니다.</p>
 <ol>
-<li>Get Started 클릭 후 블로그 이름 설정(예시: aaaaba)[※블로그 이름이 Short Name으로 설정됩니다]<br><img src="/css/images/Disqus1.png" alt=""></li>
-<li>왼쪽 General 클릭하면 ShortName 확인 할수 있습니다.<br><img src="/css/images/Disqus2.png" alt=""></li>
+<li>Get Started 클릭 후 블로그 이름 설정(예시: aaaaba)[※블로그 이름이 Short Name으로 설정됩니다]<br><img src="/images/Disqus1.png" alt=""></li>
+<li>왼쪽 General 클릭하면 ShortName 확인 할수 있습니다.<br><img src="/images/Disqus2.png" alt=""></li>
 </ol>
 
         </div>
@@ -366,7 +366,7 @@ ga('send', 'pageview');
                             <a href="/2016/06/24/hexo-themes/" class="thumbnail">
     
     
-        <span style="background-image:url(/css/images/hueman.jpg)" alt="[블로그 만들기] Hexo 테마 적용하기" class="thumbnail-image"></span>
+        <span style="background-image:url(/images/hueman.jpg)" alt="[블로그 만들기] Hexo 테마 적용하기" class="thumbnail-image"></span>
     
     
 </a>
@@ -386,7 +386,7 @@ ga('send', 'pageview');
                             <a href="/2016/06/24/post-title/" class="thumbnail">
     
     
-        <span style="background-image:url(/css/images/title.png)" alt="[Markdown] title 대괄호[] 사용하기" class="thumbnail-image"></span>
+        <span style="background-image:url(/images/title.png)" alt="[Markdown] title 대괄호[] 사용하기" class="thumbnail-image"></span>
     
     
 </a>
@@ -406,7 +406,7 @@ ga('send', 'pageview');
                             <a href="/2016/06/22/owasp13/" class="thumbnail">
     
     
-        <span style="background-image:url(/css/images/owasp13.png)" alt="OWASP TOP 10 (2013)" class="thumbnail-image"></span>
+        <span style="background-image:url(/images/owasp13.png)" alt="OWASP TOP 10 (2013)" class="thumbnail-image"></span>
     
     
 </a>
@@ -446,7 +446,7 @@ ga('send', 'pageview');
                             <a href="/2016/06/20/Hexo-start/" class="thumbnail">
     
     
-        <span style="background-image:url(/css/images/hexo.png)" alt="[블로그 만들기] Hexo 정적 블로그 프레임워크" class="thumbnail-image"></span>
+        <span style="background-image:url(/images/hexo.png)" alt="[블로그 만들기] Hexo 정적 블로그 프레임워크" class="thumbnail-image"></span>
     
     
 </a>
