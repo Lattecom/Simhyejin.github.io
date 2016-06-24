@@ -1151,6 +1151,9 @@ a.article-title:hover {
   margin-top: 1.6em;
   margin-bottom: 1.6em;
 }
+.article-entry ul ul {
+  list-style-type: circle;
+}
 .article-entry img,
 .article-entry video {
   max-width: 100%;
