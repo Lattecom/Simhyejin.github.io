@@ -52,63 +52,84 @@
 
     <url>
         <loc>https://simhyejin.github.io/tags/blog/</loc>
-        <lastmod>2016-06-24T12:21:58.000Z</lastmod>
+        <lastmod>2016-06-24T13:00:25.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://simhyejin.github.io/tags/%EC%A0%95%EC%A0%81-%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC/</loc>
-        <lastmod>2016-06-24T12:21:58.000Z</lastmod>
+        <lastmod>2016-06-24T13:00:25.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://simhyejin.github.io/tags/Node-js/</loc>
+        <lastmod>2016-06-24T13:00:25.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://simhyejin.github.io/tags/github-pages/</loc>
-        <lastmod>2016-06-24T12:24:42.000Z</lastmod>
+        <lastmod>2016-06-24T13:01:21.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://simhyejin.github.io/tags/git/</loc>
-        <lastmod>2016-06-24T12:24:42.000Z</lastmod>
+        <lastmod>2016-06-24T13:01:21.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://simhyejin.github.io/tags/deployer/</loc>
-        <lastmod>2016-06-24T12:24:42.000Z</lastmod>
+        <lastmod>2016-06-24T13:01:21.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://simhyejin.github.io/tags/ERROR-Deployer-not-found-git/</loc>
+        <lastmod>2016-06-24T13:01:21.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://simhyejin.github.io/tags/hexo/</loc>
-        <lastmod>2016-06-24T12:37:43.000Z</lastmod>
+        <lastmod>2016-06-24T13:01:59.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://simhyejin.github.io/tags/post/</loc>
-        <lastmod>2016-06-24T12:37:43.000Z</lastmod>
+        <lastmod>2016-06-24T13:01:59.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://simhyejin.github.io/tags/title/</loc>
-        <lastmod>2016-06-24T12:37:43.000Z</lastmod>
+        <lastmod>2016-06-24T13:01:59.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://simhyejin.github.io/tags/markdown/</loc>
-        <lastmod>2016-06-24T12:37:43.000Z</lastmod>
+        <lastmod>2016-06-24T13:01:59.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://simhyejin.github.io/tags/square-bracket/</loc>
+        <lastmod>2016-06-24T13:01:59.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
