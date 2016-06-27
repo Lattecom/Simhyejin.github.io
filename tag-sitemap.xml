@@ -2,62 +2,6 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>https://simhyejin.github.io/tags/%EC%A0%95%EC%A0%81-%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC/</loc>
-        <lastmod>2016-06-27T06:44:33.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://simhyejin.github.io/tags/Node-js/</loc>
-        <lastmod>2016-06-27T06:44:33.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://simhyejin.github.io/tags/blog/</loc>
-        <lastmod>2016-06-27T06:44:40.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://simhyejin.github.io/tags/themes/</loc>
-        <lastmod>2016-06-27T06:44:40.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://simhyejin.github.io/tags/hueman/</loc>
-        <lastmod>2016-06-27T06:44:40.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://simhyejin.github.io/tags/thumbnail/</loc>
-        <lastmod>2016-06-27T06:44:40.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://simhyejin.github.io/tags/disqus/</loc>
-        <lastmod>2016-06-27T06:44:40.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://simhyejin.github.io/tags/theme-color/</loc>
-        <lastmod>2016-06-27T06:44:40.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://simhyejin.github.io/tags/post/</loc>
         <lastmod>2016-06-27T06:44:43.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -100,36 +44,92 @@
     </url>
 
     <url>
-        <loc>https://simhyejin.github.io/tags/hexo/</loc>
-        <lastmod>2016-06-27T17:06:54.000Z</lastmod>
+        <loc>https://simhyejin.github.io/tags/%EC%A0%95%EC%A0%81-%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC/</loc>
+        <lastmod>2016-06-27T17:37:30.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://simhyejin.github.io/tags/Node-js/</loc>
+        <lastmod>2016-06-27T17:37:30.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://simhyejin.github.io/tags/github-pages/</loc>
-        <lastmod>2016-06-27T17:06:54.000Z</lastmod>
+        <lastmod>2016-06-27T17:40:57.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://simhyejin.github.io/tags/git/</loc>
-        <lastmod>2016-06-27T17:06:54.000Z</lastmod>
+        <lastmod>2016-06-27T17:40:57.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://simhyejin.github.io/tags/deployer/</loc>
-        <lastmod>2016-06-27T17:06:54.000Z</lastmod>
+        <lastmod>2016-06-27T17:40:57.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://simhyejin.github.io/tags/ERROR-Deployer-not-found-git/</loc>
-        <lastmod>2016-06-27T17:06:54.000Z</lastmod>
+        <lastmod>2016-06-27T17:40:57.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://simhyejin.github.io/tags/hexo/</loc>
+        <lastmod>2016-06-27T17:50:06.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://simhyejin.github.io/tags/blog/</loc>
+        <lastmod>2016-06-27T17:50:06.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://simhyejin.github.io/tags/themes/</loc>
+        <lastmod>2016-06-27T17:50:06.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://simhyejin.github.io/tags/hueman/</loc>
+        <lastmod>2016-06-27T17:50:06.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://simhyejin.github.io/tags/thumbnail/</loc>
+        <lastmod>2016-06-27T17:50:06.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://simhyejin.github.io/tags/disqus/</loc>
+        <lastmod>2016-06-27T17:50:06.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://simhyejin.github.io/tags/theme-color/</loc>
+        <lastmod>2016-06-27T17:50:06.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://simhyejin.github.io/"/>
-  <updated>2016-06-27T06:44:40.000Z</updated>
+  <updated>2016-06-27T17:50:06.000Z</updated>
   <id>https://simhyejin.github.io/</id>
   
   <author>
@@ -20,11 +20,9 @@
     <link href="https://simhyejin.github.io/2016/06/24/hexo-themes/"/>
     <id>https://simhyejin.github.io/2016/06/24/hexo-themes/</id>
     <published>2016-06-24T07:11:20.000Z</published>
-    <updated>2016-06-27T06:44:40.000Z</updated>
+    <updated>2016-06-27T17:50:06.000Z</updated>
     
-    <content type="html">&lt;p&gt;&lt;code&gt;Hexo&lt;/code&gt;는 다양한 테마를 지원해 줍니다. &lt;a href=&quot;https://hexo.io/themes/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo Themes&lt;/a&gt; 에서 원하는 테마를 고를 수 있습니다. &lt;/p&gt;
-&lt;p&gt;데스크탑, 태블릿, 모바일 등 지원 가능한 반응형 테마를 고르기 위해 &lt;strong&gt;responsive&lt;/strong&gt;을 검색하였고 그 중 &lt;a href=&quot;https://github.com/ppoffice/hexo-theme-hueman&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hueman&lt;/a&gt;이라는 테마를 적용하엿습니다. &lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Hueman&lt;/code&gt; 테마 적용법과 테마 설정(CSS, Thumbnail, Disqus)에 대해 소개하겠습니다.&lt;/p&gt;
+    <content type="html">&lt;p&gt;이전 포스트 [&lt;a href=&quot;https://simhyejin.github.io/2016/06/20/hexo-github-pages/&quot;&gt;Hexo+GitHub pages&lt;/a&gt;]로 블로그를 만들었다면 이번 포스트는 블로그를 꾸며 보도록 하겠습니다.&lt;br&gt;&lt;code&gt;Hexo&lt;/code&gt;는 다양한 테마를 지원해 줍니다. &lt;a href=&quot;https://hexo.io/themes/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo Themes&lt;/a&gt; 에서 원하는 테마를 고를 수 있습니다.&lt;br&gt;데스크탑, 태블릿, 모바일 등 지원 가능한 반응형 테마를 고르기 위해 &lt;strong&gt;responsive&lt;/strong&gt;을 검색하였고 그 중 &lt;a href=&quot;https://github.com/ppoffice/hexo-theme-hueman&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hueman&lt;/a&gt;이라는 테마를 적용하엿습니다.&lt;br&gt;&lt;code&gt;Hueman&lt;/code&gt; 테마 적용법과 테마 설정(CSS 수정, Thumbnail, Disqus)에 대해 소개하겠습니다.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&quot;Hueman-테마-적용하기&quot;&gt;&lt;a href=&quot;#Hueman-테마-적용하기&quot; class=&quot;headerlink&quot; title=&quot;Hueman 테마 적용하기&quot;&gt;&lt;/a&gt;Hueman 테마 적용하기&lt;/h2&gt;&lt;h3 id=&quot;설치&quot;&gt;&lt;a href=&quot;#설치&quot; class=&quot;headerlink&quot; title=&quot;설치&quot;&gt;&lt;/a&gt;설치&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;&lt;p&gt;터미널을 열어 &lt;code&gt;hexo init&lt;/code&gt;했던 폴더(이하 &lt;strong&gt;blog&lt;/strong&gt; 폴더)에 들어갑니다. Heuman 테마를 &lt;code&gt;themes/hueman&lt;/code&gt; 폴더에 clone합니다.&lt;/p&gt;
@@ -81,11 +79,13 @@
 &lt;li&gt;Get Started 클릭 후 블로그 이름 설정(예시: aaaaba)[※블로그 이름이 Short Name으로 설정됩니다]&lt;br&gt;&lt;img src=&quot;/images/Disqus1.png&quot; alt=&quot;&quot;&gt;&lt;/li&gt;
 &lt;li&gt;왼쪽 General 클릭하면 ShortName 확인 할수 있습니다.&lt;br&gt;&lt;img src=&quot;/images/Disqus2.png&quot; alt=&quot;&quot;&gt;&lt;/li&gt;
 &lt;/ol&gt;
+&lt;hr&gt;
+&lt;h4 id=&quot;Blog-Hexo&quot;&gt;&lt;a href=&quot;#Blog-Hexo&quot; class=&quot;headerlink&quot; title=&quot;#Blog #Hexo&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://simhyejin.github.io/tags/blog/&quot;&gt;#Blog&lt;/a&gt; &lt;a href=&quot;https://simhyejin.github.io/tags/hexo/&quot;&gt;#Hexo&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&amp;lt; 이전 포스트 &lt;a href=&quot;https://simhyejin.github.io/2016/06/20/hexo-github-pages/&quot;&gt;Hexo+GitHub pages&lt;/a&gt;&lt;/p&gt;
 </content>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;code&gt;Hexo&lt;/code&gt;는 다양한 테마를 지원해 줍니다. &lt;a href=&quot;https://hexo.io/themes/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo Themes&lt;/a&gt; 에서 원하는 테마를 고를 수 있습니다
+      &lt;p&gt;이전 포스트 [&lt;a href=&quot;https://simhyejin.github.io/2016/06/20/hexo-github-pages/&quot;&gt;Hexo+GitHub pages&lt;/a&gt;]로 블로그를 만들었다면 이번 포스트는 블로그를 꾸며 보도록 하겠습니다.
     
     </summary>
     
@@ -204,13 +204,13 @@
   </entry>
   
   <entry>
-    <title>GitHub pages + Hexo</title>
+    <title>Hexo+GitHub pages</title>
     <link href="https://simhyejin.github.io/2016/06/20/hexo-github-pages/"/>
     <id>https://simhyejin.github.io/2016/06/20/hexo-github-pages/</id>
     <published>2016-06-20T07:37:00.000Z</published>
-    <updated>2016-06-27T17:06:54.000Z</updated>
+    <updated>2016-06-27T17:40:57.000Z</updated>
     
-    <content type="html">&lt;p&gt;&lt;code&gt;GitHub Pages&lt;/code&gt;와 &lt;code&gt;Hexo&lt;/code&gt;로 블로그를 운영하고 있습니다.&lt;br&gt;&lt;code&gt;GitHub Pages&lt;/code&gt;로 사이트 만들고 &lt;code&gt;Hexo&lt;/code&gt;를 사이트에 적용시켜 정적 블로그를 만들었습니다.&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;code&gt;GitHub Pages&lt;/code&gt;와 &lt;code&gt;Hexo&lt;/code&gt;로 블로그를 운영하고 있습니다.&lt;br&gt;이전 포스트 [&lt;a href=&quot;https://simhyejin.github.io/2016/06/24/hexo-themes/&quot;&gt;Hexo 정적 블로그 프레임워크&lt;/a&gt;]에서 &lt;code&gt;Hexo&lt;/code&gt; 설치와 설정을 알아봤다면 이번 포스트는 &lt;code&gt;GitHub Pages&lt;/code&gt;으로 사이트 만드는 법과 &lt;code&gt;Hexo&lt;/code&gt;와 &lt;code&gt;GitHub Pages&lt;/code&gt; 연동, &lt;em&gt;ERROR Deployer not found: git&lt;/em&gt; 오류에 대해 포스틍하겠습니다.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&quot;GitHub-Pages&quot;&gt;&lt;a href=&quot;#GitHub-Pages&quot; class=&quot;headerlink&quot; title=&quot;GitHub Pages&quot;&gt;&lt;/a&gt;GitHub Pages&lt;/h2&gt;&lt;p&gt;&lt;code&gt;GitHub Pages&lt;/code&gt;는 GitHub에서 무료로 호스팅하는 공개 웹페이지입니다.&lt;br&gt;GitHub의 저장소에서 개인이나 조직 또는 프로젝트 페이지를 호스팅하도록 설계되어 있습니다.&lt;br&gt;GitHub에서 제공하는 페이지 제작 도구로 쉽게 페이지를 만들어 공개할 수도 있고, 로컬에서 git을 이용해 수동으로 만들 수도 있습니다.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;GitHub Pages&lt;/code&gt;의 종류는 크게 두가지로 나뉩니다. &lt;/p&gt;
@@ -231,11 +231,13 @@
 &lt;p&gt;그 다음 &lt;code&gt;_config.ym&lt;/code&gt; 파일을 열어 &lt;code&gt;#deploymeny&lt;/code&gt; 부분을 수정합니다.&lt;/p&gt;
 &lt;figure class=&quot;highlight yml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# Deployment&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;## Docs: https://hexo.io/docs/deployment.html&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;deploy:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;  type:&lt;/span&gt; git&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;  repo:&lt;/span&gt; https://github.com/Simhyejin/Simhyejin.github.io.git&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;  branch:&lt;/span&gt; master&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;&lt;code&gt;repo&lt;/code&gt;     : GitHub repository URL&lt;br&gt;&lt;code&gt;branch&lt;/code&gt;    : 브랜치 이름&lt;br&gt;&lt;code&gt;message&lt;/code&gt;    : 커밋 내용. 커스터마이징 가능합니다. (&lt;em&gt;Site updated:’YYYY-MM-DD HH:mm:ss’&lt;/em&gt; 로 기본 설정되있습니다.)&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&quot;Blog-Hexo&quot;&gt;&lt;a href=&quot;#Blog-Hexo&quot; class=&quot;headerlink&quot; title=&quot;#Blog #Hexo&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://simhyejin.github.io/tags/blog/&quot;&gt;#Blog&lt;/a&gt; &lt;a href=&quot;https://simhyejin.github.io/tags/hexo/&quot;&gt;#Hexo&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&amp;lt; 이전 포스트 &lt;a href=&quot;https://simhyejin.github.io/2016/06/24/hexo-themes/&quot;&gt;Hexo 정적 블로그 프레임워크&lt;/a&gt;&lt;br&gt;다음 포스트 &amp;gt;  &lt;a href=&quot;https://simhyejin.github.io/2016/06/24/hexo-themes/&quot;&gt;Hexo 테마 적용하기&lt;/a&gt;&lt;/p&gt;
 </content>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;code&gt;GitHub Pages&lt;/code&gt;와 &lt;code&gt;Hexo&lt;/code&gt;로 블로그를 운영하고 있습니다.&lt;br&gt;&lt;code&gt;GitHub Pages&lt;/code&gt;로 사이트 만들고 &lt;code&gt;Hexo&lt;/code&gt;를 사이트에 적용시켜 정적 블로그를 
+      &lt;p&gt;&lt;code&gt;GitHub Pages&lt;/code&gt;와 &lt;code&gt;Hexo&lt;/code&gt;로 블로그를 운영하고 있습니다.&lt;br&gt;이전 포스트 [&lt;a href=&quot;https://simhyejin.github.io/2016/06/24/hexo-themes/&quot;&gt;He
     
     </summary>
     
@@ -259,7 +261,7 @@
     <link href="https://simhyejin.github.io/2016/06/20/blog-start-hexo/"/>
     <id>https://simhyejin.github.io/2016/06/20/blog-start-hexo/</id>
     <published>2016-06-20T05:16:39.000Z</published>
-    <updated>2016-06-27T06:44:33.000Z</updated>
+    <updated>2016-06-27T17:37:30.000Z</updated>
     
     <content type="html">&lt;p&gt;블로그 시작을 위해 사용하였던 &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt; 를 소개합니다.&lt;/p&gt;
 &lt;h2 id=&quot;Hexo&quot;&gt;&lt;a href=&quot;#Hexo&quot; class=&quot;headerlink&quot; title=&quot;Hexo&quot;&gt;&lt;/a&gt;Hexo&lt;/h2&gt;&lt;p&gt;&lt;code&gt;hexo&lt;/code&gt;는 &lt;code&gt;Node.js&lt;/code&gt; 기반 정적 블로그 프레임워크 입니다.&lt;/p&gt;
@@ -298,6 +300,8 @@
 &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo d&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;Opition으로&lt;br&gt;-g , –generate : deploy 전에 generate&lt;/p&gt;
 &lt;p&gt;그 외에는 Hexo &lt;a href=&quot;https://hexo.io/docs/commands.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Commands&lt;/a&gt;에서 확인 할 수 있습니다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&quot;Blog-Hexo&quot;&gt;&lt;a href=&quot;#Blog-Hexo&quot; class=&quot;headerlink&quot; title=&quot;#Blog #Hexo&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://simhyejin.github.io/tags/blog/&quot;&gt;#Blog&lt;/a&gt; &lt;a href=&quot;https://simhyejin.github.io/tags/hexo/&quot;&gt;#Hexo&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;다음 포스트 &amp;gt; &lt;a href=&quot;https://simhyejin.github.io/2016/06/20/hexo-github-pages/&quot;&gt;Hexo+GitHub pages&lt;/a&gt;&lt;/p&gt;
 </content>
     
     <summary type="html">
