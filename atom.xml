@@ -208,9 +208,9 @@
     <link href="https://simhyejin.github.io/2016/06/20/hexo-github-pages/"/>
     <id>https://simhyejin.github.io/2016/06/20/hexo-github-pages/</id>
     <published>2016-06-20T07:37:00.000Z</published>
-    <updated>2016-06-27T17:40:57.000Z</updated>
+    <updated>2016-06-27T17:51:45.000Z</updated>
     
-    <content type="html">&lt;p&gt;&lt;code&gt;GitHub Pages&lt;/code&gt;와 &lt;code&gt;Hexo&lt;/code&gt;로 블로그를 운영하고 있습니다.&lt;br&gt;이전 포스트 [&lt;a href=&quot;https://simhyejin.github.io/2016/06/24/hexo-themes/&quot;&gt;Hexo 정적 블로그 프레임워크&lt;/a&gt;]에서 &lt;code&gt;Hexo&lt;/code&gt; 설치와 설정을 알아봤다면 이번 포스트는 &lt;code&gt;GitHub Pages&lt;/code&gt;으로 사이트 만드는 법과 &lt;code&gt;Hexo&lt;/code&gt;와 &lt;code&gt;GitHub Pages&lt;/code&gt; 연동, &lt;em&gt;ERROR Deployer not found: git&lt;/em&gt; 오류에 대해 포스틍하겠습니다.&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;code&gt;GitHub Pages&lt;/code&gt;와 &lt;code&gt;Hexo&lt;/code&gt;로 블로그를 운영하고 있습니다.&lt;br&gt;이전 포스트 [&lt;a href=&quot;https://simhyejin.github.io/2016/06/24/hexo-themes/&quot;&gt;Hexo 정적 블로그 프레임워크&lt;/a&gt;]에서 &lt;code&gt;Hexo&lt;/code&gt; 설치와 설정을 알아봤다면 이번 포스트는 &lt;code&gt;GitHub Pages&lt;/code&gt;으로 사이트 만드는 법과 &lt;code&gt;Hexo&lt;/code&gt;와 &lt;code&gt;GitHub Pages&lt;/code&gt; 연동, &lt;em&gt;ERROR Deployer not found: git&lt;/em&gt; 오류에 대해 포스트하겠습니다.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&quot;GitHub-Pages&quot;&gt;&lt;a href=&quot;#GitHub-Pages&quot; class=&quot;headerlink&quot; title=&quot;GitHub Pages&quot;&gt;&lt;/a&gt;GitHub Pages&lt;/h2&gt;&lt;p&gt;&lt;code&gt;GitHub Pages&lt;/code&gt;는 GitHub에서 무료로 호스팅하는 공개 웹페이지입니다.&lt;br&gt;GitHub의 저장소에서 개인이나 조직 또는 프로젝트 페이지를 호스팅하도록 설계되어 있습니다.&lt;br&gt;GitHub에서 제공하는 페이지 제작 도구로 쉽게 페이지를 만들어 공개할 수도 있고, 로컬에서 git을 이용해 수동으로 만들 수도 있습니다.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;GitHub Pages&lt;/code&gt;의 종류는 크게 두가지로 나뉩니다. &lt;/p&gt;
