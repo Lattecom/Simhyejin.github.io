@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://simhyejin.github.io/"/>
-  <updated>2016-06-24T13:09:05.000Z</updated>
+  <updated>2016-06-27T06:44:40.000Z</updated>
   <id>https://simhyejin.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://simhyejin.github.io/2016/06/24/hexo-themes/"/>
     <id>https://simhyejin.github.io/2016/06/24/hexo-themes/</id>
     <published>2016-06-24T07:11:20.000Z</published>
-    <updated>2016-06-24T13:09:05.000Z</updated>
+    <updated>2016-06-27T06:44:40.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;code&gt;Hexo&lt;/code&gt;는 다양한 테마를 지원해 줍니다. &lt;a href=&quot;https://hexo.io/themes/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo Themes&lt;/a&gt; 에서 원하는 테마를 고를 수 있습니다. &lt;/p&gt;
 &lt;p&gt;데스크탑, 태블릿, 모바일 등 지원 가능한 반응형 테마를 고르기 위해 &lt;strong&gt;responsive&lt;/strong&gt;을 검색하였고 그 중 &lt;a href=&quot;https://github.com/ppoffice/hexo-theme-hueman&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hueman&lt;/a&gt;이라는 테마를 적용하엿습니다. &lt;/p&gt;
@@ -113,7 +113,7 @@
     <link href="https://simhyejin.github.io/2016/06/24/markdown-post-title/"/>
     <id>https://simhyejin.github.io/2016/06/24/markdown-post-title/</id>
     <published>2016-06-24T06:22:11.000Z</published>
-    <updated>2016-06-24T13:01:59.000Z</updated>
+    <updated>2016-06-27T06:44:43.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;code&gt;Hexo&lt;/code&gt;로 블로그를 운영하며 &lt;code&gt;마크다운(Markdown)&lt;/code&gt;을 사용하여 포스트를 작성하고 있습니다.&lt;br&gt;포스트 제목 앞에 &lt;strong&gt;대괄호&lt;/strong&gt;를 썻더니 오류가 발생하였습니다. 이에 대한 해결방안을 가져왔습니다.&lt;/p&gt;
 &lt;h2 id=&quot;YAMLException-can-not-read-a-block-mapping-entry-해결하기&quot;&gt;&lt;a href=&quot;#YAMLException-can-not-read-a-block-mapping-entry-해결하기&quot; class=&quot;headerlink&quot; title=&quot;YAMLException: can not read a block mapping entry 해결하기&quot;&gt;&lt;/a&gt;YAMLException: can not read a block mapping entry 해결하기&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;/images/post-head.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;위 사진과 같이 포스트를 작성할 때 title 앞에 대괄호를 넣으면 아래와 같은 Error가 발생합니다.&lt;/p&gt;
@@ -150,7 +150,7 @@
     <link href="https://simhyejin.github.io/2016/06/22/owasp13/"/>
     <id>https://simhyejin.github.io/2016/06/22/owasp13/</id>
     <published>2016-06-22T06:01:47.000Z</published>
-    <updated>2016-06-24T13:02:01.000Z</updated>
+    <updated>2016-06-27T06:44:47.000Z</updated>
     
     <content type="html">&lt;h2 id=&quot;OWASP&quot;&gt;&lt;a href=&quot;#OWASP&quot; class=&quot;headerlink&quot; title=&quot;OWASP&quot;&gt;&lt;/a&gt;OWASP&lt;/h2&gt;&lt;p&gt;OWASP(&lt;a href=&quot;https://www.owasp.org/index.php/Main_Page&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Open Web Application Security Project&lt;/a&gt;)는 신뢰할 수있는 애플리케이션을 개발 및 유지보수하기 위해 노력하는 오픈 커뮤니티입니다. 주로 애플리케이션에 관한 정보노출, 악성 파일 및 스크립트, 보안 취약점 등을 연구하며, 10대 웹 애플리케이션의 취약점(&lt;code&gt;OWASP TOP 10&lt;/code&gt;)을 발표합니다.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;Top 10 프로젝트&lt;/code&gt;의 목표는 조직에서 직면한 가장 중요한 몇 가지 위험요소를 식별해 애플리케이션 보안에 대한 인식을 향상시키는 데 있습니다.  &lt;code&gt;OWASP TOP 10&lt;/code&gt;은 웹 애플리케이션 취약점 중에서 빈도가 높고, 보안상 영향을 크게 줄 수 있는 것들 10가지를 선정하여 2004년, 2007년, 2010년, 2013년을 기준으로 발표하고 있습니다. OWASP의 모든 문서는 애플리케이션 보안성 향상에 관심 있는 모두에게 무료이며 &lt;a href=&quot;https://www.owasp.org/index.php/Main_Page&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;OWASP&lt;/a&gt;홈페이지에서 확인 가능합니다. &lt;/p&gt;
@@ -208,7 +208,7 @@
     <link href="https://simhyejin.github.io/2016/06/20/hexo-github-pages/"/>
     <id>https://simhyejin.github.io/2016/06/20/hexo-github-pages/</id>
     <published>2016-06-20T07:37:00.000Z</published>
-    <updated>2016-06-24T13:01:21.000Z</updated>
+    <updated>2016-06-27T06:44:36.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;code&gt;GitHub Pages&lt;/code&gt;와 &lt;code&gt;Hexo&lt;/code&gt;로 블로그를 운영하고 있습니다.&lt;br&gt;&lt;code&gt;GitHub Pages&lt;/code&gt;로 사이트 만들고 &lt;code&gt;Hexo&lt;/code&gt;를 사이트에 적용시켜 정적 블로그를 만들었습니다.&lt;/p&gt;
 &lt;h2 id=&quot;GitHub-Pages&quot;&gt;&lt;a href=&quot;#GitHub-Pages&quot; class=&quot;headerlink&quot; title=&quot;GitHub Pages&quot;&gt;&lt;/a&gt;GitHub Pages&lt;/h2&gt;&lt;p&gt;&lt;code&gt;GitHub Pages&lt;/code&gt;는 GitHub에서 무료로 호스팅하는 공개 웹페이지입니다.&lt;br&gt;GitHub의 저장소에서 개인이나 조직 또는 프로젝트 페이지를 호스팅하도록 설계되어 있습니다.&lt;br&gt;GitHub에서 제공하는 페이지 제작 도구로 쉽게 페이지를 만들어 공개할 수도 있고, 로컬에서 git을 이용해 수동으로 만들 수도 있습니다.&lt;/p&gt;
@@ -261,7 +261,7 @@
     <link href="https://simhyejin.github.io/2016/06/20/blog-start-hexo/"/>
     <id>https://simhyejin.github.io/2016/06/20/blog-start-hexo/</id>
     <published>2016-06-20T05:16:39.000Z</published>
-    <updated>2016-06-24T13:00:25.000Z</updated>
+    <updated>2016-06-27T06:44:33.000Z</updated>
     
     <content type="html">&lt;p&gt;블로그 시작을 위해 사용하였던 &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt; 를 소개합니다.&lt;/p&gt;
 &lt;h2 id=&quot;Hexo&quot;&gt;&lt;a href=&quot;#Hexo&quot; class=&quot;headerlink&quot; title=&quot;Hexo&quot;&gt;&lt;/a&gt;Hexo&lt;/h2&gt;&lt;p&gt;&lt;code&gt;hexo&lt;/code&gt;는 &lt;code&gt;Node.js&lt;/code&gt; 기반 정적 블로그 프레임워크 입니다.&lt;/p&gt;
