@@ -208,9 +208,10 @@
     <link href="https://simhyejin.github.io/2016/06/20/hexo-github-pages/"/>
     <id>https://simhyejin.github.io/2016/06/20/hexo-github-pages/</id>
     <published>2016-06-20T07:37:00.000Z</published>
-    <updated>2016-06-27T06:44:36.000Z</updated>
+    <updated>2016-06-27T17:06:54.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;code&gt;GitHub Pages&lt;/code&gt;와 &lt;code&gt;Hexo&lt;/code&gt;로 블로그를 운영하고 있습니다.&lt;br&gt;&lt;code&gt;GitHub Pages&lt;/code&gt;로 사이트 만들고 &lt;code&gt;Hexo&lt;/code&gt;를 사이트에 적용시켜 정적 블로그를 만들었습니다.&lt;/p&gt;
+&lt;hr&gt;
 &lt;h2 id=&quot;GitHub-Pages&quot;&gt;&lt;a href=&quot;#GitHub-Pages&quot; class=&quot;headerlink&quot; title=&quot;GitHub Pages&quot;&gt;&lt;/a&gt;GitHub Pages&lt;/h2&gt;&lt;p&gt;&lt;code&gt;GitHub Pages&lt;/code&gt;는 GitHub에서 무료로 호스팅하는 공개 웹페이지입니다.&lt;br&gt;GitHub의 저장소에서 개인이나 조직 또는 프로젝트 페이지를 호스팅하도록 설계되어 있습니다.&lt;br&gt;GitHub에서 제공하는 페이지 제작 도구로 쉽게 페이지를 만들어 공개할 수도 있고, 로컬에서 git을 이용해 수동으로 만들 수도 있습니다.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;GitHub Pages&lt;/code&gt;의 종류는 크게 두가지로 나뉩니다. &lt;/p&gt;
 &lt;ul&gt;
@@ -224,12 +225,9 @@
 &lt;hr&gt;
 &lt;h2 id=&quot;Git-pages에-Hexo-적용&quot;&gt;&lt;a href=&quot;#Git-pages에-Hexo-적용&quot; class=&quot;headerlink&quot; title=&quot;Git pages에 Hexo 적용&quot;&gt;&lt;/a&gt;Git pages에 Hexo 적용&lt;/h2&gt;&lt;p&gt;먼저 &lt;code&gt;hexo-deployer-git&lt;/code&gt;을 설치합니다.&lt;/p&gt;
 &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ npm install hexo-deployer-git --save&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;ERROR&lt;/strong&gt; Deployer not found: &lt;strong&gt;git&lt;/strong&gt;&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;주의!&lt;br&gt;&lt;code&gt;hexo-deployer-git&lt;/code&gt;을 설치 하지 않으면 deploy시 위와 같은 ERROR가 발생합니다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ERROR&lt;/strong&gt; Deployer not found: &lt;strong&gt;git&lt;/strong&gt;&lt;br&gt;주의!&lt;br&gt;&lt;code&gt;hexo-deployer-git&lt;/code&gt;을 설치 하지 않으면 deploy시 위와 같은 ERROR가 발생합니다.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;hr&gt;
 &lt;p&gt;그 다음 &lt;code&gt;_config.ym&lt;/code&gt; 파일을 열어 &lt;code&gt;#deploymeny&lt;/code&gt; 부분을 수정합니다.&lt;/p&gt;
 &lt;figure class=&quot;highlight yml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# Deployment&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;## Docs: https://hexo.io/docs/deployment.html&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;deploy:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;  type:&lt;/span&gt; git&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;  repo:&lt;/span&gt; https://github.com/Simhyejin/Simhyejin.github.io.git&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;  branch:&lt;/span&gt; master&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;&lt;code&gt;repo&lt;/code&gt;     : GitHub repository URL&lt;br&gt;&lt;code&gt;branch&lt;/code&gt;    : 브랜치 이름&lt;br&gt;&lt;code&gt;message&lt;/code&gt;    : 커밋 내용. 커스터마이징 가능합니다. (&lt;em&gt;Site updated:’YYYY-MM-DD HH:mm:ss’&lt;/em&gt; 로 기본 설정되있습니다.)&lt;/p&gt;
