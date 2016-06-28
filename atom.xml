@@ -136,9 +136,9 @@
       <category term="Blog" scheme="https://simhyejin.github.io/categories/Blog/"/>
     
     
-      <category term="blog" scheme="https://simhyejin.github.io/tags/blog/"/>
-    
       <category term="hexo" scheme="https://simhyejin.github.io/tags/hexo/"/>
+    
+      <category term="blog" scheme="https://simhyejin.github.io/tags/blog/"/>
     
       <category term="themes" scheme="https://simhyejin.github.io/tags/themes/"/>
     
@@ -290,9 +290,9 @@
     
       <category term="hexo" scheme="https://simhyejin.github.io/tags/hexo/"/>
     
-      <category term="git" scheme="https://simhyejin.github.io/tags/git/"/>
-    
       <category term="github-pages" scheme="https://simhyejin.github.io/tags/github-pages/"/>
+    
+      <category term="git" scheme="https://simhyejin.github.io/tags/git/"/>
     
       <category term="deployer" scheme="https://simhyejin.github.io/tags/deployer/"/>
     
@@ -359,13 +359,13 @@
       <category term="Blog" scheme="https://simhyejin.github.io/categories/Blog/"/>
     
     
-      <category term="blog" scheme="https://simhyejin.github.io/tags/blog/"/>
-    
       <category term="hexo" scheme="https://simhyejin.github.io/tags/hexo/"/>
     
-      <category term="정적 블로그 프레임워크" scheme="https://simhyejin.github.io/tags/%EC%A0%95%EC%A0%81-%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC/"/>
-    
       <category term="git" scheme="https://simhyejin.github.io/tags/git/"/>
+    
+      <category term="blog" scheme="https://simhyejin.github.io/tags/blog/"/>
+    
+      <category term="정적 블로그 프레임워크" scheme="https://simhyejin.github.io/tags/%EC%A0%95%EC%A0%81-%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC/"/>
     
       <category term="Node.js" scheme="https://simhyejin.github.io/tags/Node-js/"/>
     
