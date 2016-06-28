@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://simhyejin.github.io/"/>
-  <updated>2016-06-28T09:53:49.000Z</updated>
+  <updated>2016-06-28T15:43:26.000Z</updated>
   <id>https://simhyejin.github.io/</id>
   
   <author>
@@ -14,6 +14,49 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>G2 터치 불량 무상수리</title>
+    <link href="https://simhyejin.github.io/2016/06/28/g2-touch-screen/"/>
+    <id>https://simhyejin.github.io/2016/06/28/g2-touch-screen/</id>
+    <published>2016-06-28T13:57:26.000Z</published>
+    <updated>2016-06-28T15:43:26.000Z</updated>
+    
+    <content type="html">&lt;p&gt;G2 사용자입니다. 저의 G2는 거의 3년째 사용하고 있는 정말 오래 쓴!! 스마트폰입니다.&lt;br&gt;G2 터치 불량으로 15년 9월부터 16년 9월까지 무상 수리 해주는 거 알고 계셨습니까?&lt;/p&gt;
+&lt;p&gt;저번주 토요일 G2 터치 불량으로 무상수리 받고 왔습니다.&lt;/p&gt;
+&lt;h2 id=&quot;1-G2-터치-불량-무상수리-공&quot;&gt;&lt;a href=&quot;#1-G2-터치-불량-무상수리-공&quot; class=&quot;headerlink&quot; title=&quot;1. G2 터치 불량 무상수리 공&quot;&gt;&lt;/a&gt;1. G2 터치 불량 무상수리 공&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;/images/freechange.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;작년 9월 7일부터 1년간 보증기간이 지나도! 고객 과실(침수, 파손 등)이 아니면 1회 무상 수리를 받을 수 있습니다.&lt;br&gt;하지만 저 공고는 이제 LG 서비스센터에서는 찾아볼 수도 없었습니다.&lt;br&gt;터치 이상으로 검색 중 무상서비스에 대해 알게 되었고 기간이 2개월 가량 남아있었던 덕에 무상 수리를 받을 수 있었습니다.&lt;br&gt;터치 불량으로 판단되시는 분은 9월 전에 무상 수리 받으세요!&lt;/p&gt;
+&lt;h2 id=&quot;2-G2-터치-불량-발생-확인하기&quot;&gt;&lt;a href=&quot;#2-G2-터치-불량-발생-확인하기&quot; class=&quot;headerlink&quot; title=&quot;2. G2 터치 불량 발생 확인하기&quot;&gt;&lt;/a&gt;2. G2 터치 불량 발생 확인하기&lt;/h2&gt;&lt;p&gt;2013년 9월에 구입한 G2로 잦은 렉과 꺼짐 현상은 있었습니다.&lt;br&gt;몇일 전 부터 자판에 &lt;code&gt;ㄹ&lt;/code&gt;, &lt;code&gt;ㅊ&lt;/code&gt; 이 입력 되지가 않아 &lt;code&gt;Q메모&lt;/code&gt;로 하였습니다.&lt;br&gt;아래 가운데 부분의 터치가 먹히지 않았습니다.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/touch.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;3-LG-서비스센터&quot;&gt;&lt;a href=&quot;#3-LG-서비스센터&quot; class=&quot;headerlink&quot; title=&quot;3. LG 서비스센터&quot;&gt;&lt;/a&gt;3. LG 서비스센터&lt;/h2&gt;&lt;p&gt;LG 서비스센터에서 &lt;a href=&quot;https://www.lgservice.co.kr/reserve/selectVisit.do&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;센터방문 예약&lt;/a&gt;을 하시면 기다리지 않고 서비스를 받을 수 있습니다.&lt;br&gt;저는 토요일에 방문 예약이 이미 풀이라 40분 정도 기다렸습니다.&lt;/p&gt;
+&lt;p&gt;기사분께 터치 이상 부분 Q메모로 보여드렸고 터치 불량 무상수리를 위한 진단을 하십니다. &lt;/p&gt;
+&lt;p&gt;가장 먼저 &lt;code&gt;히든 메뉴&lt;/code&gt;(다이얼에서 &lt;strong&gt;3845#*320#&lt;/strong&gt; 입력)를 통해 &lt;code&gt;HW Device Test &amp;gt; Touch Test &amp;gt; Finger Paint&lt;/code&gt; 로 터치 이상을 확인을 하시고 &lt;code&gt;Check Synatics Touch Panel&lt;/code&gt;을 확인 하셨습니다. 저는 4개의 test Result 중 2개만 Pass였다고 합니다.&lt;/p&gt;
+&lt;p&gt;그 다음 뒷면의 카메라 왼편에 있는 &lt;code&gt;침수 라벨&lt;/code&gt;을 확인 하셨습니다.&lt;br&gt;저는 한번도 물에 빠트린 적은 없으나 3년 가까이 사용하다보니 습기로 인해 살짝 분홍 빛이 돌았는데요. 침수 라벨이 변색됬기 때문에 내부에 침수가 심하면 유상이라는 말을 들었습니다.&lt;br&gt;물에 빠진 적이 한번도 없기에 내부 침수는 정말 약한 수준이라고 하였습니다. &lt;/p&gt;
+&lt;p&gt;무상수리 기준을 통과하여 무상서비스를 받았습니다!&lt;/p&gt;
+&lt;h2 id=&quot;4-결과&quot;&gt;&lt;a href=&quot;#4-결과&quot; class=&quot;headerlink&quot; title=&quot;4. 결과&quot;&gt;&lt;/a&gt;4. 결과&lt;/h2&gt;&lt;p&gt;10분 정도 기다리니 완전 새 폰이 되어 돌아왔습니다!! 액정 필름까지 붙여주시고 서비스 짱짱!&lt;br&gt;폰을 바꿀 시기가 된거 같지만 액정 교체로 G2를 좀 더 쓰게 될 거 같습니다:)&lt;br&gt;&lt;img src=&quot;/images/g2-service-result.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;G2 사용자입니다. 저의 G2는 거의 3년째 사용하고 있는 정말 오래 쓴!! 스마트폰입니다.&lt;br&gt;G2 터치 불량으로 15년 9월부터 16년 9월까지 무상 수리 해주는 거 알고 계셨습니까?&lt;/p&gt;
+&lt;p&gt;저번주 토요일 G2 터치 불량으로 무상수리 
+    
+    </summary>
+    
+      <category term="Diary" scheme="https://simhyejin.github.io/categories/Diary/"/>
+    
+      <category term="일상" scheme="https://simhyejin.github.io/categories/Diary/%EC%9D%BC%EC%83%81/"/>
+    
+    
+      <category term="g2" scheme="https://simhyejin.github.io/tags/g2/"/>
+    
+      <category term="touch 불량" scheme="https://simhyejin.github.io/tags/touch-%EB%B6%88%EB%9F%89/"/>
+    
+      <category term="액정 교체" scheme="https://simhyejin.github.io/tags/%EC%95%A1%EC%A0%95-%EA%B5%90%EC%B2%B4/"/>
+    
+      <category term="무상 수리" scheme="https://simhyejin.github.io/tags/%EB%AC%B4%EC%83%81-%EC%88%98%EB%A6%AC/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo 테마 적용하기</title>
@@ -93,9 +136,9 @@
       <category term="Blog" scheme="https://simhyejin.github.io/categories/Blog/"/>
     
     
-      <category term="hexo" scheme="https://simhyejin.github.io/tags/hexo/"/>
-    
       <category term="blog" scheme="https://simhyejin.github.io/tags/blog/"/>
+    
+      <category term="hexo" scheme="https://simhyejin.github.io/tags/hexo/"/>
     
       <category term="themes" scheme="https://simhyejin.github.io/tags/themes/"/>
     
@@ -247,9 +290,9 @@
     
       <category term="hexo" scheme="https://simhyejin.github.io/tags/hexo/"/>
     
-      <category term="github-pages" scheme="https://simhyejin.github.io/tags/github-pages/"/>
-    
       <category term="git" scheme="https://simhyejin.github.io/tags/git/"/>
+    
+      <category term="github-pages" scheme="https://simhyejin.github.io/tags/github-pages/"/>
     
       <category term="deployer" scheme="https://simhyejin.github.io/tags/deployer/"/>
     
@@ -316,13 +359,13 @@
       <category term="Blog" scheme="https://simhyejin.github.io/categories/Blog/"/>
     
     
-      <category term="hexo" scheme="https://simhyejin.github.io/tags/hexo/"/>
-    
-      <category term="git" scheme="https://simhyejin.github.io/tags/git/"/>
-    
       <category term="blog" scheme="https://simhyejin.github.io/tags/blog/"/>
     
+      <category term="hexo" scheme="https://simhyejin.github.io/tags/hexo/"/>
+    
       <category term="정적 블로그 프레임워크" scheme="https://simhyejin.github.io/tags/%EC%A0%95%EC%A0%81-%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC/"/>
+    
+      <category term="git" scheme="https://simhyejin.github.io/tags/git/"/>
     
       <category term="Node.js" scheme="https://simhyejin.github.io/tags/Node-js/"/>
     
