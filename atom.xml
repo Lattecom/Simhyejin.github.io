@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://simhyejin.github.io/"/>
-  <updated>2016-06-27T17:50:06.000Z</updated>
+  <updated>2016-06-28T09:53:49.000Z</updated>
   <id>https://simhyejin.github.io/</id>
   
   <author>
@@ -20,9 +20,10 @@
     <link href="https://simhyejin.github.io/2016/06/24/hexo-themes/"/>
     <id>https://simhyejin.github.io/2016/06/24/hexo-themes/</id>
     <published>2016-06-24T07:11:20.000Z</published>
-    <updated>2016-06-27T17:50:06.000Z</updated>
+    <updated>2016-06-28T09:53:49.000Z</updated>
     
-    <content type="html">&lt;p&gt;이전 포스트 [&lt;a href=&quot;https://simhyejin.github.io/2016/06/20/hexo-github-pages/&quot;&gt;Hexo+GitHub pages&lt;/a&gt;]로 블로그를 만들었다면 이번 포스트는 블로그를 꾸며 보도록 하겠습니다.&lt;br&gt;&lt;code&gt;Hexo&lt;/code&gt;는 다양한 테마를 지원해 줍니다. &lt;a href=&quot;https://hexo.io/themes/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo Themes&lt;/a&gt; 에서 원하는 테마를 고를 수 있습니다.&lt;br&gt;데스크탑, 태블릿, 모바일 등 지원 가능한 반응형 테마를 고르기 위해 &lt;strong&gt;responsive&lt;/strong&gt;을 검색하였고 그 중 &lt;a href=&quot;https://github.com/ppoffice/hexo-theme-hueman&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hueman&lt;/a&gt;이라는 테마를 적용하엿습니다.&lt;br&gt;&lt;code&gt;Hueman&lt;/code&gt; 테마 적용법과 테마 설정(CSS 수정, Thumbnail, Disqus)에 대해 소개하겠습니다.&lt;/p&gt;
+    <content type="html">&lt;p&gt;이전 포스트 &lt;a href=&quot;https://simhyejin.github.io/2016/06/20/hexo-github-pages/&quot;&gt;Hexo+GitHub pages&lt;/a&gt;에서 &lt;em&gt;Hexo&lt;/em&gt; 와 &lt;em&gt;GitHub Pages&lt;/em&gt;를 연동하여 블로그를 만들었습니다. &lt;/p&gt;
+&lt;p&gt;이번 포스트는 테마를 바꿔 블로그를 꾸며 보도록 하겠습니다.&lt;br&gt;&lt;strong&gt;&lt;em&gt;Hexo&lt;/em&gt;&lt;/strong&gt; 는 다양한 테마를 지원해 줍니다. &lt;a href=&quot;https://hexo.io/themes/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo Themes&lt;/a&gt; 에서 원하는 테마를 고를 수 있습니다.&lt;br&gt;데스크탑, 태블릿, 모바일 등 지원 가능한 반응형 테마를 고르기 위해 &lt;strong&gt;responsive&lt;/strong&gt;을 검색하였고 그 중 &lt;a href=&quot;https://github.com/ppoffice/hexo-theme-hueman&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hueman&lt;/a&gt;이라는 테마를 적용하엿습니다.&lt;br&gt;&lt;code&gt;Hueman&lt;/code&gt; 테마 적용법과 테마 설정(CSS 수정, Thumbnail, Disqus)에 대해 소개하겠습니다.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&quot;Hueman-테마-적용하기&quot;&gt;&lt;a href=&quot;#Hueman-테마-적용하기&quot; class=&quot;headerlink&quot; title=&quot;Hueman 테마 적용하기&quot;&gt;&lt;/a&gt;Hueman 테마 적용하기&lt;/h2&gt;&lt;h3 id=&quot;설치&quot;&gt;&lt;a href=&quot;#설치&quot; class=&quot;headerlink&quot; title=&quot;설치&quot;&gt;&lt;/a&gt;설치&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;&lt;p&gt;터미널을 열어 &lt;code&gt;hexo init&lt;/code&gt;했던 폴더(이하 &lt;strong&gt;blog&lt;/strong&gt; 폴더)에 들어갑니다. Heuman 테마를 &lt;code&gt;themes/hueman&lt;/code&gt; 폴더에 clone합니다.&lt;/p&gt;
@@ -85,7 +86,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;이전 포스트 [&lt;a href=&quot;https://simhyejin.github.io/2016/06/20/hexo-github-pages/&quot;&gt;Hexo+GitHub pages&lt;/a&gt;]로 블로그를 만들었다면 이번 포스트는 블로그를 꾸며 보도록 하겠습니다.
+      &lt;p&gt;이전 포스트 &lt;a href=&quot;https://simhyejin.github.io/2016/06/20/hexo-github-pages/&quot;&gt;Hexo+GitHub pages&lt;/a&gt;에서 &lt;em&gt;Hexo&lt;/em&gt; 와 &lt;em&gt;GitHub Pages&lt;/em&gt;를
     
     </summary>
     
@@ -208,12 +209,12 @@
     <link href="https://simhyejin.github.io/2016/06/20/hexo-github-pages/"/>
     <id>https://simhyejin.github.io/2016/06/20/hexo-github-pages/</id>
     <published>2016-06-20T07:37:00.000Z</published>
-    <updated>2016-06-27T17:51:45.000Z</updated>
+    <updated>2016-06-28T09:45:16.000Z</updated>
     
-    <content type="html">&lt;p&gt;&lt;code&gt;GitHub Pages&lt;/code&gt;와 &lt;code&gt;Hexo&lt;/code&gt;로 블로그를 운영하고 있습니다.&lt;br&gt;이전 포스트 [&lt;a href=&quot;https://simhyejin.github.io/2016/06/24/hexo-themes/&quot;&gt;Hexo 정적 블로그 프레임워크&lt;/a&gt;]에서 &lt;code&gt;Hexo&lt;/code&gt; 설치와 설정을 알아봤다면 이번 포스트는 &lt;code&gt;GitHub Pages&lt;/code&gt;으로 사이트 만드는 법과 &lt;code&gt;Hexo&lt;/code&gt;와 &lt;code&gt;GitHub Pages&lt;/code&gt; 연동, &lt;em&gt;ERROR Deployer not found: git&lt;/em&gt; 오류에 대해 포스트하겠습니다.&lt;/p&gt;
+    <content type="html">&lt;p&gt;이전 포스트 &lt;a href=&quot;https://simhyejin.github.io/2016/06/24/hexo-themes/&quot;&gt;Hexo 정적 블로그 프레임워크&lt;/a&gt;에서 &lt;em&gt;Hexo&lt;/em&gt; 설치와 설정을 알아봤습니다.&lt;br&gt;제 블로그는 &lt;em&gt;GitHub Pages&lt;/em&gt; 와 &lt;em&gt;Hexo&lt;/em&gt; 로 운영하고 있습니다.&lt;br&gt;이번 포스트는 &lt;em&gt;GitHub Pages&lt;/em&gt; 으로 사이트 만드는 법과 &lt;em&gt;Hexo&lt;/em&gt;와 &lt;em&gt;GitHub Pages&lt;/em&gt; 연동, &lt;em&gt;ERROR Deployer not found: git&lt;/em&gt; 오류에 대해 포스트하겠습니다.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&quot;GitHub-Pages&quot;&gt;&lt;a href=&quot;#GitHub-Pages&quot; class=&quot;headerlink&quot; title=&quot;GitHub Pages&quot;&gt;&lt;/a&gt;GitHub Pages&lt;/h2&gt;&lt;p&gt;&lt;code&gt;GitHub Pages&lt;/code&gt;는 GitHub에서 무료로 호스팅하는 공개 웹페이지입니다.&lt;br&gt;GitHub의 저장소에서 개인이나 조직 또는 프로젝트 페이지를 호스팅하도록 설계되어 있습니다.&lt;br&gt;GitHub에서 제공하는 페이지 제작 도구로 쉽게 페이지를 만들어 공개할 수도 있고, 로컬에서 git을 이용해 수동으로 만들 수도 있습니다.&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;GitHub Pages&lt;/code&gt;의 종류는 크게 두가지로 나뉩니다. &lt;/p&gt;
+&lt;h2 id=&quot;GitHub-Pages&quot;&gt;&lt;a href=&quot;#GitHub-Pages&quot; class=&quot;headerlink&quot; title=&quot;GitHub Pages&quot;&gt;&lt;/a&gt;GitHub Pages&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;GitHub Pages&lt;/strong&gt; 는 GitHub에서 무료로 호스팅하는 공개 웹페이지입니다.&lt;br&gt;GitHub의 저장소에서 개인이나 조직 또는 프로젝트 페이지를 호스팅하도록 설계되어 있습니다.&lt;br&gt;GitHub에서 제공하는 페이지 제작 도구로 쉽게 페이지를 만들어 공개할 수도 있고, 로컬에서 git을 이용해 수동으로 만들 수도 있습니다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;GitHub Pages&lt;/strong&gt; 의 종류는 크게 두가지로 나뉩니다. &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;개인 사이트 GitHub Pages&lt;/li&gt;
 &lt;li&gt;프로젝트 사이트 GitHub Pages&lt;/li&gt;
@@ -226,7 +227,7 @@
 &lt;h2 id=&quot;Git-pages에-Hexo-적용&quot;&gt;&lt;a href=&quot;#Git-pages에-Hexo-적용&quot; class=&quot;headerlink&quot; title=&quot;Git pages에 Hexo 적용&quot;&gt;&lt;/a&gt;Git pages에 Hexo 적용&lt;/h2&gt;&lt;p&gt;먼저 &lt;code&gt;hexo-deployer-git&lt;/code&gt;을 설치합니다.&lt;/p&gt;
 &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ npm install hexo-deployer-git --save&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;ERROR&lt;/strong&gt; Deployer not found: &lt;strong&gt;git&lt;/strong&gt;&lt;br&gt;주의!&lt;br&gt;&lt;code&gt;hexo-deployer-git&lt;/code&gt;을 설치 하지 않으면 deploy시 위와 같은 ERROR가 발생합니다.&lt;/p&gt;
+&lt;p&gt;주의!&lt;br&gt;&lt;strong&gt;ERROR&lt;/strong&gt; Deployer not found: &lt;strong&gt;git&lt;/strong&gt;&lt;br&gt;&lt;code&gt;hexo-deployer-git&lt;/code&gt;을 설치 하지 않으면 deploy시 위와 같은 ERROR가 발생합니다.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;그 다음 &lt;code&gt;_config.ym&lt;/code&gt; 파일을 열어 &lt;code&gt;#deploymeny&lt;/code&gt; 부분을 수정합니다.&lt;/p&gt;
 &lt;figure class=&quot;highlight yml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# Deployment&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;## Docs: https://hexo.io/docs/deployment.html&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;deploy:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;  type:&lt;/span&gt; git&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;  repo:&lt;/span&gt; https://github.com/Simhyejin/Simhyejin.github.io.git&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;  branch:&lt;/span&gt; master&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -237,7 +238,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;&lt;code&gt;GitHub Pages&lt;/code&gt;와 &lt;code&gt;Hexo&lt;/code&gt;로 블로그를 운영하고 있습니다.&lt;br&gt;이전 포스트 [&lt;a href=&quot;https://simhyejin.github.io/2016/06/24/hexo-themes/&quot;&gt;He
+      &lt;p&gt;이전 포스트 &lt;a href=&quot;https://simhyejin.github.io/2016/06/24/hexo-themes/&quot;&gt;Hexo 정적 블로그 프레임워크&lt;/a&gt;에서 &lt;em&gt;Hexo&lt;/em&gt; 설치와 설정을 알아봤습니다.&lt;br&gt;제 블로그는 &lt;em&gt;
     
     </summary>
     
@@ -261,31 +262,32 @@
     <link href="https://simhyejin.github.io/2016/06/20/blog-start-hexo/"/>
     <id>https://simhyejin.github.io/2016/06/20/blog-start-hexo/</id>
     <published>2016-06-20T05:16:39.000Z</published>
-    <updated>2016-06-27T17:37:30.000Z</updated>
+    <updated>2016-06-28T09:51:24.000Z</updated>
     
     <content type="html">&lt;p&gt;블로그 시작을 위해 사용하였던 &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt; 를 소개합니다.&lt;/p&gt;
-&lt;h2 id=&quot;Hexo&quot;&gt;&lt;a href=&quot;#Hexo&quot; class=&quot;headerlink&quot; title=&quot;Hexo&quot;&gt;&lt;/a&gt;Hexo&lt;/h2&gt;&lt;p&gt;&lt;code&gt;hexo&lt;/code&gt;는 &lt;code&gt;Node.js&lt;/code&gt; 기반 정적 블로그 프레임워크 입니다.&lt;/p&gt;
+&lt;h2 id=&quot;Hexo&quot;&gt;&lt;a href=&quot;#Hexo&quot; class=&quot;headerlink&quot; title=&quot;Hexo&quot;&gt;&lt;/a&gt;Hexo&lt;/h2&gt;&lt;p&gt;&lt;em&gt;&lt;strong&gt;Hexo&lt;/strong&gt;&lt;/em&gt; 는 &lt;em&gt;Node.js&lt;/em&gt; 기반 정적 블로그 프레임워크 입니다.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;마크다운(Markdown)&lt;/strong&gt;을 지원하여 손쉬운 포스트 작성 가능 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;GitHub Pages&lt;/strong&gt;를 이용한 호스팅을 지원&lt;/li&gt;
 &lt;li&gt;다양한 &lt;strong&gt;테마&lt;/strong&gt; 제공&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;등 의 장점으로 이 블로그 또한 GitHub Pages와 Hexo를 통해 제작되었습니다. &lt;/p&gt;
+&lt;p&gt;등 의 장점으로 이 블로그 또한 &lt;em&gt;GitHub Pages&lt;/em&gt; 와 &lt;em&gt;Hexo&lt;/em&gt; 를 통해 제작되었습니다. &lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&quot;Hexo-설치&quot;&gt;&lt;a href=&quot;#Hexo-설치&quot; class=&quot;headerlink&quot; title=&quot;Hexo 설치&quot;&gt;&lt;/a&gt;Hexo 설치&lt;/h2&gt;&lt;p&gt;&lt;code&gt;Hexo&lt;/code&gt;를 설치 하기 위해서는 &lt;code&gt;Node.js&lt;/code&gt;와 &lt;code&gt;Git&lt;/code&gt;이 설치 되어 있어야합니다.&lt;br&gt;아래의 링크를 통해 설치가 가능합니다.&lt;/p&gt;
+&lt;h2 id=&quot;Hexo-설치&quot;&gt;&lt;a href=&quot;#Hexo-설치&quot; class=&quot;headerlink&quot; title=&quot;Hexo 설치&quot;&gt;&lt;/a&gt;Hexo 설치&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;&lt;em&gt;Hexo&lt;/em&gt;&lt;/strong&gt; 를 설치 하기 위해서는 &lt;code&gt;Node.js&lt;/code&gt;와 &lt;code&gt;Git&lt;/code&gt;이 설치 되어 있어야합니다.&lt;br&gt;아래의 링크를 통해 설치가 가능합니다.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://nodejs.org/en/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Node.js&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://git-scm.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Git&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;code&gt;Node.js&lt;/code&gt;와 &lt;code&gt;Git&lt;/code&gt;이 설치되어 있다면 이제 &lt;code&gt;Hexo&lt;/code&gt;를 설치할 수 있습니다.&lt;br&gt;터미널을 열어 명령어를 통해 &lt;code&gt;Hexo&lt;/code&gt;를 설치합니다. &lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Node.js&lt;/em&gt; 와 &lt;em&gt;Git&lt;/em&gt;이 설치되어 있다면 이제 &lt;strong&gt;&lt;em&gt;Hexo&lt;/em&gt;&lt;/strong&gt; 를 설치할 수 있습니다.&lt;/p&gt;
+&lt;h3 id=&quot;설치&quot;&gt;&lt;a href=&quot;#설치&quot; class=&quot;headerlink&quot; title=&quot;설치&quot;&gt;&lt;/a&gt;설치&lt;/h3&gt;&lt;p&gt;터미널을 열어 명령어를 통해 &lt;strong&gt;&lt;em&gt;Hexo&lt;/em&gt;&lt;/strong&gt;를 설치합니다. &lt;/p&gt;
 &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ npm install -g hexo-cli&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h3 id=&quot;설치&quot;&gt;&lt;a href=&quot;#설치&quot; class=&quot;headerlink&quot; title=&quot;설치&quot;&gt;&lt;/a&gt;설치&lt;/h3&gt;&lt;p&gt;&lt;code&gt;Hexo&lt;/code&gt;가 설치 되었다면 아래의 명령어를 통해 Hexo 폴더를 초기 설정합니다.&lt;br&gt;(디렉토리명은 Github repo 이름과 달라도 무관합니다.) &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Hexo&lt;/em&gt;&lt;/strong&gt; 가 설치 되었다면 아래의 명령어를 통해 &lt;code&gt;Hexo 폴더&lt;/code&gt;를 초기 설정합니다.&lt;br&gt;(디렉토리명은 Github repo 이름과 달라도 무관합니다.) &lt;/p&gt;
 &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo init &amp;lt;디렉토리명&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ &lt;span class=&quot;built_in&quot;&gt;cd&lt;/span&gt; &amp;lt;디렉토리명&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ npm install&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;위 과정이 끝나면 폴더안에 아래의 파일이 생성됩니다.&lt;/p&gt;
-&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;├── _config.yml 	: 사이트 설정 파일. 대부분의 설정 할 수 있습니다. &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;├── package.json 	: 응용 프로그램 데이터.  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;├── scaffolds 		: 새 게시물을 작성하면 Hexo는 scaffolds 폴더에 새로운 파일을 기반으로 하고 있습니다.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;├── &lt;span class=&quot;built_in&quot;&gt;source&lt;/span&gt; 		: 소스 폴더. 사이트 콘텐츠를 넣어두는 폴더입니다.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;|   ├── _drafts 	&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;|   └── _posts 		&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;└── themes 		: 테마 폴더. Hexo는 테마와 콘텐츠를 결합하여 정적 웹 사이트를 생성합니다.&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;├── _config.yml   : 사이트 설정 파일. 대부분의 설정 할 수 있습니다. &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;├── package.json  : 응용 프로그램 데이터.  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;├── scaffolds 	  : 새 게시물을 작성하면 Hexo는 scaffolds 폴더에 새로운 파일을 기반으로 하고 있습니다.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;├── &lt;span class=&quot;built_in&quot;&gt;source&lt;/span&gt; 	  : 소스 폴더. 사이트 콘텐츠를 넣어두는 폴더입니다.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;|   ├── _drafts 	&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;|   └── _posts 		&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;└── themes 	  : 테마 폴더. Hexo는 테마와 콘텐츠를 결합하여 정적 웹 사이트를 생성합니다.&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;h3 id=&quot;실행&quot;&gt;&lt;a href=&quot;#실행&quot; class=&quot;headerlink&quot; title=&quot;실행&quot;&gt;&lt;/a&gt;실행&lt;/h3&gt;&lt;p&gt;모든 설치가 끝났다면 내장 서버를 돌려봅니다.&lt;/p&gt;
 &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;localhost:4000을 통해 확인합니다.(기본포트 : 4000)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;localhost:4000&lt;/code&gt;을 통해 확인합니다.(기본포트 : 4000)&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&quot;자주-쓰는-명령어&quot;&gt;&lt;a href=&quot;#자주-쓰는-명령어&quot; class=&quot;headerlink&quot; title=&quot;자주 쓰는 명령어&quot;&gt;&lt;/a&gt;자주 쓰는 명령어&lt;/h2&gt;&lt;h3 id=&quot;New-post&quot;&gt;&lt;a href=&quot;#New-post&quot; class=&quot;headerlink&quot; title=&quot;New post&quot;&gt;&lt;/a&gt;New post&lt;/h3&gt;&lt;p&gt;새로운 포스트 생성&lt;/p&gt;
 &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
