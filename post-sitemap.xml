@@ -7,6 +7,14 @@
     </url>
 
     <url>
+        <loc>https://simhyejin.github.io/2016/06/24/markdown-post-title/</loc>
+        <lastmod>2016-06-29T10:41:53.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://simhyejin.github.io/2016/06/28/g2-touch-screen/</loc>
         <lastmod>2016-06-29T10:32:25.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -41,14 +49,6 @@
     <url>
         <loc>https://simhyejin.github.io/2016/06/22/owasp13/</loc>
         <lastmod>2016-06-27T06:44:47.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://simhyejin.github.io/2016/06/24/markdown-post-title/</loc>
-        <lastmod>2016-06-27T06:44:43.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

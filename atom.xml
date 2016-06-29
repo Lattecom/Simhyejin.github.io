@@ -157,7 +157,7 @@
     <link href="https://simhyejin.github.io/2016/06/24/markdown-post-title/"/>
     <id>https://simhyejin.github.io/2016/06/24/markdown-post-title/</id>
     <published>2016-06-24T06:22:11.000Z</published>
-    <updated>2016-06-27T06:44:43.000Z</updated>
+    <updated>2016-06-29T10:41:53.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;code&gt;Hexo&lt;/code&gt;로 블로그를 운영하며 &lt;code&gt;마크다운(Markdown)&lt;/code&gt;을 사용하여 포스트를 작성하고 있습니다.&lt;br&gt;포스트 제목 앞에 &lt;strong&gt;대괄호&lt;/strong&gt;를 썻더니 오류가 발생하였습니다. 이에 대한 해결방안을 가져왔습니다.&lt;/p&gt;
 &lt;h2 id=&quot;YAMLException-can-not-read-a-block-mapping-entry-해결하기&quot;&gt;&lt;a href=&quot;#YAMLException-can-not-read-a-block-mapping-entry-해결하기&quot; class=&quot;headerlink&quot; title=&quot;YAMLException: can not read a block mapping entry 해결하기&quot;&gt;&lt;/a&gt;YAMLException: can not read a block mapping entry 해결하기&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;/images/post-head.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;위 사진과 같이 포스트를 작성할 때 title 앞에 대괄호를 넣으면 아래와 같은 Error가 발생합니다.&lt;/p&gt;
