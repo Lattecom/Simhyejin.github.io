@@ -305,7 +305,7 @@
     <link href="https://simhyejin.github.io/2016/06/20/blog-start-hexo/"/>
     <id>https://simhyejin.github.io/2016/06/20/blog-start-hexo/</id>
     <published>2016-06-20T05:16:39.000Z</published>
-    <updated>2016-06-28T09:51:24.000Z</updated>
+    <updated>2016-06-29T10:14:44.000Z</updated>
     
     <content type="html">&lt;p&gt;블로그 시작을 위해 사용하였던 &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt; 를 소개합니다.&lt;/p&gt;
 &lt;h2 id=&quot;Hexo&quot;&gt;&lt;a href=&quot;#Hexo&quot; class=&quot;headerlink&quot; title=&quot;Hexo&quot;&gt;&lt;/a&gt;Hexo&lt;/h2&gt;&lt;p&gt;&lt;em&gt;&lt;strong&gt;Hexo&lt;/strong&gt;&lt;/em&gt; 는 &lt;em&gt;Node.js&lt;/em&gt; 기반 정적 블로그 프레임워크 입니다.&lt;/p&gt;
@@ -314,7 +314,7 @@
 &lt;li&gt;&lt;strong&gt;GitHub Pages&lt;/strong&gt;를 이용한 호스팅을 지원&lt;/li&gt;
 &lt;li&gt;다양한 &lt;strong&gt;테마&lt;/strong&gt; 제공&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;등 의 장점으로 이 블로그 또한 &lt;em&gt;GitHub Pages&lt;/em&gt; 와 &lt;em&gt;Hexo&lt;/em&gt; 를 통해 제작되었습니다. &lt;/p&gt;
+&lt;p&gt;등 의 장점으로 이 블로그 또한 &lt;em&gt;Hexo&lt;/em&gt; 와 &lt;em&gt;GitHub Pages&lt;/em&gt; 로 제작되었습니다.&lt;br&gt;&lt;strong&gt;Hexo&lt;/strong&gt; 설치와 실행법에 대해 소개하겠습니다.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&quot;Hexo-설치&quot;&gt;&lt;a href=&quot;#Hexo-설치&quot; class=&quot;headerlink&quot; title=&quot;Hexo 설치&quot;&gt;&lt;/a&gt;Hexo 설치&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;&lt;em&gt;Hexo&lt;/em&gt;&lt;/strong&gt; 를 설치 하기 위해서는 &lt;code&gt;Node.js&lt;/code&gt;와 &lt;code&gt;Git&lt;/code&gt;이 설치 되어 있어야합니다.&lt;br&gt;아래의 링크를 통해 설치가 가능합니다.&lt;/p&gt;
 &lt;ul&gt;
@@ -368,6 +368,8 @@
       <category term="정적 블로그 프레임워크" scheme="https://simhyejin.github.io/tags/%EC%A0%95%EC%A0%81-%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC/"/>
     
       <category term="Node.js" scheme="https://simhyejin.github.io/tags/Node-js/"/>
+    
+      <category term="헥소" scheme="https://simhyejin.github.io/tags/%ED%97%A5%EC%86%8C/"/>
     
   </entry>
   
