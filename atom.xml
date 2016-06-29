@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://simhyejin.github.io/"/>
-  <updated>2016-06-29T10:32:25.000Z</updated>
+  <updated>2016-06-29T16:23:57.000Z</updated>
   <id>https://simhyejin.github.io/</id>
   
   <author>
@@ -16,11 +16,44 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>test</title>
+    <link href="https://simhyejin.github.io/2016/06/30/test/"/>
+    <id>https://simhyejin.github.io/2016/06/30/test/</id>
+    <published>2016-06-29T16:23:30.000Z</published>
+    <updated>2016-06-29T16:23:57.000Z</updated>
+    
+    <content type="html">&lt;pre&gt;&lt;code&gt;# Contents
+ - [Specification](#specification) 
+ - [Dependencies Title](#dependencies-title) 
+
+## Specification
+Example text blah. Example text blah. Example text blah. Example text blah. 
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Example text blah. Example text blah. Example text blah. Example text blah.&lt;br&gt;Example text blah. Example text blah. Example text blah. Example text blah.&lt;br&gt;Example text blah. Example text blah. &lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;## Dependencies Title
+Example text blah. Example text blah. Example text blah. Example text blah. 
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Example text blah. Example text blah. Example text blah. Example text blah.&lt;br&gt;Example text blah. Example text blah. Example text blah. Example text blah.&lt;br&gt;Example text blah. Example text blah. &lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;pre&gt;&lt;code&gt;# Contents
+ - [Specification](#specification) 
+ - [Dependencies Title](#dependencies-title) 
+
+## Specification
+Example text blah.
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>G2 터치 불량 무상수리</title>
     <link href="https://simhyejin.github.io/2016/06/28/g2-touch-screen/"/>
     <id>https://simhyejin.github.io/2016/06/28/g2-touch-screen/</id>
     <published>2016-06-28T13:57:26.000Z</published>
-    <updated>2016-06-29T10:32:25.000Z</updated>
+    <updated>2016-06-29T10:34:11.000Z</updated>
     
     <content type="html">&lt;p&gt;G2 사용자입니다. 저의 G2는 거의 3년째 사용하고 있는 정말 오래 쓴!! 스마트폰입니다.&lt;br&gt;G2 터치 불량으로 15년 9월부터 16년 9월까지 무상 수리 해주는 거 알고 계셨습니까?&lt;/p&gt;
 &lt;p&gt;저번주 토요일 G2 터치 불량으로 무상수리 받고 왔습니다.&lt;/p&gt;
@@ -157,7 +190,7 @@
     <link href="https://simhyejin.github.io/2016/06/24/markdown-post-title/"/>
     <id>https://simhyejin.github.io/2016/06/24/markdown-post-title/</id>
     <published>2016-06-24T06:22:11.000Z</published>
-    <updated>2016-06-29T10:41:53.000Z</updated>
+    <updated>2016-06-29T10:42:42.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;code&gt;Hexo&lt;/code&gt;로 블로그를 운영하며 &lt;code&gt;마크다운(Markdown)&lt;/code&gt;을 사용하여 포스트를 작성하고 있습니다.&lt;br&gt;포스트 제목 앞에 &lt;strong&gt;대괄호&lt;/strong&gt;를 썻더니 오류가 발생하였습니다. 이에 대한 해결방안을 가져왔습니다.&lt;/p&gt;
 &lt;h2 id=&quot;YAMLException-can-not-read-a-block-mapping-entry-해결하기&quot;&gt;&lt;a href=&quot;#YAMLException-can-not-read-a-block-mapping-entry-해결하기&quot; class=&quot;headerlink&quot; title=&quot;YAMLException: can not read a block mapping entry 해결하기&quot;&gt;&lt;/a&gt;YAMLException: can not read a block mapping entry 해결하기&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;/images/post-head.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;위 사진과 같이 포스트를 작성할 때 title 앞에 대괄호를 넣으면 아래와 같은 Error가 발생합니다.&lt;/p&gt;
@@ -305,7 +338,7 @@
     <link href="https://simhyejin.github.io/2016/06/20/blog-start-hexo/"/>
     <id>https://simhyejin.github.io/2016/06/20/blog-start-hexo/</id>
     <published>2016-06-20T05:16:39.000Z</published>
-    <updated>2016-06-29T10:14:44.000Z</updated>
+    <updated>2016-06-29T16:23:12.000Z</updated>
     
     <content type="html">&lt;p&gt;블로그 시작을 위해 사용하였던 &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt; 를 소개합니다.&lt;/p&gt;
 &lt;h2 id=&quot;Hexo&quot;&gt;&lt;a href=&quot;#Hexo&quot; class=&quot;headerlink&quot; title=&quot;Hexo&quot;&gt;&lt;/a&gt;Hexo&lt;/h2&gt;&lt;p&gt;&lt;em&gt;&lt;strong&gt;Hexo&lt;/strong&gt;&lt;/em&gt; 는 &lt;em&gt;Node.js&lt;/em&gt; 기반 정적 블로그 프레임워크 입니다.&lt;/p&gt;
