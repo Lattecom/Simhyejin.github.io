@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://simhyejin.github.io/"/>
-  <updated>2016-06-30T14:50:11.000Z</updated>
+  <updated>2016-06-30T14:55:35.000Z</updated>
   <id>https://simhyejin.github.io/</id>
   
   <author>
@@ -20,14 +20,14 @@
     <link href="https://simhyejin.github.io/2016/06/30/hexo-generator-alias/"/>
     <id>https://simhyejin.github.io/2016/06/30/hexo-generator-alias/</id>
     <published>2016-06-30T12:54:41.000Z</published>
-    <updated>2016-06-30T14:50:11.000Z</updated>
+    <updated>2016-06-30T14:55:35.000Z</updated>
     
     <content type="html">&lt;p&gt;이번 포스트는 &lt;code&gt;Hexo Generator Alias&lt;/code&gt;라는 플러그인에 대해 소개하겠습니다.&lt;br&gt;저는 &lt;em&gt;url Redirecion&lt;/em&gt; 을 하기 위해 사용하였습니다.&lt;/p&gt;
 &lt;p&gt;얼마 전 &lt;strong&gt;검색 최적화 엔진(SEO)&lt;/strong&gt;에 맞춰 url을 내용과 구체적으로 관련있게 하기위해 포스트 파일명의 이름을 변경하였습니다.&lt;br&gt;2번째 포스트인 &lt;a href=&quot;https://simhyejin.github.io/2016/06/20/hexo-github-pages/&quot;&gt;Hexo+GitHub pages&lt;/a&gt;은 포스트 파일 명이 &lt;code&gt;hexo-git&lt;/code&gt; 에서 &lt;code&gt;hexo-github-pages&lt;/code&gt; 으로 변경되었습니다.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/images/dup_hexo_git.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;이미 색인된 상태인지 구글에 예전 페이지가 남아있어 404 에러를 발생시켰습니다.&lt;br&gt;&lt;strong&gt;구글 웹마스터 도구 &amp;gt; Google 색인 &amp;gt; URL 삭제&lt;/strong&gt;로 이전 URL을 삭제하였습니다. 하지만, ‘url 오류’라는 &lt;strong&gt;크롤링 오류&lt;/strong&gt;가 계속 발생하여 &lt;code&gt;Hexo Generator Alias 플러그인&lt;/code&gt;으로 이전 URL을 현 URL로 Redirecion 하였습니다. &lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&quot;Hexo-Generator-Alias-플러그인&quot;&gt;&lt;a href=&quot;#Hexo-Generator-Alias-플러그인&quot; class=&quot;headerlink&quot; title=&quot;Hexo Generator Alias 플러그인&quot;&gt;&lt;/a&gt;Hexo Generator Alias 플러그인&lt;/h2&gt;&lt;p&gt;Generates alias pages for redirecting to posts, pages or URL.&lt;br&gt;URL, 페이지, 포스트 리다이렉션을 위한 에일리어스 페이지를 생성하는 플러그인이다.&lt;/p&gt;
+&lt;h2 id=&quot;Hexo-Generator-Alias-플러그인&quot;&gt;&lt;a href=&quot;#Hexo-Generator-Alias-플러그인&quot; class=&quot;headerlink&quot; title=&quot;Hexo Generator Alias 플러그인&quot;&gt;&lt;/a&gt;Hexo Generator Alias 플러그인&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/hexojs/hexo-generator-alias&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo Generator Alias&lt;/a&gt; : Generates alias pages for redirecting to posts, pages or URL.&lt;br&gt;URL, 페이지, 포스트로 리다이렉션하기 위한 에일리어스 페이지를 생성하는 플러그인이다.&lt;/p&gt;
 &lt;h4 id=&quot;설치&quot;&gt;&lt;a href=&quot;#설치&quot; class=&quot;headerlink&quot; title=&quot;설치&quot;&gt;&lt;/a&gt;설치&lt;/h4&gt;&lt;p&gt;터미널을 열고 &lt;strong&gt;hexo&lt;/strong&gt;가 설치되어있는 &lt;strong&gt;blog 폴더&lt;/strong&gt;에서 npm을 통해 &lt;code&gt;Hexo Generator Alias 플러그인&lt;/code&gt;을 설치한다.&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;npm install hexo-generator-alias --save&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h4 id=&quot;이용법&quot;&gt;&lt;a href=&quot;#이용법&quot; class=&quot;headerlink&quot; title=&quot;이용법&quot;&gt;&lt;/a&gt;이용법&lt;/h4&gt;&lt;ul&gt;
@@ -40,9 +40,9 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h4 id=&quot;나의-사용기&quot;&gt;&lt;a href=&quot;#나의-사용기&quot; class=&quot;headerlink&quot; title=&quot;나의 사용기&quot;&gt;&lt;/a&gt;나의 사용기&lt;/h4&gt;&lt;p&gt;저는 2번째 방법인 &lt;code&gt;_config.yml&lt;/code&gt;에서 alias를 지정했습니다.&lt;br&gt;이전 페이지 html path : 현재 페이지 html path를 설정하시면 됩니다.&lt;br&gt;&lt;figure class=&quot;highlight yml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;alias:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  /&lt;span class=&quot;number&quot;&gt;2016&lt;/span&gt;/&lt;span class=&quot;number&quot;&gt;06&lt;/span&gt;/&lt;span class=&quot;number&quot;&gt;20&lt;/span&gt;/hexo-git/index.html: /&lt;span class=&quot;number&quot;&gt;2016&lt;/span&gt;/&lt;span class=&quot;number&quot;&gt;06&lt;/span&gt;/&lt;span class=&quot;number&quot;&gt;20&lt;/span&gt;/hexo-github-pages/index.html&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h4 id=&quot;나의-사용기&quot;&gt;&lt;a href=&quot;#나의-사용기&quot; class=&quot;headerlink&quot; title=&quot;나의 사용기&quot;&gt;&lt;/a&gt;나의 사용기&lt;/h4&gt;&lt;p&gt;저는 2번째 방법인 &lt;code&gt;_config.yml&lt;/code&gt;에서 alias를 지정했습니다.&lt;br&gt;&lt;code&gt;이전 페이지 html path : 현재 페이지 html path&lt;/code&gt;를 설정하시면 됩니다.&lt;br&gt;&lt;figure class=&quot;highlight yml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;alias:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  /&lt;span class=&quot;number&quot;&gt;2016&lt;/span&gt;/&lt;span class=&quot;number&quot;&gt;06&lt;/span&gt;/&lt;span class=&quot;number&quot;&gt;20&lt;/span&gt;/hexo-git/index.html: /&lt;span class=&quot;number&quot;&gt;2016&lt;/span&gt;/&lt;span class=&quot;number&quot;&gt;06&lt;/span&gt;/&lt;span class=&quot;number&quot;&gt;20&lt;/span&gt;/hexo-github-pages/index.html&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;이로 인해&lt;br&gt;&lt;a href=&quot;https://simhyejin.github.io/2016/06/20/hexo-git/&quot;&gt;https://simhyejin.github.io/2016/06/20/hexo-git/&lt;/a&gt;&lt;br&gt;— &lt;code&gt;Redirection&lt;/code&gt; —&amp;gt;&lt;br&gt;&lt;a href=&quot;https://simhyejin.github.io/2016/06/20/hexo-github-pages/&quot;&gt;https://simhyejin.github.io/2016/06/20/hexo-github-pages/&lt;/a&gt;&lt;br&gt;이전 페이지 url을 눌러도 현 페이지로 이동합니다.&lt;br&gt;&lt;img src=&quot;/images/redirection.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;URL Redirection으로 삭제된 페이지를 현 페이지에 연결하는 것이 좋은 방법이라고 생각하지는 않습니다.&lt;br&gt;&lt;code&gt;Hexo Generator Alias 플러그인&lt;/code&gt;으로 리다이렉션 하는 법 말고 다른 좋은 방법을 아시는 분은 알려주세요:)&lt;/p&gt;
+&lt;p&gt;URL Redirection으로 삭제된 페이지를 현 페이지에 연결하는 것은 좋은 방법이 아닌것 같습니다.&lt;br&gt;하지만, 404 에러를 발생시키는 이전 페이지 노출로 인해 URL Redirection을 해보았습니다.&lt;br&gt;&lt;code&gt;Hexo Generator Alias 플러그인&lt;/code&gt;으로 리다이렉션 하는 법 말고 다른 좋은 방법을 아시는 분은 알려주세요:)&lt;/p&gt;
 &lt;hr&gt;
 &lt;h4 id=&quot;Blog-Hexo-Plugin&quot;&gt;&lt;a href=&quot;#Blog-Hexo-Plugin&quot; class=&quot;headerlink&quot; title=&quot;#Blog #Hexo #Plugin&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://simhyejin.github.io/tags/blog/&quot;&gt;#Blog&lt;/a&gt; &lt;a href=&quot;https://simhyejin.github.io/tags/hexo/&quot;&gt;#Hexo&lt;/a&gt; &lt;a href=&quot;https://simhyejin.github.io/tags/plugin/&quot;&gt;#Plugin&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&amp;lt; 이전 포스트 &lt;a href=&quot;https://simhyejin.github.io/2016/06/24/hexo-themes/&quot;&gt;Hexo 테마 적용하기&lt;/a&gt;&lt;/p&gt;
 </content>
