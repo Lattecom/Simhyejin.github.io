@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://simhyejin.github.io/"/>
-  <updated>2016-06-30T14:40:25.000Z</updated>
+  <updated>2016-06-30T14:47:23.000Z</updated>
   <id>https://simhyejin.github.io/</id>
   
   <author>
@@ -20,10 +20,10 @@
     <link href="https://simhyejin.github.io/2016/06/30/hexo-generator-alias/"/>
     <id>https://simhyejin.github.io/2016/06/30/hexo-generator-alias/</id>
     <published>2016-06-30T12:54:41.000Z</published>
-    <updated>2016-06-30T14:40:25.000Z</updated>
+    <updated>2016-06-30T14:47:23.000Z</updated>
     
     <content type="html">&lt;p&gt;이번 포스트는 &lt;code&gt;Hexo Generator Alias&lt;/code&gt;라는 플러그인에 대해 소개하겠습니다.&lt;br&gt;저는 &lt;em&gt;url Redirecion&lt;/em&gt; 을 하기 위해 사용하였습니다.&lt;/p&gt;
-&lt;p&gt;얼마 전 &lt;strong&gt;검색 최적화 엔진(SEO)&lt;/strong&gt;에 맞춰 url을 내용과 구체적으로 관련있게 하기위해 포스트 파일명의 이름을 변경하였습니다.&lt;br&gt;2번째 포스트인 &lt;a href=&quot;https://simhyejin.github.io/2016/06/20/hexo-github-pages/&quot;&gt;Hexo+GitHub pages&lt;/a&gt;은 포스트 파일 명이 바뀌어 &lt;a href=&quot;https://simhyejin.github.io/2016/06/20/hexo-git/&quot;&gt;https://simhyejin.github.io/2016/06/20/hexo-git/&lt;/a&gt; 에서 &lt;a href=&quot;https://simhyejin.github.io/2016/06/20/hexo-github-pages/&quot;&gt;https://simhyejin.github.io/2016/06/20/hexo-github-pages/&lt;/a&gt; 으로 변경되었습니다.&lt;/p&gt;
+&lt;p&gt;얼마 전 &lt;strong&gt;검색 최적화 엔진(SEO)&lt;/strong&gt;에 맞춰 url을 내용과 구체적으로 관련있게 하기위해 포스트 파일명의 이름을 변경하였습니다.&lt;br&gt;2번째 포스트인 &lt;a href=&quot;https://simhyejin.github.io/2016/06/20/hexo-github-pages/&quot;&gt;Hexo+GitHub pages&lt;/a&gt;은 포스트 파일 명이 &lt;code&gt;hexo-git&lt;/code&gt; 에서 &lt;code&gt;hexo-github-pages&lt;/code&gt; 으로 변경되었습니다.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/images/dup_hexo_git.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;이미 색인된 상태에서 구글에 예전 페이지가 남아있어 404 에러를 발생시켰습니다.&lt;br&gt;&lt;strong&gt;구글 웹마스터 도구 &amp;gt; Google 색인 &amp;gt; URL 삭제&lt;/strong&gt;로 예전 URL을 삭제하였지만 url 오류 라는 크롤링 오류가 발생하여 &lt;code&gt;Hexo Generator Alias 플러그인&lt;/code&gt;으로 이전 URL을 현 URL로 Redirecion 하였습니다. &lt;/p&gt;
 &lt;hr&gt;
