@@ -17,7 +17,7 @@
 <meta property="og:description" content="이전 포스트 Hexo+GitHub pages에서 Hexo 와 GitHub Pages를 연동하여 블로그를 만들었습니다. 
 이번 포스트는 테마를 바꿔 블로그를 꾸며 보도록 하겠습니다.Hexo 는 다양한 테마를 지원해 줍니다. Hexo Themes 에서 원하는 테마를 고를 수 있습니다.데스크탑, 태블릿, 모바일 등 지원 가능한 반응형 테마를 고르기 위해 resp">
 <meta property="og:image" content="https://simhyejin.github.io/images/hueman.jpg">
-<meta property="og:updated_time" content="2016-06-28T09:53:49.000Z">
+<meta property="og:updated_time" content="2016-06-30T12:50:25.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo 테마 적용하기">
 <meta name="twitter:description" content="이전 포스트 Hexo+GitHub pages에서 Hexo 와 GitHub Pages를 연동하여 블로그를 만들었습니다. 
@@ -177,7 +177,21 @@ ga('send', 'pageview');
             <p>이전 포스트 <a href="https://simhyejin.github.io/2016/06/20/hexo-github-pages/">Hexo+GitHub pages</a>에서 <em>Hexo</em> 와 <em>GitHub Pages</em>를 연동하여 블로그를 만들었습니다. </p>
 <p>이번 포스트는 테마를 바꿔 블로그를 꾸며 보도록 하겠습니다.<br><strong><em>Hexo</em></strong> 는 다양한 테마를 지원해 줍니다. <a href="https://hexo.io/themes/" target="_blank" rel="external">Hexo Themes</a> 에서 원하는 테마를 고를 수 있습니다.<br>데스크탑, 태블릿, 모바일 등 지원 가능한 반응형 테마를 고르기 위해 <strong>responsive</strong>을 검색하였고 그 중 <a href="https://github.com/ppoffice/hexo-theme-hueman" target="_blank" rel="external">Hueman</a>이라는 테마를 적용하엿습니다.<br><code>Hueman</code> 테마 적용법과 테마 설정(CSS 수정, Thumbnail, Disqus)에 대해 소개하겠습니다.</p>
 <hr>
-<h2 id="Hueman-테마-적용하기"><a href="#Hueman-테마-적용하기" class="headerlink" title="Hueman 테마 적용하기"></a>Hueman 테마 적용하기</h2><h3 id="설치"><a href="#설치" class="headerlink" title="설치"></a>설치</h3><ol>
+<ul>
+<li>목차<ul>
+<li><a href="#hueman">Hueman 테마 적용하기</a><ul>
+<li><a href="#hueman-install">Hueman 설치</a></li>
+<li><a href="#hueman-config">Hueman 설정</a></li>
+</ul>
+</li>
+<li><a href="#theme-color">Theme Color</a></li>
+<li><a href="#thumbnail">Thumbnail</a></li>
+<li><a href="#disqus">Disqus</a></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="Hueman-테마-적용하기"><a href="#Hueman-테마-적용하기" class="headerlink" title="Hueman 테마 적용하기"></a><div id="hueman">Hueman 테마 적용하기</div></h2><h3 id="설치"><a href="#설치" class="headerlink" title="설치"></a><div id="hueman-install">설치</div></h3><ol>
 <li><p>터미널을 열어 <code>hexo init</code>했던 폴더(이하 <strong>blog</strong> 폴더)에 들어갑니다. Heuman 테마를 <code>themes/hueman</code> 폴더에 clone합니다.</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> blog</span><br><span class="line">$ git <span class="built_in">clone</span> https://github.com/ppoffice/hexo-theme-hueman.git themes/hueman</span><br></pre></td></tr></table></figure>
 </li>
@@ -193,7 +207,7 @@ ga('send', 'pageview');
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -S hexo-generator-json-content</span><br></pre></td></tr></table></figure>
 </li>
 </ol>
-<h3 id="설정"><a href="#설정" class="headerlink" title="설정"></a>설정</h3><p><strong>themes/hueman</strong> 폴더에 있는 <code>_config.yml</code>에서 아래의 테마 설정을 바꿀 수 있습니다.</p>
+<h3 id="설정"><a href="#설정" class="headerlink" title="설정"></a><div id="hueman-config">설정</div></h3><p><strong>themes/hueman</strong> 폴더에 있는 <code>_config.yml</code>에서 아래의 테마 설정을 바꿀 수 있습니다.</p>
 <ul>
 <li>Theme <ul>
 <li><code>Menu</code></li>
@@ -208,7 +222,7 @@ ga('send', 'pageview');
 <li>Miscellaneous</li>
 </ul>
 <hr>
-<h3 id="Theme-Color"><a href="#Theme-Color" class="headerlink" title="- Theme Color"></a>- Theme Color</h3><p>저는 제 로고의 보라색을 따와 <code>Theme Color</code>를 보라색으로 설정했습니다.<br>Hueman 테마의 <code>Theme Color</code>는 오른쪽 사이드바의 <code>Follow</code>영역의 색을 바꾸게 해줍니다.<br>또한 <code>Theme Color</code>는 이외에도 여러군데 사용이됩니다. </p>
+<h3 id="Theme-Color"><a href="#Theme-Color" class="headerlink" title="- Theme Color"></a><div id="theme-color">- Theme Color</div></h3><p>저는 제 로고의 보라색을 따와 <code>Theme Color</code>를 보라색으로 설정했습니다.<br>Hueman 테마의 <code>Theme Color</code>는 오른쪽 사이드바의 <code>Follow</code>영역의 색을 바꾸게 해줍니다.<br>또한 <code>Theme Color</code>는 이외에도 여러군데 사용이됩니다. </p>
 <ul>
 <li>게시물 hover</li>
 <li>글자 드래그</li>
@@ -218,7 +232,7 @@ ga('send', 'pageview');
 <figure class="highlight styl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.article-entry</span></span><br><span class="line">    <span class="comment">//...</span></span><br><span class="line">    <span class="selector-tag">a</span> <span class="comment">//링크 </span></span><br><span class="line">        <span class="attribute">color</span>: <span class="string">"원하는색상"</span> </span><br><span class="line">    <span class="comment">//...</span></span><br></pre></td></tr></table></figure>
 <p>이 외에도 <code>styl 파일</code>을 수정하면 커스터마이징 가능합니다. </p>
 <hr>
-<h4 id="Thumbnail"><a href="#Thumbnail" class="headerlink" title="- Thumbnail"></a>- Thumbnail</h4><p><strong>themes/hueman</strong> 폴더에 있는 <code>_config.yml</code>에서 <em>true</em>, <em>false</em> 로 설정 할 수 있습니다.<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">customize:</span></span><br><span class="line">	thumbnail: <span class="literal">true</span> <span class="comment"># enable posts thumbnail, options: true, false</span></span><br></pre></td></tr></table></figure></p>
+<h4 id="Thumbnail"><a href="#Thumbnail" class="headerlink" title=" - Thumbnail"></a><div id="thumbnail"> - Thumbnail</div></h4><p><strong>themes/hueman</strong> 폴더에 있는 <code>_config.yml</code>에서 <em>true</em>, <em>false</em> 로 설정 할 수 있습니다.<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">customize:</span></span><br><span class="line">	thumbnail: <span class="literal">true</span> <span class="comment"># enable posts thumbnail, options: true, false</span></span><br></pre></td></tr></table></figure></p>
 <p><img src="/images/thumbnail.png" alt="thumbnail: false | thumbnail: true"></p>
 <ul>
 <li><strong>포스트에 thumbnail  추가하기</strong><br><code>source/images</code>에 이미지 파일을 넣고 포스트 <a href="https://hexo.io/docs/front-matter.html" target="_blank" rel="external">font-matter</a>에 <code>thumbnail</code>을 추가하고 이미지 경로를 넣어줍니다.<figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: Hexo 테마 적용하기</span><br><span class="line">date: 2016-06-24 16:11:20</span><br><span class="line"><span class="section">thumbnail: /images/hueman.jpg</span><br><span class="line">---</span></span><br></pre></td></tr></table></figure>
@@ -226,7 +240,7 @@ ga('send', 'pageview');
 </ul>
 <p>혹은 이미지 url인 경우에는 <code>thumbnail</code>을 추가하고 이미지 경로 url을 넣어줍니다.<br><figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: Hexo 테마 적용하기</span><br><span class="line">date: 2016-06-24 16:11:20</span><br><span class="line"><span class="section">thumbnail: https://example.com/image.jpg</span><br><span class="line">---</span></span><br></pre></td></tr></table></figure></p>
 <hr>
-<h4 id="Disqus"><a href="#Disqus" class="headerlink" title="- Disqus"></a>- Disqus</h4><p><strong>themes/hueman</strong> 폴더에 있는 <code>_config.yml</code>에서 <code>#Comment</code> 부분의 <em>disqus</em> 에 <em>disqus shortname</em>을 적어줍니다.<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Comment</span></span><br><span class="line"><span class="attr">comment:</span></span><br><span class="line"><span class="attr">    disqus:</span> [Disqus Shortname] <span class="comment"># enter disqus shortname here</span></span><br></pre></td></tr></table></figure></p>
+<h4 id="Disqus"><a href="#Disqus" class="headerlink" title=" - Disqus"></a><div id="disqus"> - Disqus</div></h4><p><strong>themes/hueman</strong> 폴더에 있는 <code>_config.yml</code>에서 <code>#Comment</code> 부분의 <em>disqus</em> 에 <em>disqus shortname</em>을 적어줍니다.<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Comment</span></span><br><span class="line"><span class="attr">comment:</span></span><br><span class="line"><span class="attr">    disqus:</span> [Disqus Shortname] <span class="comment"># enter disqus shortname here</span></span><br></pre></td></tr></table></figure></p>
 <p><strong>[ShortName 만들기 및 확인하기]</strong><br>먼저 <a href="https://disqus.com/" target="_blank" rel="external">Disqus</a> 계정이 있어야합니다. 회원가입 또는 SNS(페이스북, 트위터, 구글)로 로그인 가능합니다.</p>
 <ol>
 <li>Get Started 클릭 후 블로그 이름 설정(예시: aaaaba)[※블로그 이름이 Short Name으로 설정됩니다]<br><img src="/images/Disqus1.png" alt=""></li>
@@ -503,7 +517,7 @@ ga('send', 'pageview');
     <div class="widget-wrap widget-float">
         <h3 class="widget-title">tag cloud</h3>
         <div class="widget tagcloud">
-            <a href="/tags/ERROR-Deployer-not-found-git/" style="font-size: 10px;">ERROR Deployer not found git</a> <a href="/tags/Node-js/" style="font-size: 10px;">Node.js</a> <a href="/tags/blog/" style="font-size: 15px;">blog</a> <a href="/tags/deployer/" style="font-size: 10px;">deployer</a> <a href="/tags/disqus/" style="font-size: 10px;">disqus</a> <a href="/tags/g2/" style="font-size: 10px;">g2</a> <a href="/tags/git/" style="font-size: 15px;">git</a> <a href="/tags/github-pages/" style="font-size: 10px;">github-pages</a> <a href="/tags/hexo/" style="font-size: 20px;">hexo</a> <a href="/tags/hueman/" style="font-size: 10px;">hueman</a> <a href="/tags/markdown/" style="font-size: 15px;">markdown</a> <a href="/tags/markdown-syntax/" style="font-size: 10px;">markdown syntax</a> <a href="/tags/owasp/" style="font-size: 10px;">owasp</a> <a href="/tags/post/" style="font-size: 10px;">post</a> <a href="/tags/security/" style="font-size: 10px;">security</a> <a href="/tags/square-bracket/" style="font-size: 10px;">square bracket</a> <a href="/tags/theme-color/" style="font-size: 10px;">theme color</a> <a href="/tags/themes/" style="font-size: 10px;">themes</a> <a href="/tags/thumbnail/" style="font-size: 10px;">thumbnail</a> <a href="/tags/title/" style="font-size: 10px;">title</a> <a href="/tags/touch-불량/" style="font-size: 10px;">touch 불량</a> <a href="/tags/마크다운/" style="font-size: 10px;">마크다운</a> <a href="/tags/마크다운-문법/" style="font-size: 10px;">마크다운 문법</a> <a href="/tags/무상-수리/" style="font-size: 10px;">무상 수리</a> <a href="/tags/액정-교체/" style="font-size: 10px;">액정 교체</a> <a href="/tags/정적-블로그-프레임워크/" style="font-size: 10px;">정적 블로그 프레임워크</a> <a href="/tags/헥소/" style="font-size: 10px;">헥소</a>
+            <a href="/tags/ERROR-Deployer-not-found-git/" style="font-size: 10px;">ERROR Deployer not found git</a> <a href="/tags/Node-js/" style="font-size: 10px;">Node.js</a> <a href="/tags/Static-Site-Generator/" style="font-size: 10px;">Static Site Generator</a> <a href="/tags/blog/" style="font-size: 15px;">blog</a> <a href="/tags/deployer/" style="font-size: 10px;">deployer</a> <a href="/tags/disqus/" style="font-size: 10px;">disqus</a> <a href="/tags/g2/" style="font-size: 10px;">g2</a> <a href="/tags/git/" style="font-size: 15px;">git</a> <a href="/tags/github-pages/" style="font-size: 10px;">github-pages</a> <a href="/tags/hexo/" style="font-size: 20px;">hexo</a> <a href="/tags/hueman/" style="font-size: 10px;">hueman</a> <a href="/tags/markdown/" style="font-size: 15px;">markdown</a> <a href="/tags/markdown-syntax/" style="font-size: 10px;">markdown syntax</a> <a href="/tags/owasp/" style="font-size: 10px;">owasp</a> <a href="/tags/post/" style="font-size: 10px;">post</a> <a href="/tags/security/" style="font-size: 10px;">security</a> <a href="/tags/square-bracket/" style="font-size: 10px;">square bracket</a> <a href="/tags/theme-color/" style="font-size: 10px;">theme color</a> <a href="/tags/themes/" style="font-size: 10px;">themes</a> <a href="/tags/thumbnail/" style="font-size: 10px;">thumbnail</a> <a href="/tags/title/" style="font-size: 10px;">title</a> <a href="/tags/touch-불량/" style="font-size: 10px;">touch 불량</a> <a href="/tags/마크다운/" style="font-size: 10px;">마크다운</a> <a href="/tags/마크다운-문법/" style="font-size: 10px;">마크다운 문법</a> <a href="/tags/무상-수리/" style="font-size: 10px;">무상 수리</a> <a href="/tags/액정-교체/" style="font-size: 10px;">액정 교체</a> <a href="/tags/정적-블로그-프레임워크/" style="font-size: 10px;">정적 블로그 프레임워크</a> <a href="/tags/헥소/" style="font-size: 10px;">헥소</a>
         </div>
     </div>
 

@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://simhyejin.github.io/"/>
-  <updated>2016-06-30T07:49:02.000Z</updated>
+  <updated>2016-06-30T12:38:27.000Z</updated>
   <id>https://simhyejin.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://simhyejin.github.io/2016/06/30/Markdown-help/"/>
     <id>https://simhyejin.github.io/2016/06/30/Markdown-help/</id>
     <published>2016-06-29T16:41:00.000Z</published>
-    <updated>2016-06-30T07:49:02.000Z</updated>
+    <updated>2016-06-30T12:38:27.000Z</updated>
     
     <content type="html">&lt;p&gt;마크다운 문법에 대해 소개하겠습니다. &lt;/p&gt;
 &lt;hr&gt;
@@ -152,7 +152,7 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;hr&gt;
-&lt;h4 id=&quot;수평선-Horizontal-Rules&quot;&gt;&lt;a href=&quot;#수평선-Horizontal-Rules&quot; class=&quot;headerlink&quot; title=&quot;수평선 Horizontal Rules&quot;&gt;&lt;/a&gt;&lt;div id=&quot;horizontal&quot;&gt;수평선 Horizontal Rules&lt;/div&gt;&lt;/h4&gt;&lt;p&gt;&lt;code&gt;-&lt;/code&gt; 또는 &lt;code&gt;*&lt;/code&gt; 또는 &lt;code&gt;_&lt;/code&gt; 을 3개 이상 작성&lt;br&gt;(단, ‘-‘을 사용할 경우 header로 인식할 수 있으니 이 전 라인은 비워두어야한다.) &lt;/p&gt;
+&lt;h4 id=&quot;수평선-Horizontal-Rules&quot;&gt;&lt;a href=&quot;#수평선-Horizontal-Rules&quot; class=&quot;headerlink&quot; title=&quot;수평선 Horizontal Rules&quot;&gt;&lt;/a&gt;&lt;div id=&quot;horizontal&quot;&gt;수평선 Horizontal Rules&lt;/div&gt;&lt;/h4&gt;&lt;p&gt;&lt;code&gt;-&lt;/code&gt; 또는 &lt;code&gt;*&lt;/code&gt; 또는 &lt;code&gt;_&lt;/code&gt; 을 3개 이상 작성&lt;br&gt;(단, &lt;code&gt;-&lt;/code&gt;을 사용할 경우 header로 인식할 수 있으니 이 전 라인은 비워두어야한다.) &lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -195,7 +195,7 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;strong&gt;URl 링크&lt;/strong&gt;&lt;br&gt;&amp;#60;&lt;a href=&quot;http://google.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://google.com/&lt;/a&gt;&lt;span&gt;&amp;#62;&lt;/span&gt;&lt;br&gt;&amp;#60;example@gmail.com/&amp;#62;&lt;/td&gt;
-&lt;td style=&quot;text-align:left&quot;&gt;&lt;br&gt;&lt;a href=&quot;http://google.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://google.com&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;&amp;#x6d;&amp;#x61;&amp;#x69;&amp;#108;&amp;#x74;&amp;#x6f;&amp;#x3a;&amp;#x65;&amp;#x78;&amp;#97;&amp;#x6d;&amp;#112;&amp;#x6c;&amp;#101;&amp;#64;&amp;#103;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#109;&quot;&gt;&amp;#x65;&amp;#x78;&amp;#97;&amp;#x6d;&amp;#112;&amp;#x6c;&amp;#101;&amp;#64;&amp;#103;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#109;&lt;/a&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;br&gt;&lt;a href=&quot;http://google.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://google.com&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;&amp;#109;&amp;#97;&amp;#105;&amp;#x6c;&amp;#116;&amp;#111;&amp;#x3a;&amp;#101;&amp;#120;&amp;#x61;&amp;#109;&amp;#x70;&amp;#x6c;&amp;#x65;&amp;#64;&amp;#103;&amp;#x6d;&amp;#x61;&amp;#x69;&amp;#108;&amp;#46;&amp;#99;&amp;#x6f;&amp;#x6d;&quot;&gt;&amp;#101;&amp;#120;&amp;#x61;&amp;#109;&amp;#x70;&amp;#x6c;&amp;#x65;&amp;#64;&amp;#103;&amp;#x6d;&amp;#x61;&amp;#x69;&amp;#108;&amp;#46;&amp;#99;&amp;#x6f;&amp;#x6d;&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -375,12 +375,26 @@
     <link href="https://simhyejin.github.io/2016/06/24/hexo-themes/"/>
     <id>https://simhyejin.github.io/2016/06/24/hexo-themes/</id>
     <published>2016-06-24T07:11:20.000Z</published>
-    <updated>2016-06-28T09:53:49.000Z</updated>
+    <updated>2016-06-30T12:50:25.000Z</updated>
     
     <content type="html">&lt;p&gt;이전 포스트 &lt;a href=&quot;https://simhyejin.github.io/2016/06/20/hexo-github-pages/&quot;&gt;Hexo+GitHub pages&lt;/a&gt;에서 &lt;em&gt;Hexo&lt;/em&gt; 와 &lt;em&gt;GitHub Pages&lt;/em&gt;를 연동하여 블로그를 만들었습니다. &lt;/p&gt;
 &lt;p&gt;이번 포스트는 테마를 바꿔 블로그를 꾸며 보도록 하겠습니다.&lt;br&gt;&lt;strong&gt;&lt;em&gt;Hexo&lt;/em&gt;&lt;/strong&gt; 는 다양한 테마를 지원해 줍니다. &lt;a href=&quot;https://hexo.io/themes/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo Themes&lt;/a&gt; 에서 원하는 테마를 고를 수 있습니다.&lt;br&gt;데스크탑, 태블릿, 모바일 등 지원 가능한 반응형 테마를 고르기 위해 &lt;strong&gt;responsive&lt;/strong&gt;을 검색하였고 그 중 &lt;a href=&quot;https://github.com/ppoffice/hexo-theme-hueman&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hueman&lt;/a&gt;이라는 테마를 적용하엿습니다.&lt;br&gt;&lt;code&gt;Hueman&lt;/code&gt; 테마 적용법과 테마 설정(CSS 수정, Thumbnail, Disqus)에 대해 소개하겠습니다.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&quot;Hueman-테마-적용하기&quot;&gt;&lt;a href=&quot;#Hueman-테마-적용하기&quot; class=&quot;headerlink&quot; title=&quot;Hueman 테마 적용하기&quot;&gt;&lt;/a&gt;Hueman 테마 적용하기&lt;/h2&gt;&lt;h3 id=&quot;설치&quot;&gt;&lt;a href=&quot;#설치&quot; class=&quot;headerlink&quot; title=&quot;설치&quot;&gt;&lt;/a&gt;설치&lt;/h3&gt;&lt;ol&gt;
+&lt;ul&gt;
+&lt;li&gt;목차&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#hueman&quot;&gt;Hueman 테마 적용하기&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#hueman-install&quot;&gt;Hueman 설치&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#hueman-config&quot;&gt;Hueman 설정&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#theme-color&quot;&gt;Theme Color&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#thumbnail&quot;&gt;Thumbnail&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#disqus&quot;&gt;Disqus&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;Hueman-테마-적용하기&quot;&gt;&lt;a href=&quot;#Hueman-테마-적용하기&quot; class=&quot;headerlink&quot; title=&quot;Hueman 테마 적용하기&quot;&gt;&lt;/a&gt;&lt;div id=&quot;hueman&quot;&gt;Hueman 테마 적용하기&lt;/div&gt;&lt;/h2&gt;&lt;h3 id=&quot;설치&quot;&gt;&lt;a href=&quot;#설치&quot; class=&quot;headerlink&quot; title=&quot;설치&quot;&gt;&lt;/a&gt;&lt;div id=&quot;hueman-install&quot;&gt;설치&lt;/div&gt;&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;&lt;p&gt;터미널을 열어 &lt;code&gt;hexo init&lt;/code&gt;했던 폴더(이하 &lt;strong&gt;blog&lt;/strong&gt; 폴더)에 들어갑니다. Heuman 테마를 &lt;code&gt;themes/hueman&lt;/code&gt; 폴더에 clone합니다.&lt;/p&gt;
 &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ &lt;span class=&quot;built_in&quot;&gt;cd&lt;/span&gt; blog&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ git &lt;span class=&quot;built_in&quot;&gt;clone&lt;/span&gt; https://github.com/ppoffice/hexo-theme-hueman.git themes/hueman&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;/li&gt;
@@ -396,7 +410,7 @@
 &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ npm install -S hexo-generator-json-content&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3 id=&quot;설정&quot;&gt;&lt;a href=&quot;#설정&quot; class=&quot;headerlink&quot; title=&quot;설정&quot;&gt;&lt;/a&gt;설정&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;themes/hueman&lt;/strong&gt; 폴더에 있는 &lt;code&gt;_config.yml&lt;/code&gt;에서 아래의 테마 설정을 바꿀 수 있습니다.&lt;/p&gt;
+&lt;h3 id=&quot;설정&quot;&gt;&lt;a href=&quot;#설정&quot; class=&quot;headerlink&quot; title=&quot;설정&quot;&gt;&lt;/a&gt;&lt;div id=&quot;hueman-config&quot;&gt;설정&lt;/div&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;themes/hueman&lt;/strong&gt; 폴더에 있는 &lt;code&gt;_config.yml&lt;/code&gt;에서 아래의 테마 설정을 바꿀 수 있습니다.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Theme &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;Menu&lt;/code&gt;&lt;/li&gt;
@@ -411,7 +425,7 @@
 &lt;li&gt;Miscellaneous&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h3 id=&quot;Theme-Color&quot;&gt;&lt;a href=&quot;#Theme-Color&quot; class=&quot;headerlink&quot; title=&quot;- Theme Color&quot;&gt;&lt;/a&gt;- Theme Color&lt;/h3&gt;&lt;p&gt;저는 제 로고의 보라색을 따와 &lt;code&gt;Theme Color&lt;/code&gt;를 보라색으로 설정했습니다.&lt;br&gt;Hueman 테마의 &lt;code&gt;Theme Color&lt;/code&gt;는 오른쪽 사이드바의 &lt;code&gt;Follow&lt;/code&gt;영역의 색을 바꾸게 해줍니다.&lt;br&gt;또한 &lt;code&gt;Theme Color&lt;/code&gt;는 이외에도 여러군데 사용이됩니다. &lt;/p&gt;
+&lt;h3 id=&quot;Theme-Color&quot;&gt;&lt;a href=&quot;#Theme-Color&quot; class=&quot;headerlink&quot; title=&quot;- Theme Color&quot;&gt;&lt;/a&gt;&lt;div id=&quot;theme-color&quot;&gt;- Theme Color&lt;/div&gt;&lt;/h3&gt;&lt;p&gt;저는 제 로고의 보라색을 따와 &lt;code&gt;Theme Color&lt;/code&gt;를 보라색으로 설정했습니다.&lt;br&gt;Hueman 테마의 &lt;code&gt;Theme Color&lt;/code&gt;는 오른쪽 사이드바의 &lt;code&gt;Follow&lt;/code&gt;영역의 색을 바꾸게 해줍니다.&lt;br&gt;또한 &lt;code&gt;Theme Color&lt;/code&gt;는 이외에도 여러군데 사용이됩니다. &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;게시물 hover&lt;/li&gt;
 &lt;li&gt;글자 드래그&lt;/li&gt;
@@ -421,7 +435,7 @@
 &lt;figure class=&quot;highlight styl&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.article-entry&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;//...&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;selector-tag&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;comment&quot;&gt;//링크 &lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;attribute&quot;&gt;color&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;원하는색상&quot;&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;//...&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;이 외에도 &lt;code&gt;styl 파일&lt;/code&gt;을 수정하면 커스터마이징 가능합니다. &lt;/p&gt;
 &lt;hr&gt;
-&lt;h4 id=&quot;Thumbnail&quot;&gt;&lt;a href=&quot;#Thumbnail&quot; class=&quot;headerlink&quot; title=&quot;- Thumbnail&quot;&gt;&lt;/a&gt;- Thumbnail&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;themes/hueman&lt;/strong&gt; 폴더에 있는 &lt;code&gt;_config.yml&lt;/code&gt;에서 &lt;em&gt;true&lt;/em&gt;, &lt;em&gt;false&lt;/em&gt; 로 설정 할 수 있습니다.&lt;br&gt;&lt;figure class=&quot;highlight yml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;customize:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	thumbnail: &lt;span class=&quot;literal&quot;&gt;true&lt;/span&gt; &lt;span class=&quot;comment&quot;&gt;# enable posts thumbnail, options: true, false&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h4 id=&quot;Thumbnail&quot;&gt;&lt;a href=&quot;#Thumbnail&quot; class=&quot;headerlink&quot; title=&quot; - Thumbnail&quot;&gt;&lt;/a&gt;&lt;div id=&quot;thumbnail&quot;&gt; - Thumbnail&lt;/div&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;themes/hueman&lt;/strong&gt; 폴더에 있는 &lt;code&gt;_config.yml&lt;/code&gt;에서 &lt;em&gt;true&lt;/em&gt;, &lt;em&gt;false&lt;/em&gt; 로 설정 할 수 있습니다.&lt;br&gt;&lt;figure class=&quot;highlight yml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;customize:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	thumbnail: &lt;span class=&quot;literal&quot;&gt;true&lt;/span&gt; &lt;span class=&quot;comment&quot;&gt;# enable posts thumbnail, options: true, false&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/images/thumbnail.png&quot; alt=&quot;thumbnail: false | thumbnail: true&quot;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;포스트에 thumbnail  추가하기&lt;/strong&gt;&lt;br&gt;&lt;code&gt;source/images&lt;/code&gt;에 이미지 파일을 넣고 포스트 &lt;a href=&quot;https://hexo.io/docs/front-matter.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;font-matter&lt;/a&gt;에 &lt;code&gt;thumbnail&lt;/code&gt;을 추가하고 이미지 경로를 넣어줍니다.&lt;figure class=&quot;highlight md&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;---&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;title: Hexo 테마 적용하기&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;date: 2016-06-24 16:11:20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;section&quot;&gt;thumbnail: /images/hueman.jpg&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;---&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -429,7 +443,7 @@
 &lt;/ul&gt;
 &lt;p&gt;혹은 이미지 url인 경우에는 &lt;code&gt;thumbnail&lt;/code&gt;을 추가하고 이미지 경로 url을 넣어줍니다.&lt;br&gt;&lt;figure class=&quot;highlight md&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;---&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;title: Hexo 테마 적용하기&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;date: 2016-06-24 16:11:20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;section&quot;&gt;thumbnail: https://example.com/image.jpg&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;---&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h4 id=&quot;Disqus&quot;&gt;&lt;a href=&quot;#Disqus&quot; class=&quot;headerlink&quot; title=&quot;- Disqus&quot;&gt;&lt;/a&gt;- Disqus&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;themes/hueman&lt;/strong&gt; 폴더에 있는 &lt;code&gt;_config.yml&lt;/code&gt;에서 &lt;code&gt;#Comment&lt;/code&gt; 부분의 &lt;em&gt;disqus&lt;/em&gt; 에 &lt;em&gt;disqus shortname&lt;/em&gt;을 적어줍니다.&lt;br&gt;&lt;figure class=&quot;highlight yml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# Comment&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;comment:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;    disqus:&lt;/span&gt; [Disqus Shortname] &lt;span class=&quot;comment&quot;&gt;# enter disqus shortname here&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h4 id=&quot;Disqus&quot;&gt;&lt;a href=&quot;#Disqus&quot; class=&quot;headerlink&quot; title=&quot; - Disqus&quot;&gt;&lt;/a&gt;&lt;div id=&quot;disqus&quot;&gt; - Disqus&lt;/div&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;themes/hueman&lt;/strong&gt; 폴더에 있는 &lt;code&gt;_config.yml&lt;/code&gt;에서 &lt;code&gt;#Comment&lt;/code&gt; 부분의 &lt;em&gt;disqus&lt;/em&gt; 에 &lt;em&gt;disqus shortname&lt;/em&gt;을 적어줍니다.&lt;br&gt;&lt;figure class=&quot;highlight yml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# Comment&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;comment:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;    disqus:&lt;/span&gt; [Disqus Shortname] &lt;span class=&quot;comment&quot;&gt;# enter disqus shortname here&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;[ShortName 만들기 및 확인하기]&lt;/strong&gt;&lt;br&gt;먼저 &lt;a href=&quot;https://disqus.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Disqus&lt;/a&gt; 계정이 있어야합니다. 회원가입 또는 SNS(페이스북, 트위터, 구글)로 로그인 가능합니다.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Get Started 클릭 후 블로그 이름 설정(예시: aaaaba)[※블로그 이름이 Short Name으로 설정됩니다]&lt;br&gt;&lt;img src=&quot;/images/Disqus1.png&quot; alt=&quot;&quot;&gt;&lt;/li&gt;
@@ -619,10 +633,20 @@
     <link href="https://simhyejin.github.io/2016/06/20/blog-start-hexo/"/>
     <id>https://simhyejin.github.io/2016/06/20/blog-start-hexo/</id>
     <published>2016-06-20T05:16:39.000Z</published>
-    <updated>2016-06-29T16:23:12.000Z</updated>
+    <updated>2016-06-30T12:42:40.000Z</updated>
     
     <content type="html">&lt;p&gt;블로그 시작을 위해 사용하였던 &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt; 를 소개합니다.&lt;/p&gt;
-&lt;h2 id=&quot;Hexo&quot;&gt;&lt;a href=&quot;#Hexo&quot; class=&quot;headerlink&quot; title=&quot;Hexo&quot;&gt;&lt;/a&gt;Hexo&lt;/h2&gt;&lt;p&gt;&lt;em&gt;&lt;strong&gt;Hexo&lt;/strong&gt;&lt;/em&gt; 는 &lt;em&gt;Node.js&lt;/em&gt; 기반 정적 블로그 프레임워크 입니다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;목차&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#hexo&quot;&gt;Hexo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#hexo-install&quot;&gt;Hexo 설치&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#hexo-command&quot;&gt;Hexo 명령어&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;Hexo&quot;&gt;&lt;a href=&quot;#Hexo&quot; class=&quot;headerlink&quot; title=&quot;Hexo&quot;&gt;&lt;/a&gt;&lt;div id=&quot;hexo&quot;&gt;Hexo&lt;/div&gt;&lt;/h2&gt;&lt;p&gt;&lt;em&gt;&lt;strong&gt;Hexo&lt;/strong&gt;&lt;/em&gt; 는 &lt;em&gt;Node.js&lt;/em&gt; 기반 정적 블로그 프레임워크 입니다.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;마크다운(Markdown)&lt;/strong&gt;을 지원하여 손쉬운 포스트 작성 가능 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;GitHub Pages&lt;/strong&gt;를 이용한 호스팅을 지원&lt;/li&gt;
@@ -630,7 +654,7 @@
 &lt;/ul&gt;
 &lt;p&gt;등 의 장점으로 이 블로그 또한 &lt;em&gt;Hexo&lt;/em&gt; 와 &lt;em&gt;GitHub Pages&lt;/em&gt; 로 제작되었습니다.&lt;br&gt;&lt;strong&gt;Hexo&lt;/strong&gt; 설치와 실행법에 대해 소개하겠습니다.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&quot;Hexo-설치&quot;&gt;&lt;a href=&quot;#Hexo-설치&quot; class=&quot;headerlink&quot; title=&quot;Hexo 설치&quot;&gt;&lt;/a&gt;Hexo 설치&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;&lt;em&gt;Hexo&lt;/em&gt;&lt;/strong&gt; 를 설치 하기 위해서는 &lt;code&gt;Node.js&lt;/code&gt;와 &lt;code&gt;Git&lt;/code&gt;이 설치 되어 있어야합니다.&lt;br&gt;아래의 링크를 통해 설치가 가능합니다.&lt;/p&gt;
+&lt;h2 id=&quot;Hexo-설치&quot;&gt;&lt;a href=&quot;#Hexo-설치&quot; class=&quot;headerlink&quot; title=&quot;Hexo 설치&quot;&gt;&lt;/a&gt;&lt;div id=&quot;hexo-install&quot;&gt;Hexo 설치&lt;/div&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;&lt;em&gt;Hexo&lt;/em&gt;&lt;/strong&gt; 를 설치 하기 위해서는 &lt;code&gt;Node.js&lt;/code&gt;와 &lt;code&gt;Git&lt;/code&gt;이 설치 되어 있어야합니다.&lt;br&gt;아래의 링크를 통해 설치가 가능합니다.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://nodejs.org/en/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Node.js&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://git-scm.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Git&lt;/a&gt;&lt;/li&gt;
@@ -646,7 +670,7 @@
 &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;&lt;code&gt;localhost:4000&lt;/code&gt;을 통해 확인합니다.(기본포트 : 4000)&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&quot;자주-쓰는-명령어&quot;&gt;&lt;a href=&quot;#자주-쓰는-명령어&quot; class=&quot;headerlink&quot; title=&quot;자주 쓰는 명령어&quot;&gt;&lt;/a&gt;자주 쓰는 명령어&lt;/h2&gt;&lt;h3 id=&quot;New-post&quot;&gt;&lt;a href=&quot;#New-post&quot; class=&quot;headerlink&quot; title=&quot;New post&quot;&gt;&lt;/a&gt;New post&lt;/h3&gt;&lt;p&gt;새로운 포스트 생성&lt;/p&gt;
+&lt;h2 id=&quot;자주-쓰는-명령어&quot;&gt;&lt;a href=&quot;#자주-쓰는-명령어&quot; class=&quot;headerlink&quot; title=&quot;자주 쓰는 명령어&quot;&gt;&lt;/a&gt;&lt;div id=&quot;hexo-command&quot;&gt;자주 쓰는 명령어&lt;/div&gt;&lt;/h2&gt;&lt;h3 id=&quot;New-post&quot;&gt;&lt;a href=&quot;#New-post&quot; class=&quot;headerlink&quot; title=&quot;New post&quot;&gt;&lt;/a&gt;New post&lt;/h3&gt;&lt;p&gt;새로운 포스트 생성&lt;/p&gt;
 &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;h3 id=&quot;Generate&quot;&gt;&lt;a href=&quot;#Generate&quot; class=&quot;headerlink&quot; title=&quot;Generate&quot;&gt;&lt;/a&gt;Generate&lt;/h3&gt;&lt;p&gt;정적 파일 생성&lt;/p&gt;
 &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -666,7 +690,10 @@
     <summary type="html">
     
       &lt;p&gt;블로그 시작을 위해 사용하였던 &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt; 를 소개합니다.&lt;/p&gt;
-&lt;h2 id=&quot;Hexo&quot;&gt;&lt;a href=&quot;#Hexo&quot; class=&quot;hea
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;목차&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#hexo&quot;
     
     </summary>
     
@@ -684,6 +711,8 @@
       <category term="Node.js" scheme="https://simhyejin.github.io/tags/Node-js/"/>
     
       <category term="헥소" scheme="https://simhyejin.github.io/tags/%ED%97%A5%EC%86%8C/"/>
+    
+      <category term="Static Site Generator" scheme="https://simhyejin.github.io/tags/Static-Site-Generator/"/>
     
   </entry>
   
