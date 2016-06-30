@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://simhyejin.github.io/"/>
-  <updated>2016-06-29T10:34:11.000Z</updated>
+  <updated>2016-06-30T07:16:52.000Z</updated>
   <id>https://simhyejin.github.io/</id>
   
   <author>
@@ -14,6 +14,313 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>[Markdown] 마크다운 문법</title>
+    <link href="https://simhyejin.github.io/2016/06/30/Markdown-help/"/>
+    <id>https://simhyejin.github.io/2016/06/30/Markdown-help/</id>
+    <published>2016-06-29T16:41:00.000Z</published>
+    <updated>2016-06-30T07:16:52.000Z</updated>
+    
+    <content type="html">&lt;p&gt;마크다운 문법에 대해 소개하겠습니다. &lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;div id=&quot;index&quot;&gt;목차&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#headers&quot;&gt;제목 Headers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#blockquotes&quot;&gt;인용 Blockquotes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#code-blocks&quot;&gt;코드 블럭 Code Blocks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#inline-code-blocks&quot;&gt;인라인 코드 Inline Code Blocks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#emphasis&quot;&gt;강조 Emphasis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#horizontal&quot;&gt;수평선 Horizontal Rules&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#link&quot;&gt;링크 Links&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#external-link&quot;&gt;외부 링크 External Links&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#internal-link&quot;&gt;내부 링크 Internal (Anchored) Links&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#list&quot;&gt;리스트 Lists&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#ordered-list&quot;&gt;순서 있는 리스트 Ordered Lists&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#unordered-list&quot;&gt;순서 없는 리스트 Unordered Lists&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#tables&quot;&gt;테이블 Tables&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#images&quot;&gt;이미지 Adding Images&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#footnote&quot;&gt;각주 Footnotes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#more-info&quot;&gt;More Information&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;마크다운-문법&quot;&gt;&lt;a href=&quot;#마크다운-문법&quot; class=&quot;headerlink&quot; title=&quot;마크다운 문법&quot;&gt;&lt;/a&gt;&lt;div id=&quot;markdown-syntax&quot;&gt;마크다운 문법&lt;/div&gt;&lt;/h2&gt;&lt;h4 id=&quot;제목-Headers&quot;&gt;&lt;a href=&quot;#제목-Headers&quot; class=&quot;headerlink&quot; title=&quot;제목 Headers&quot;&gt;&lt;/a&gt;&lt;div id=&quot;headers&quot;&gt;제목 Headers&lt;/div&gt;&lt;/h4&gt;&lt;p&gt;&lt;code&gt;#&lt;/code&gt;으로 시작하는 텍스트.&lt;br&gt;&lt;code&gt;#&lt;/code&gt;은 하나부터 여섯개까지 쓸 수 있고, &lt;code&gt;#&lt;/code&gt;이 늘어날때마다 제목의 수준은 내려간다.&lt;br&gt;(보통 글씨 크기가 작아진다.)&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;마크다운&lt;/th&gt;
+&lt;th style=&quot;text-align:left&quot;&gt;실행결과&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;# h1&lt;br&gt;# h2&lt;br&gt;# h3&lt;br&gt;# h4&lt;br&gt;# h5&lt;br&gt;# h6&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;h1&gt; h1&lt;br&gt;&lt;h2&gt; h2&lt;br&gt;&lt;h3&gt; h3&lt;br&gt;&lt;h4&gt; h4&lt;br&gt;&lt;h5&gt; h5&lt;br&gt;&lt;h6&gt; h6&lt;/h6&gt;&lt;/h5&gt;&lt;/h4&gt;&lt;/h3&gt;&lt;/h2&gt;&lt;/h1&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;또는 &lt;code&gt;-&lt;/code&gt;, &lt;code&gt;=&lt;/code&gt;을 이용하여 h1, h2를 쓸 수 있다.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;마크다운&lt;/th&gt;
+&lt;th style=&quot;text-align:left&quot;&gt;실행결과&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;h1&lt;br&gt;===&lt;br&gt;&lt;br&gt;h2&lt;br&gt;—&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;h1&gt; h1&lt;br&gt;&lt;h2&gt; h2&lt;/h2&gt;&lt;/h1&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h4 id=&quot;인용-Blockquotes&quot;&gt;&lt;a href=&quot;#인용-Blockquotes&quot; class=&quot;headerlink&quot; title=&quot;인용 Blockquotes&quot;&gt;&lt;/a&gt;&lt;div id=&quot;blockquotes&quot;&gt;인용 Blockquotes&lt;/div&gt;&lt;/h4&gt;&lt;p&gt;&lt;code&gt;&amp;gt;&lt;/code&gt;으로 시작하는 텍스트&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;마크다운&lt;/th&gt;
+&lt;th style=&quot;text-align:left&quot;&gt;실행결과&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&amp;gt; 인용문&lt;br&gt;&amp;gt;&amp;gt; 인용문안의 인용문.&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;blockquote&gt; 인용문 &lt;blockquote&gt; 인용문 &lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h4 id=&quot;코드-블럭-Code-Blocks&quot;&gt;&lt;a href=&quot;#코드-블럭-Code-Blocks&quot; class=&quot;headerlink&quot; title=&quot;코드 블럭 Code Blocks&quot;&gt;&lt;/a&gt;&lt;div id=&quot;code-blocks&quot;&gt;코드 블럭 Code Blocks&lt;/div&gt;&lt;/h4&gt;&lt;p&gt;&lt;code&gt;`(Back quote)&lt;/code&gt;로 감싸진 텍스트&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;마크다운&lt;/th&gt;
+&lt;th style=&quot;text-align:left&quot;&gt;실행결과&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;`코드 블럭`&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;code&gt;코드 블럭&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h4 id=&quot;인라인-코드-Inline-Code-Blocks&quot;&gt;&lt;a href=&quot;#인라인-코드-Inline-Code-Blocks&quot; class=&quot;headerlink&quot; title=&quot;인라인 코드 Inline Code Blocks&quot;&gt;&lt;/a&gt;&lt;div id=&quot;inline-code-blocks&quot;&gt;인라인 코드 Inline Code Blocks&lt;/div&gt;&lt;/h4&gt;&lt;p&gt;&lt;code&gt;```&lt;/code&gt; 혹은 &lt;code&gt;~~~&lt;/code&gt; 코드 첫 줄과 마지막 줄에 Back quote ( ` ) 또는 물결( ~ ) 3개 삽입&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;마크다운&lt;/th&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;실행결과&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;```&lt;br&gt;이것은&lt;br&gt;코드 블럭&lt;br&gt;입니다&lt;br&gt;```&lt;br&gt;&lt;br&gt;~~~&lt;br&gt; 이것은 &lt;br&gt;코드 블럭&lt;br&gt;입니다&lt;br&gt;~~~&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;이것은&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;코드 블럭&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;입니다&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;이것은&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;코드 블럭&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;입니다&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;```c&lt;br&gt;void f()&lt;br&gt;&lt;pre&gt;    printf(%s,“이것은 c 코드 입니다”);&lt;/pre&gt;}&lt;br&gt;```&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;figure class=&quot;highlight c&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;()&lt;/span&gt;&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;printf&lt;/span&gt;(%s,&lt;span class=&quot;string&quot;&gt;“이것은 c 코드 입니다”&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h4 id=&quot;강조-Emphasis&quot;&gt;&lt;a href=&quot;#강조-Emphasis&quot; class=&quot;headerlink&quot; title=&quot;강조 Emphasis&quot;&gt;&lt;/a&gt;&lt;div id=&quot;emphasis&quot;&gt;강조 Emphasis&lt;/div&gt;&lt;/h4&gt;&lt;p&gt;기울여 쓰기(italic) : &lt;code&gt;*&lt;/code&gt; 또는 &lt;code&gt;_&lt;/code&gt;로 감싼 텍스트&lt;br&gt;굴게쓰기(bold) : &lt;code&gt;**&lt;/code&gt; 또는 &lt;code&gt;__&lt;/code&gt;로 감싼 텍스트&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;마크다운&lt;/th&gt;
+&lt;th style=&quot;text-align:left&quot;&gt;실행결과&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;*기울여쓰기(italic)*&lt;br&gt;_기울여쓰기(italic)_&lt;br&gt;&lt;br&gt;**굵게쓰기(bold)**&lt;br&gt;__굵게쓰기(bold)__&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;em&gt;기울여쓰기(italic)&lt;/em&gt;&lt;br&gt;&lt;em&gt;기울여쓰기(italic)&lt;/em&gt;&lt;br&gt;&lt;br&gt;&lt;strong&gt;굵게쓰기(bold)&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;굵게쓰기(bold)&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h4 id=&quot;수평선-Horizontal-Rules&quot;&gt;&lt;a href=&quot;#수평선-Horizontal-Rules&quot; class=&quot;headerlink&quot; title=&quot;수평선 Horizontal Rules&quot;&gt;&lt;/a&gt;&lt;div id=&quot;horizontal&quot;&gt;수평선 Horizontal Rules&lt;/div&gt;&lt;/h4&gt;&lt;p&gt;&lt;code&gt;-&lt;/code&gt; 또는 &lt;code&gt;*&lt;/code&gt; 또는 &lt;code&gt;_&lt;/code&gt; 을 3개 이상 작성&lt;br&gt;(단, ‘-‘을 사용할 경우 header로 인식할 수 있으니 이 전 라인은 비워두어야한다.) &lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;마크다운&lt;/th&gt;
+&lt;th style=&quot;text-align:left&quot;&gt;실행결과&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;---&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;hr&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;***&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;hr&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;___&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;hr&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h4 id=&quot;링크-Links&quot;&gt;&lt;a href=&quot;#링크-Links&quot; class=&quot;headerlink&quot; title=&quot;링크 Links&quot;&gt;&lt;/a&gt;&lt;div id=&quot;link&quot;&gt;링크 Links&lt;/div&gt;&lt;/h4&gt;&lt;h5 id=&quot;외부-링크-External-Links&quot;&gt;&lt;a href=&quot;#외부-링크-External-Links&quot; class=&quot;headerlink&quot; title=&quot;외부 링크 External Links&quot;&gt;&lt;/a&gt;&lt;div id=&quot;external-link&quot;&gt;외부 링크 External Links&lt;/div&gt;&lt;/h5&gt;&lt;p&gt;&lt;code&gt;[링크](http://example.com &amp;quot;링크 제목&amp;quot;)&lt;/code&gt; 인라인 링크&lt;br&gt;&lt;code&gt;[링크1][1]&lt;/code&gt; &lt;code&gt;[1]: http://example1.com/ &amp;quot;링크제목1&amp;quot;&lt;/code&gt; 참조 링크&lt;br&gt;&lt;code&gt;&amp;lt;example.com/&amp;gt;&lt;/code&gt; &lt;code&gt;&amp;lt;example@example.com&amp;gt;&lt;/code&gt; url 링크&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;마크다운&lt;/th&gt;
+&lt;th style=&quot;text-align:left&quot;&gt;실행결과&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;인라인 링크&lt;/strong&gt; &lt;pre&gt;[Google](&lt;a href=&quot;http://www.google.co.kr&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.google.co.kr&lt;/a&gt; “구글”)&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;br&gt;&lt;a href=&quot;http://www.google.co.kr&quot; title=&quot;구글&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Google&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;참조 링크&lt;/strong&gt; &lt;br&gt;[Google][1]&lt;br&gt;[Naver][2]&lt;br&gt;[1]: &lt;a href=&quot;http://google.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://google.com/&lt;/a&gt; “구글”&lt;br&gt;[2]: &lt;a href=&quot;http://naver.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://naver.com/&lt;/a&gt; “네이버”&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;br&gt;&lt;a href=&quot;/images/test.png&quot;&gt;Google&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://naver.com/&quot; title=&quot;네이버&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Naver&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;URl 링크&lt;/strong&gt;&lt;br&gt;&amp;#60;&lt;a href=&quot;http://google.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://google.com/&lt;/a&gt;&lt;span&gt;&amp;#62;&lt;/span&gt;&lt;br&gt;&amp;#60;example@gmail.com/&amp;#62;&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;br&gt;&lt;a href=&quot;http://google.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://google.com&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;&amp;#x6d;&amp;#x61;&amp;#105;&amp;#x6c;&amp;#116;&amp;#x6f;&amp;#58;&amp;#101;&amp;#120;&amp;#97;&amp;#109;&amp;#112;&amp;#108;&amp;#101;&amp;#x40;&amp;#103;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#46;&amp;#x63;&amp;#111;&amp;#109;&quot;&gt;&amp;#101;&amp;#120;&amp;#97;&amp;#109;&amp;#112;&amp;#108;&amp;#101;&amp;#x40;&amp;#103;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#46;&amp;#x63;&amp;#111;&amp;#109;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h5 id=&quot;내부-링크-Internal-Anchored-Links&quot;&gt;&lt;a href=&quot;#내부-링크-Internal-Anchored-Links&quot; class=&quot;headerlink&quot; title=&quot;내부 링크 Internal (Anchored) Links&quot;&gt;&lt;/a&gt;&lt;div id=&quot;internal-link&quot;&gt;내부 링크 Internal (Anchored) Links&lt;/div&gt;&lt;/h5&gt;&lt;p&gt;&lt;code&gt;[링크](#id)&lt;/code&gt; 내부 링크&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;마크다운&lt;/th&gt;
+&lt;th style=&quot;text-align:left&quot;&gt;실행결과&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;[목차](#index)&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;a href=&quot;#index&quot;&gt;목차&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h4 id=&quot;리스트-Lists&quot;&gt;&lt;a href=&quot;#리스트-Lists&quot; class=&quot;headerlink&quot; title=&quot;리스트 Lists&quot;&gt;&lt;/a&gt;&lt;div id=&quot;list&quot;&gt;리스트 Lists&lt;/div&gt;&lt;/h4&gt;&lt;h5 id=&quot;순서-있는-리스트-Ordered-Lists&quot;&gt;&lt;a href=&quot;#순서-있는-리스트-Ordered-Lists&quot; class=&quot;headerlink&quot; title=&quot;순서 있는 리스트 Ordered Lists&quot;&gt;&lt;/a&gt;&lt;div id=&quot;ordered-list&quot;&gt;순서 있는 리스트 Ordered Lists&lt;/div&gt;&lt;/h5&gt;&lt;p&gt;&lt;code&gt;No.&lt;/code&gt; 숫자 다음 .을 찍는다. (적힌 숫자랑 상관없이 순서대로 번호가 매겨진다.)&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;마크다운&lt;/th&gt;
+&lt;th style=&quot;text-align:left&quot;&gt;실행결과&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1. list item 1&lt;br&gt;1. list item 2&lt;br&gt;2. list item 3&lt;br&gt;0. list item 4&lt;br&gt;3. list item 5&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;ol&gt;&lt;li&gt;list item 1&lt;/li&gt;&lt;li&gt;list item 2&lt;/li&gt;&lt;li&gt;list item 3&lt;/li&gt;&lt;li&gt;list item 4&lt;/li&gt;&lt;li&gt;list item 5&lt;/li&gt;&lt;/ol&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h5 id=&quot;순서-없는-리스트-Unordered-Lists&quot;&gt;&lt;a href=&quot;#순서-없는-리스트-Unordered-Lists&quot; class=&quot;headerlink&quot; title=&quot;순서 없는 리스트 Unordered Lists&quot;&gt;&lt;/a&gt;&lt;div id=&quot;unordered-list&quot;&gt;순서 없는 리스트 Unordered Lists&lt;/div&gt;&lt;/h5&gt;&lt;p&gt;&lt;code&gt;*&lt;/code&gt;, &lt;code&gt;+&lt;/code&gt;, &lt;code&gt;-&lt;/code&gt; 으로 시작&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;마크다운&lt;/th&gt;
+&lt;th style=&quot;text-align:left&quot;&gt;실행결과&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;* list item 1&lt;pre&gt;    * list item 1-1&lt;/pre&gt;&lt;pre&gt;    * list item 1-2&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;ul&gt;&lt;li&gt;list item 1&lt;/li&gt;&lt;ul&gt;&lt;li&gt;list item 1-1&lt;/li&gt;&lt;li&gt;list item 1-2&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;+ list item 1&lt;pre&gt;    + list item 1-1&lt;/pre&gt;&lt;pre&gt;    + list item 1-2&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;ul&gt;&lt;li&gt;list item 1&lt;/li&gt;&lt;ul&gt;&lt;li&gt;list item 1-1&lt;/li&gt;&lt;li&gt;list item 1-2&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;- list item 1&lt;pre&gt;    - list item 1-1&lt;/pre&gt;&lt;pre&gt;    - list item 1-2&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;ul&gt;&lt;li&gt;list item 1&lt;/li&gt;&lt;ul&gt;&lt;li&gt;list item 1-1&lt;/li&gt;&lt;li&gt;list item 1-2&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h4 id=&quot;테이블-Tables&quot;&gt;&lt;a href=&quot;#테이블-Tables&quot; class=&quot;headerlink&quot; title=&quot;테이블 Tables&quot;&gt;&lt;/a&gt;&lt;div id=&quot;tables&quot;&gt;테이블 Tables&lt;/div&gt;&lt;/h4&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;마크다운&lt;/th&gt;
+&lt;th style=&quot;text-align:left&quot;&gt;실행결과&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;테이블 생성&lt;/strong&gt;&lt;br&gt;Header 1  &amp;#124; Header 2&lt;br&gt;&amp;#45;&amp;#45;&amp;#45;&amp;#45;&amp;#45;&amp;#45;&amp;#45;&amp;#45;&amp;#45; &amp;#124; &amp;#45;&amp;#45;&amp;#45;&amp;#45;&amp;#45;&amp;#45;&amp;#45;&amp;#45;&amp;#45;&lt;br&gt;Content 1  &amp;#124; Content 3&lt;br&gt;Content 2  &amp;#124; Content 4&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;br&gt;&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Header 1&lt;/th&gt;&lt;th&gt;Header 2&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Content 1&lt;/td&gt;&lt;td&gt;Content 3&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Content 2&lt;/td&gt;&lt;td&gt;Content 4&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;테이블 정렬&lt;/strong&gt;&lt;br&gt;&amp;#124; Header 1  &amp;#124; Header 2  &amp;#124; Header 3  &amp;#124;&lt;br&gt;&amp;#124; :&amp;#45;&amp;#45;&amp;#45;&amp;#45;&amp;#45;&amp;#45;&amp;#45;&amp;#45; &amp;#124; :&amp;#45;&amp;#45;&amp;#45;&amp;#45;&amp;#45;&amp;#45;&amp;#45;&amp;#45;: &amp;#124; &amp;#45;&amp;#45;&amp;#45;&amp;#45;&amp;#45;&amp;#45;&amp;#45;&amp;#45;: &amp;#124;&lt;br&gt;&amp;#124; Left       &amp;#124; Center       &amp;#124; Right       &amp;#124;&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;br&gt;&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align:left&quot;&gt;Header 1&lt;/th&gt;&lt;th style=&quot;text-align:center&quot;&gt;Header 2&lt;/th&gt;&lt;th style=&quot;text-align:right&quot;&gt;Header 3&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;text-align:left&quot;&gt;Left&lt;/td&gt;&lt;td style=&quot;text-align:center&quot;&gt;Center&lt;/td&gt;&lt;td style=&quot;text-align:right&quot;&gt;Right&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h4 id=&quot;이미지-Adding-Images&quot;&gt;&lt;a href=&quot;#이미지-Adding-Images&quot; class=&quot;headerlink&quot; title=&quot;이미지 Adding Images&quot;&gt;&lt;/a&gt;&lt;div id=&quot;images&quot;&gt;이미지 Adding Images&lt;/div&gt;&lt;/h4&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;마크다운&lt;/th&gt;
+&lt;th style=&quot;text-align:left&quot;&gt;실행결과&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;인라인 이미지&lt;/strong&gt;&lt;pre&gt;!&amp;#91;alt text&amp;#93;&amp;#40;/test.png &amp;#41;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;img src=&quot;/images/test.png&quot; alt=&quot;alt text&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;링크 이미지&lt;/strong&gt;&lt;pre&gt;!&amp;#91;alt text&amp;#93;&amp;#40;image_URL&amp;#41;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;img src=&quot;https://simhyejin.github.io/images/test.png&quot; alt=&quot;alt text&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;참조 이미지&lt;/strong&gt;&lt;br&gt;!&amp;#91;alt text&amp;#93;&amp;#91;1&amp;#93;&lt;br&gt;&amp;#91;1&amp;#93;: /test.png&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;img src=&quot;/images/test.png&quot; alt=&quot;alt text&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h4 id=&quot;각주-Footnotes&quot;&gt;&lt;a href=&quot;#각주-Footnotes&quot; class=&quot;headerlink&quot; title=&quot;각주 Footnotes&quot;&gt;&lt;/a&gt;&lt;div id=&quot;footnote&quot;&gt;각주 Footnotes&lt;/div&gt;&lt;/h4&gt;&lt;p&gt;각주입니다[^id]&lt;br&gt;[^id]: 각주에 대한 설명. &lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;마크다운 문법에 대해 소개하겠습니다. &lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;div id=&quot;index&quot;&gt;목차&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#headers&quot;&gt;제목 Headers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#blockquotes&quot;&gt;인용 B
+    
+    </summary>
+    
+      <category term="Blog" scheme="https://simhyejin.github.io/categories/Blog/"/>
+    
+    
+      <category term="markdown" scheme="https://simhyejin.github.io/tags/markdown/"/>
+    
+      <category term="마크다운" scheme="https://simhyejin.github.io/tags/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/"/>
+    
+      <category term="markdown syntax" scheme="https://simhyejin.github.io/tags/markdown-syntax/"/>
+    
+      <category term="마크다운 문법" scheme="https://simhyejin.github.io/tags/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-%EB%AC%B8%EB%B2%95/"/>
+    
+  </entry>
   
   <entry>
     <title>G2 터치 불량 무상수리</title>
@@ -136,9 +443,9 @@
       <category term="Blog" scheme="https://simhyejin.github.io/categories/Blog/"/>
     
     
-      <category term="hexo" scheme="https://simhyejin.github.io/tags/hexo/"/>
-    
       <category term="blog" scheme="https://simhyejin.github.io/tags/blog/"/>
+    
+      <category term="hexo" scheme="https://simhyejin.github.io/tags/hexo/"/>
     
       <category term="themes" scheme="https://simhyejin.github.io/tags/themes/"/>
     
@@ -177,13 +484,13 @@
       <category term="Blog" scheme="https://simhyejin.github.io/categories/Blog/"/>
     
     
+      <category term="markdown" scheme="https://simhyejin.github.io/tags/markdown/"/>
+    
       <category term="hexo" scheme="https://simhyejin.github.io/tags/hexo/"/>
     
       <category term="post" scheme="https://simhyejin.github.io/tags/post/"/>
     
       <category term="title" scheme="https://simhyejin.github.io/tags/title/"/>
-    
-      <category term="markdown" scheme="https://simhyejin.github.io/tags/markdown/"/>
     
       <category term="square bracket" scheme="https://simhyejin.github.io/tags/square-bracket/"/>
     
@@ -290,9 +597,9 @@
     
       <category term="hexo" scheme="https://simhyejin.github.io/tags/hexo/"/>
     
-      <category term="github-pages" scheme="https://simhyejin.github.io/tags/github-pages/"/>
-    
       <category term="git" scheme="https://simhyejin.github.io/tags/git/"/>
+    
+      <category term="github-pages" scheme="https://simhyejin.github.io/tags/github-pages/"/>
     
       <category term="deployer" scheme="https://simhyejin.github.io/tags/deployer/"/>
     
@@ -359,13 +666,13 @@
       <category term="Blog" scheme="https://simhyejin.github.io/categories/Blog/"/>
     
     
-      <category term="hexo" scheme="https://simhyejin.github.io/tags/hexo/"/>
-    
-      <category term="git" scheme="https://simhyejin.github.io/tags/git/"/>
-    
       <category term="blog" scheme="https://simhyejin.github.io/tags/blog/"/>
     
+      <category term="hexo" scheme="https://simhyejin.github.io/tags/hexo/"/>
+    
       <category term="정적 블로그 프레임워크" scheme="https://simhyejin.github.io/tags/%EC%A0%95%EC%A0%81-%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC/"/>
+    
+      <category term="git" scheme="https://simhyejin.github.io/tags/git/"/>
     
       <category term="Node.js" scheme="https://simhyejin.github.io/tags/Node-js/"/>
     
