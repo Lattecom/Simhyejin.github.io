@@ -1154,6 +1154,16 @@ a.article-title:hover {
 .article-entry ul ul {
   list-style-type: circle;
 }
+.article-entry ul ul ul {
+  list-style-type: none;
+}
+.article-entry ul ul ul li {
+  text-indent: -5px;
+}
+.article-entry ul ul ul li:before {
+  content: "- ";
+  text-indent: -5px;
+}
 .article-entry img,
 .article-entry video {
   max-width: 100%;
