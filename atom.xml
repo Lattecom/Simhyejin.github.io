@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://simhyejin.github.io/"/>
-  <updated>2016-06-30T16:36:44.000Z</updated>
+  <updated>2016-07-01T04:44:52.000Z</updated>
   <id>https://simhyejin.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://simhyejin.github.io/2016/06/30/hexo-generator-alias/"/>
     <id>https://simhyejin.github.io/2016/06/30/hexo-generator-alias/</id>
     <published>2016-06-30T12:54:41.000Z</published>
-    <updated>2016-06-30T16:36:44.000Z</updated>
+    <updated>2016-07-01T04:44:52.000Z</updated>
     
     <content type="html">&lt;p&gt;이번 포스트는 &lt;code&gt;Hexo Generator Alias&lt;/code&gt;라는 플러그인에 대해 소개하겠습니다.&lt;br&gt;저는 &lt;em&gt;url Redirection&lt;/em&gt; 을 하기 위해 사용하였습니다.&lt;/p&gt;
 &lt;p&gt;얼마 전 &lt;strong&gt;검색 엔진 최적화(SEO)&lt;/strong&gt;에 맞춰 url을 내용과 구체적으로 관련있게 하기위해 포스트 파일명의 이름을 변경하였습니다.&lt;br&gt;2번째 포스트인 &lt;a href=&quot;https://simhyejin.github.io/2016/06/20/hexo-github-pages/&quot;&gt;Hexo+GitHub pages&lt;/a&gt;은 포스트 파일 명이 &lt;code&gt;hexo-git&lt;/code&gt; 에서 &lt;code&gt;hexo-github-pages&lt;/code&gt; 으로 변경되었습니다.&lt;/p&gt;
@@ -41,8 +41,7 @@
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h4 id=&quot;나의-사용기&quot;&gt;&lt;a href=&quot;#나의-사용기&quot; class=&quot;headerlink&quot; title=&quot;나의 사용기&quot;&gt;&lt;/a&gt;나의 사용기&lt;/h4&gt;&lt;p&gt;저는 2번째 방법인 &lt;code&gt;_config.yml&lt;/code&gt;에서 alias를 지정했습니다.&lt;br&gt;&lt;code&gt;이전 페이지 html path : 현재 페이지 html path&lt;/code&gt;를 설정하시면 됩니다.&lt;br&gt;&lt;figure class=&quot;highlight yml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;alias:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  /&lt;span class=&quot;number&quot;&gt;2016&lt;/span&gt;/&lt;span class=&quot;number&quot;&gt;06&lt;/span&gt;/&lt;span class=&quot;number&quot;&gt;20&lt;/span&gt;/hexo-git/index.html: /&lt;span class=&quot;number&quot;&gt;2016&lt;/span&gt;/&lt;span class=&quot;number&quot;&gt;06&lt;/span&gt;/&lt;span class=&quot;number&quot;&gt;20&lt;/span&gt;/hexo-github-pages/index.html&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;이로 인해&lt;br&gt;&lt;a href=&quot;https://simhyejin.github.io/2016/06/20/hexo-git/&quot;&gt;https://simhyejin.github.io/2016/06/20/hexo-git/&lt;/a&gt;&lt;br&gt;— &lt;code&gt;Redirection&lt;/code&gt; —&amp;gt;&lt;br&gt;&lt;a href=&quot;https://simhyejin.github.io/2016/06/20/hexo-github-pages/&quot;&gt;https://simhyejin.github.io/2016/06/20/hexo-github-pages/&lt;/a&gt;&lt;br&gt;이전 페이지 url을 눌러도 현 페이지로 이동합니다.&lt;br&gt;&lt;img src=&quot;/images/redirection.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;URL Redirect로 삭제된 페이지를 현 페이지에 연결하는 것은 좋은 방법이 아닌것 같습니다.&lt;br&gt;하지만, 404 에러를 발생시키는 이전 페이지 노출로 인해 URL Redirection을 해보았습니다.&lt;br&gt;&lt;code&gt;Hexo Generator Alias 플러그인&lt;/code&gt;으로 리다이렉션 하는 법 말고 다른 좋은 방법을 아시는 분은 알려주세요:)&lt;/p&gt;
+&lt;p&gt;이로 인해&lt;br&gt;&lt;a href=&quot;https://simhyejin.github.io/2016/06/20/hexo-git/&quot;&gt;https://simhyejin.github.io/2016/06/20/hexo-git/&lt;/a&gt;&lt;br&gt;— &lt;code&gt;Redirection&lt;/code&gt; —&amp;gt;&lt;br&gt;&lt;a href=&quot;https://simhyejin.github.io/2016/06/20/hexo-github-pages/&quot;&gt;https://simhyejin.github.io/2016/06/20/hexo-github-pages/&lt;/a&gt;&lt;br&gt;이전 페이지 url을 눌러도 현 페이지로 이동합니다.&lt;br&gt;&lt;img src=&quot;/images/redirection.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;URL Redirect로 삭제된 페이지를 현 페이지에 연결하는 것은 좋은 방법이 아닌것 같습니다.&lt;br&gt;하지만, 404 에러를 발생시키는 이전 페이지 노출로 인해 URL Redirection을 해보았습니다.&lt;br&gt;&lt;code&gt;Hexo Generator Alias 플러그인&lt;/code&gt;으로 리다이렉션 하는 법 말고 다른 좋은 방법을 아시는 분은 알려주세요:)&lt;/p&gt;
 &lt;hr&gt;
 &lt;h4 id=&quot;Blog-Hexo-Plugin&quot;&gt;&lt;a href=&quot;#Blog-Hexo-Plugin&quot; class=&quot;headerlink&quot; title=&quot;#Blog #Hexo #Plugin&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://simhyejin.github.io/tags/blog/&quot;&gt;#Blog&lt;/a&gt; &lt;a href=&quot;https://simhyejin.github.io/tags/hexo/&quot;&gt;#Hexo&lt;/a&gt; &lt;a href=&quot;https://simhyejin.github.io/tags/plugin/&quot;&gt;#Plugin&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&amp;lt; 이전 포스트 &lt;a href=&quot;https://simhyejin.github.io/2016/06/24/hexo-themes/&quot;&gt;Hexo 테마 적용하기&lt;/a&gt;&lt;/p&gt;
 </content>
@@ -73,8 +72,8 @@
   
   <entry>
     <title>[Markdown] 마크다운 문법</title>
-    <link href="https://simhyejin.github.io/2016/06/30/Markdown-help/"/>
-    <id>https://simhyejin.github.io/2016/06/30/Markdown-help/</id>
+    <link href="https://simhyejin.github.io/2016/06/30/Markdown-syntax/"/>
+    <id>https://simhyejin.github.io/2016/06/30/Markdown-syntax/</id>
     <published>2016-06-29T16:41:00.000Z</published>
     <updated>2016-06-30T13:07:48.000Z</updated>
     
@@ -251,7 +250,7 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;strong&gt;URl 링크&lt;/strong&gt;&lt;br&gt;&amp;#60;&lt;a href=&quot;http://google.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://google.com/&lt;/a&gt;&lt;span&gt;&amp;#62;&lt;/span&gt;&lt;br&gt;&amp;#60;example@gmail.com/&amp;#62;&lt;/td&gt;
-&lt;td style=&quot;text-align:left&quot;&gt;&lt;br&gt;&lt;a href=&quot;http://google.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://google.com&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;&amp;#109;&amp;#97;&amp;#105;&amp;#x6c;&amp;#116;&amp;#x6f;&amp;#x3a;&amp;#101;&amp;#x78;&amp;#x61;&amp;#109;&amp;#x70;&amp;#108;&amp;#101;&amp;#64;&amp;#x67;&amp;#x6d;&amp;#97;&amp;#105;&amp;#108;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#101;&amp;#x78;&amp;#x61;&amp;#109;&amp;#x70;&amp;#108;&amp;#101;&amp;#64;&amp;#x67;&amp;#x6d;&amp;#97;&amp;#105;&amp;#108;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#x6d;&lt;/a&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;br&gt;&lt;a href=&quot;http://google.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://google.com&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;&amp;#109;&amp;#97;&amp;#x69;&amp;#x6c;&amp;#x74;&amp;#x6f;&amp;#x3a;&amp;#101;&amp;#120;&amp;#x61;&amp;#x6d;&amp;#x70;&amp;#108;&amp;#101;&amp;#64;&amp;#103;&amp;#x6d;&amp;#97;&amp;#x69;&amp;#x6c;&amp;#46;&amp;#99;&amp;#x6f;&amp;#109;&quot;&gt;&amp;#101;&amp;#120;&amp;#x61;&amp;#x6d;&amp;#x70;&amp;#108;&amp;#101;&amp;#64;&amp;#103;&amp;#x6d;&amp;#97;&amp;#x69;&amp;#x6c;&amp;#46;&amp;#99;&amp;#x6f;&amp;#109;&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
