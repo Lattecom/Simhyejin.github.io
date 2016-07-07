@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://simhyejin.github.io/"/>
-  <updated>2016-07-01T04:44:52.000Z</updated>
+  <updated>2016-07-07T06:08:53.000Z</updated>
   <id>https://simhyejin.github.io/</id>
   
   <author>
@@ -14,6 +14,129 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>port-exhaustion</title>
+    <link href="https://simhyejin.github.io/2016/07/07/port-exhaustion/"/>
+    <id>https://simhyejin.github.io/2016/07/07/port-exhaustion/</id>
+    <published>2016-07-07T06:08:53.000Z</published>
+    <updated>2016-07-07T06:08:53.000Z</updated>
+    
+    <content type="html"></content>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Tip 1 : 연결지향(Connection Oriented) 프로토콜과 비연결(Connectionless) 프로토콜의 차이점을 이해하라!</title>
+    <link href="https://simhyejin.github.io/2016/07/04/connectionoriented-connectionless/"/>
+    <id>https://simhyejin.github.io/2016/07/04/connectionoriented-connectionless/</id>
+    <published>2016-07-04T12:33:09.000Z</published>
+    <updated>2016-07-07T06:37:43.000Z</updated>
+    
+    <content type="html">&lt;h3 id=&quot;Tip-1-Understand-the-Difference-between-Connected-and-Connectionless-Protocols&quot;&gt;&lt;a href=&quot;#Tip-1-Understand-the-Difference-between-Connected-and-Connectionless-Protocols&quot; class=&quot;headerlink&quot; title=&quot;Tip 1 : Understand the Difference between Connected and Connectionless Protocols&quot;&gt;&lt;/a&gt;Tip 1 : Understand the Difference between Connected and Connectionless Protocols&lt;/h3&gt;&lt;p&gt;네트워크를 공부하다보면 &lt;code&gt;연결지향(Connection-Oriented)&lt;/code&gt;와 &lt;code&gt;비연결(Connectionless)&lt;/code&gt;라는 말을 들어보셨을 것입니다.&lt;br&gt;이번 포스트는 Connection-Oriented과 Connectionless에 대해 포스트하겠습니다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&quot;Summary&quot;&gt;&lt;a href=&quot;#Summary&quot; class=&quot;headerlink&quot; title=&quot;Summary&quot;&gt;&lt;/a&gt;Summary&lt;/h3&gt;&lt;p&gt;TCP는 Connection-Oriented 프로토콜 입니다. 1:1로 연결 상태를 유지하여 통신하는 것을 말합니다.&lt;br&gt;IP와 UDP 는 Connectionless 프로토콜 입니다. 연결 상태를 유지하는 것이 아니라 주소를 가지고 다음 라우터나 목적지로 전달만 하여 데이타그램에 대해 관여 하지 않습니다. &lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&quot;Connection-Oriented-와-Connectionless-비교&quot;&gt;&lt;a href=&quot;#Connection-Oriented-와-Connectionless-비교&quot; class=&quot;headerlink&quot; title=&quot;Connection Oriented 와 Connectionless 비교&quot;&gt;&lt;/a&gt;Connection Oriented 와 Connectionless 비교&lt;/h4&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;Connection Oriented&lt;/th&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;Connectionless&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;TCP&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;IP, UDP&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;Segment&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;Datagram&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;프로토콜에 의해 연속적으로&lt;br&gt;패킷의 상태 정보 유지&lt;sup&gt;&lt;a href=&quot;#maintain_state&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;각각의 패킷들이 독립적&lt;sup&gt;&lt;a href=&quot;#independence&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;reliable&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;unreliable&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;1:1&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;1:N&lt;br&gt;N:M&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&quot;Connection-Oriented-Protocol의-3단계&quot;&gt;&lt;a href=&quot;#Connection-Oriented-Protocol의-3단계&quot; class=&quot;headerlink&quot; title=&quot;Connection Oriented Protocol의 3단계&quot;&gt;&lt;/a&gt;Connection Oriented Protocol의 3단계&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;연결 (Connection Establish)&lt;/li&gt;
+&lt;li&gt;데이타 전송 단계(Data Transfer)&lt;/li&gt;
+&lt;li&gt;연결 종료 (Connection Colose)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&quot;✩Connectionless-Protocol은-Connection-Oriented-Protocol의-기반이다-✩&quot;&gt;&lt;a href=&quot;#✩Connectionless-Protocol은-Connection-Oriented-Protocol의-기반이다-✩&quot; class=&quot;headerlink&quot; title=&quot;✩Connectionless Protocol은 Connection Oriented Protocol의 기반이다.✩&quot;&gt;&lt;/a&gt;✩Connectionless Protocol은 Connection Oriented Protocol의 기반이다.✩&lt;/h4&gt;&lt;p&gt;TCP/IP은 4계층의 프로토콜 스택으로 이루어져있습니다.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;Application&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;TCP/UDP&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;IP&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;Interface&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;TCP&lt;/strong&gt;와 &lt;strong&gt;UDP&lt;/strong&gt;는 &lt;strong&gt;IP&lt;/strong&gt; 프로토콜 위에 존재합니다. 즉, &lt;strong&gt;IP&lt;/strong&gt;는 TCP/IP 스택이 만들어지는 기초가 됩니다.&lt;br&gt;&lt;strong&gt;IP&lt;/strong&gt;는 성능 중심(Best Effort)의 unreliable, Connecionless 서비스를 제공합니다. 상위 계층에서 패킷을 받아 IP 패킷으로 캡슐화하고 이를 하드웨어 인터페이스에 전송합니다. &lt;strong&gt;IP&lt;/strong&gt;는 한번 전송하면 그 패킷에 관여하지 않습니다.&lt;/p&gt;
+&lt;h5 id=&quot;TCP가-Connectionless-IP위에서-어떻게-연결형-서비스를-하는지-알아-보겠습니다&quot;&gt;&lt;a href=&quot;#TCP가-Connectionless-IP위에서-어떻게-연결형-서비스를-하는지-알아-보겠습니다&quot; class=&quot;headerlink&quot; title=&quot;TCP가 Connectionless IP위에서 어떻게 연결형 서비스를 하는지 알아 보겠습니다.&quot;&gt;&lt;/a&gt;TCP가 Connectionless IP위에서 어떻게 연결형 서비스를 하는지 알아 보겠습니다.&lt;/h5&gt;&lt;p&gt;TCP는 &lt;code&gt;세그먼트(Segment)&lt;/code&gt;라 불리는 패킷을 unreliable한 IP 데이타그램(Datagram)을 통해서 손상시키지않고 순서대로 목적지에 도달하도록 합니다.&lt;br&gt;신뢰성을 제공하기위해 TCP는 기본 IP 서비스에서 3가지 추가했습니다. &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;TCP 세그먼트 내의 &lt;strong&gt;Cheksum&lt;/strong&gt;을 제공한다. 데이터가 전송 도중에 손상되지 않았음을 증명합니다. &lt;/li&gt;
+&lt;li&gt;각 바이트 마다 일정한 &lt;strong&gt;Sequence Number&lt;/strong&gt;할당합니다. 데이터가 순서대로 도착하지 않을경우 바로 잡을 수 있습니다.&lt;/li&gt;
+&lt;li&gt;TCP는 모든 세그먼트가 잘 도착하였는지 알기 위해 &lt;strong&gt;Acknowledgment &amp;amp; Retransmission&lt;/strong&gt; 메커니즘을 제공합니다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;div id=&quot;maintain_state&quot;&gt;1.패킷의 상태 정보 유지 &lt;/div&gt; : 전화와 같다. 전화로 대화하는 동안 누구와 통화를 하는지 이미 알고 있다. 또한 전화가 열결되어 있는 동안 상대방의 전화번호를 다시 누를 필요도 없다. &lt;a href=&quot;&quot;&gt;⤿&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;div id=&quot;independence&quot;&gt;2. 각가의 패킷들이 독립적 &lt;/div&gt; : 편지와 같다. 편지들은 서로 간의 정보를 유지하지 않는다. 또한, 우체국은 편지가 분실되거나 지연되거나 배달 순서가 바뀌어 전달되지 않아도 보증하지 않는다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Effective TCP/IP Programming&lt;/strong&gt;&lt;br&gt;&amp;#45; 44 Tips to Improve Your Network Programs&lt;pre&gt;                    &lt;em&gt;by C. Snader&lt;/em&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h4 id=&quot;CSE-Network&quot;&gt;&lt;a href=&quot;#CSE-Network&quot; class=&quot;headerlink&quot; title=&quot;#CSE #Network&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://simhyejin.github.io/tags/cse/&quot;&gt;#CSE&lt;/a&gt; &lt;a href=&quot;https://simhyejin.github.io/tags/network/&quot;&gt;#Network&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;다음 포스트 &amp;gt; &lt;a href=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;Tip-1-Understand-the-Difference-between-Connected-and-Connectionless-Protocols&quot;&gt;&lt;a href=&quot;#Tip-1-Understand-the-Difference-between-Co
+    
+    </summary>
+    
+      <category term="CSE" scheme="https://simhyejin.github.io/categories/CSE/"/>
+    
+      <category term="NETWORK" scheme="https://simhyejin.github.io/categories/CSE/NETWORK/"/>
+    
+    
+      <category term="tcp/ip" scheme="https://simhyejin.github.io/tags/tcp-ip/"/>
+    
+      <category term="network" scheme="https://simhyejin.github.io/tags/network/"/>
+    
+      <category term="connection oriented" scheme="https://simhyejin.github.io/tags/connection-oriented/"/>
+    
+      <category term="connectionless" scheme="https://simhyejin.github.io/tags/connectionless/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo Generator Alias</title>
@@ -75,7 +198,7 @@
     <link href="https://simhyejin.github.io/2016/06/30/Markdown-syntax/"/>
     <id>https://simhyejin.github.io/2016/06/30/Markdown-syntax/</id>
     <published>2016-06-29T16:41:00.000Z</published>
-    <updated>2016-06-30T13:07:48.000Z</updated>
+    <updated>2016-07-07T05:33:34.000Z</updated>
     
     <content type="html">&lt;p&gt;마크다운 문법에 대해 소개하겠습니다. &lt;/p&gt;
 &lt;hr&gt;
@@ -250,7 +373,7 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;strong&gt;URl 링크&lt;/strong&gt;&lt;br&gt;&amp;#60;&lt;a href=&quot;http://google.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://google.com/&lt;/a&gt;&lt;span&gt;&amp;#62;&lt;/span&gt;&lt;br&gt;&amp;#60;example@gmail.com/&amp;#62;&lt;/td&gt;
-&lt;td style=&quot;text-align:left&quot;&gt;&lt;br&gt;&lt;a href=&quot;http://google.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://google.com&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;&amp;#x6d;&amp;#97;&amp;#x69;&amp;#x6c;&amp;#116;&amp;#111;&amp;#58;&amp;#101;&amp;#x78;&amp;#97;&amp;#109;&amp;#x70;&amp;#x6c;&amp;#101;&amp;#64;&amp;#x67;&amp;#x6d;&amp;#97;&amp;#105;&amp;#x6c;&amp;#46;&amp;#99;&amp;#x6f;&amp;#109;&quot;&gt;&amp;#101;&amp;#x78;&amp;#97;&amp;#109;&amp;#x70;&amp;#x6c;&amp;#101;&amp;#64;&amp;#x67;&amp;#x6d;&amp;#97;&amp;#105;&amp;#x6c;&amp;#46;&amp;#99;&amp;#x6f;&amp;#109;&lt;/a&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;br&gt;&lt;a href=&quot;http://google.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://google.com&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;&amp;#x6d;&amp;#97;&amp;#105;&amp;#108;&amp;#x74;&amp;#x6f;&amp;#58;&amp;#x65;&amp;#x78;&amp;#x61;&amp;#x6d;&amp;#x70;&amp;#x6c;&amp;#101;&amp;#64;&amp;#x67;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#46;&amp;#99;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#x65;&amp;#x78;&amp;#x61;&amp;#x6d;&amp;#x70;&amp;#x6c;&amp;#101;&amp;#64;&amp;#x67;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#46;&amp;#99;&amp;#111;&amp;#x6d;&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -354,6 +477,9 @@
 &lt;/table&gt;
 &lt;hr&gt;
 &lt;h4 id=&quot;각주-Footnotes&quot;&gt;&lt;a href=&quot;#각주-Footnotes&quot; class=&quot;headerlink&quot; title=&quot;각주 Footnotes&quot;&gt;&lt;/a&gt;&lt;div id=&quot;footnote&quot;&gt;각주 Footnotes&lt;/div&gt;&lt;/h4&gt;&lt;p&gt;각주입니다[^id]&lt;br&gt;[^id]: 각주에 대한 설명. &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;GitHub에서는 footnote를 지원해주지 않는다.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h4 id=&quot;Blog-Markdown&quot;&gt;&lt;a href=&quot;#Blog-Markdown&quot; class=&quot;headerlink&quot; title=&quot;#Blog #Markdown&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://simhyejin.github.io/tags/blog/&quot;&gt;#Blog&lt;/a&gt; &lt;a href=&quot;https://simhyejin.github.io/tags/markdown/&quot;&gt;#Markdown&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&amp;lt; 이전 포스트 &lt;a href=&quot;https://simhyejin.github.io/2016/06/24/markdown-post-title/&quot;&gt;[Markdown] title 대괄호[] 사용하기&lt;/a&gt;&lt;/p&gt;
 </content>
