@@ -36,7 +36,7 @@
     <link href="https://simhyejin.github.io/2016/07/04/connectionoriented-connectionless/"/>
     <id>https://simhyejin.github.io/2016/07/04/connectionoriented-connectionless/</id>
     <published>2016-07-04T12:33:09.000Z</published>
-    <updated>2016-07-07T06:37:43.000Z</updated>
+    <updated>2016-07-07T06:45:44.000Z</updated>
     
     <content type="html">&lt;h3 id=&quot;Tip-1-Understand-the-Difference-between-Connected-and-Connectionless-Protocols&quot;&gt;&lt;a href=&quot;#Tip-1-Understand-the-Difference-between-Connected-and-Connectionless-Protocols&quot; class=&quot;headerlink&quot; title=&quot;Tip 1 : Understand the Difference between Connected and Connectionless Protocols&quot;&gt;&lt;/a&gt;Tip 1 : Understand the Difference between Connected and Connectionless Protocols&lt;/h3&gt;&lt;p&gt;네트워크를 공부하다보면 &lt;code&gt;연결지향(Connection-Oriented)&lt;/code&gt;와 &lt;code&gt;비연결(Connectionless)&lt;/code&gt;라는 말을 들어보셨을 것입니다.&lt;br&gt;이번 포스트는 Connection-Oriented과 Connectionless에 대해 포스트하겠습니다.&lt;/p&gt;
 &lt;hr&gt;
@@ -107,6 +107,7 @@
 &lt;li&gt;각 바이트 마다 일정한 &lt;strong&gt;Sequence Number&lt;/strong&gt;할당합니다. 데이터가 순서대로 도착하지 않을경우 바로 잡을 수 있습니다.&lt;/li&gt;
 &lt;li&gt;TCP는 모든 세그먼트가 잘 도착하였는지 알기 위해 &lt;strong&gt;Acknowledgment &amp;amp; Retransmission&lt;/strong&gt; 메커니즘을 제공합니다.&lt;/li&gt;
 &lt;/ol&gt;
+&lt;p&gt;UDP는 신뢰성 없는 비연결 서비스를 제공합니다. IP 프로토콜에 2가지 기능을 추가했습니다.&lt;br&gt;UDP = 기본 IP 서비스 + (&lt;strong&gt;선택적 CheckSum&lt;/strong&gt; + &lt;strong&gt;Port&lt;/strong&gt;)&lt;br&gt;TCP/UDP는 자신의 고유 헤더와 데이터를 보호하기 위해 체크섬 제공.&lt;br&gt;포트는 데이터를 올바른 목적지 애플리케이션에 역다중화하는 방법을 제공.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;div id=&quot;maintain_state&quot;&gt;1.패킷의 상태 정보 유지 &lt;/div&gt; : 전화와 같다. 전화로 대화하는 동안 누구와 통화를 하는지 이미 알고 있다. 또한 전화가 열결되어 있는 동안 상대방의 전화번호를 다시 누를 필요도 없다. &lt;a href=&quot;&quot;&gt;⤿&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;div id=&quot;independence&quot;&gt;2. 각가의 패킷들이 독립적 &lt;/div&gt; : 편지와 같다. 편지들은 서로 간의 정보를 유지하지 않는다. 또한, 우체국은 편지가 분실되거나 지연되거나 배달 순서가 바뀌어 전달되지 않아도 보증하지 않는다.&lt;/p&gt;
