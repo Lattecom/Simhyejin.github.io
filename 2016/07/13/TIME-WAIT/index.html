@@ -37,7 +37,7 @@ Linger 옵션
 
 TCP Close :">
 <meta property="og:image" content="https://simhyejin.github.io/images/TCP_close.png">
-<meta property="og:updated_time" content="2016-07-17T13:05:10.000Z">
+<meta property="og:updated_time" content="2016-07-17T13:07:09.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="TIME_WAIT State">
 <meta name="twitter:description" content="TIME&amp;#95;WAIT 상태가 늘어나면 소켓이 고갈되어 커넥션 타임아웃이 발생한다는 얘기가 있다. TIME&amp;#95;WAIT 은 어떠한 경우에 발생하고 어떤 특징이 있는지 살펴보고 소켓 고갈과의 연관성을 알아본다.
@@ -216,10 +216,12 @@ ga('send', 'pageview');
 </ul>
 <hr>
 <h2 id="TCP-Close-4-way-hand-shake"><a href="#TCP-Close-4-way-hand-shake" class="headerlink" title="TCP Close : 4 way hand-shake"></a><div id="sec1">TCP Close : 4 way hand-shake</div></h2><p>먼저 TCP의 Connection Close에 살펴본다.<br>TCP는 Connection 연결을 3 Way Hand-Shake의 방식을 사용했다면<br>Connection 종료는 <strong>4 Way Hand-Shake</strong>의 방식으로 한다.<br><img src="/images/TCP_close.png" alt="TCP 4 Way Hand Shake"></p>
+<hr>
 <h2 id="TIME-WAIT"><a href="#TIME-WAIT" class="headerlink" title="TIME_WAIT"></a><div id="sec2">TIME_WAIT</div></h2><p><strong>Active Close</strong>, 즉 먼저 <code>close()</code>를 요청한 곳에서 <em>TIME&#95;WAIT</em> state가 발생하며 2MSL동안 기다렸다가 Close 한다.</p>
 <blockquote>
 <p>MSL(Maximum Segment Lifetime)<br>RFC793 specifies the MSL as 2 minutes.<br>Common implementation values, however, are 30 seconds, 1 minute, or 2 minutes. </p>
 </blockquote>
+<h3 id="TIME-WAIT-이-필요한-이유"><a href="#TIME-WAIT-이-필요한-이유" class="headerlink" title="TIME_WAIT 이 필요한 이유"></a>TIME_WAIT 이 필요한 이유</h3><h3 id="TIME-WAIT-특징"><a href="#TIME-WAIT-특징" class="headerlink" title="TIME_WAIT 특징"></a>TIME_WAIT 특징</h3><hr>
 <h2 id="Linger-옵션"><a href="#Linger-옵션" class="headerlink" title="Linger 옵션"></a><div id="sec3">Linger 옵션</div></h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">struct</span>  linger &#123;</span><br><span class="line">  <span class="keyword">int</span> l_onoff;    <span class="comment">/* option on/off */</span></span><br><span class="line">  <span class="keyword">int</span> l_linger;   <span class="comment">/* linger time */</span></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 <p>소켓에는 데이타가 아직 남아 있을때 종료 방식을 결정하는 링거 옵션이 있다. 아래 3가지 경우로 나뉜다.</p>
 <ol>
@@ -230,7 +232,7 @@ ga('send', 'pageview');
 <p><code>RST</code>는 비정상 종료시 보내는 패킷이다. 수신한 상대방은 Connection reset by peer 오류가 나게 된다.<br>양쪽 모두 바로 연결이 끊어지며, 양쪽 모두 <em>TIME&#95;WAIT</em> 상태가 남지 않는다는 점에서 가장 빠르고 깔끔해 유용해보이지만 문제는 <strong>비정상 종료</strong>라는 점이다.<br><code>RST</code>는 부작용를 야기할 수 있다. 또한 양쪽 모두에 <em>TIME&#95;WAIT</em> 을 남기지 않기 때문에 패킷의 오동작을 막아줄 장치가 없다.</p>
 <p>어떠한 <em>TIME&#95;WAIT</em> 도 남아 있지 않아야 할 특수한 목적이 아니라면, 일반적으로는 링거 옵션을 사용하지 않아야 하고 <code>RST</code> 비정상 종료 패킷을 보내는 일이 없어야 한다.</p>
 <hr>
-<h2 id="정리"><a href="#정리" class="headerlink" title="정리"></a>정리</h2><p>잦은 연결과 종료는 <em>TIME&#95;WAIT</em> 상태로 소켓 고갈이 일어날 수 있다.<br>대부분의 문서를 찾아보면 <code>Linger</code> 옵션을 통해 <em>TIME&#95;WAIT</em>을 없애려고 한다. 하지만 TCP Protocol은 오랜 역사를 가지고 변해왔지만 <em>TIME&#95;WAIT</em> 기능은 여전히 남아있다. 이는 <em>TIME&#95;WAIT</em> 상태가 필요한 존재이기 때문이지 않을까.</p>
+<h2 id="정리"><a href="#정리" class="headerlink" title="정리"></a>정리</h2><p>잦은 연결과 종료는 <em>TIME&#95;WAIT</em> 상태로 소켓 고갈이 일어날 수 있다.<br>대부분의 문서를 찾아보면 <code>Linger</code> 옵션을 통해 <em>TIME&#95;WAIT</em> 을 없애려고 한다. 하지만 TCP Protocol은 오랜 역사를 가지고 변해왔지만 <em>TIME&#95;WAIT</em> 기능은 여전히 남아있다. 이는 <em>TIME&#95;WAIT</em> 상태가 필요한 존재이기 때문이지 않을까.</p>
 
         </div>
         <footer class="article-footer">

@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://simhyejin.github.io/"/>
-  <updated>2016-07-17T13:05:10.000Z</updated>
+  <updated>2016-07-17T13:07:09.000Z</updated>
   <id>https://simhyejin.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://simhyejin.github.io/2016/07/13/TIME-WAIT/"/>
     <id>https://simhyejin.github.io/2016/07/13/TIME-WAIT/</id>
     <published>2016-07-13T07:47:10.000Z</published>
-    <updated>2016-07-17T13:05:10.000Z</updated>
+    <updated>2016-07-17T13:07:09.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;em&gt;TIME&amp;#95;WAIT&lt;/em&gt; 상태가 늘어나면 소켓이 고갈되어 커넥션 타임아웃이 발생한다는 얘기가 있다. &lt;em&gt;TIME&amp;#95;WAIT&lt;/em&gt; 은 어떠한 경우에 발생하고 어떤 특징이 있는지 살펴보고 소켓 고갈과의 연관성을 알아본다.&lt;/p&gt;
 &lt;hr&gt;
@@ -34,10 +34,12 @@
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2 id=&quot;TCP-Close-4-way-hand-shake&quot;&gt;&lt;a href=&quot;#TCP-Close-4-way-hand-shake&quot; class=&quot;headerlink&quot; title=&quot;TCP Close : 4 way hand-shake&quot;&gt;&lt;/a&gt;&lt;div id=&quot;sec1&quot;&gt;TCP Close : 4 way hand-shake&lt;/div&gt;&lt;/h2&gt;&lt;p&gt;먼저 TCP의 Connection Close에 살펴본다.&lt;br&gt;TCP는 Connection 연결을 3 Way Hand-Shake의 방식을 사용했다면&lt;br&gt;Connection 종료는 &lt;strong&gt;4 Way Hand-Shake&lt;/strong&gt;의 방식으로 한다.&lt;br&gt;&lt;img src=&quot;/images/TCP_close.png&quot; alt=&quot;TCP 4 Way Hand Shake&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
 &lt;h2 id=&quot;TIME-WAIT&quot;&gt;&lt;a href=&quot;#TIME-WAIT&quot; class=&quot;headerlink&quot; title=&quot;TIME_WAIT&quot;&gt;&lt;/a&gt;&lt;div id=&quot;sec2&quot;&gt;TIME_WAIT&lt;/div&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Active Close&lt;/strong&gt;, 즉 먼저 &lt;code&gt;close()&lt;/code&gt;를 요청한 곳에서 &lt;em&gt;TIME&amp;#95;WAIT&lt;/em&gt; state가 발생하며 2MSL동안 기다렸다가 Close 한다.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;MSL(Maximum Segment Lifetime)&lt;br&gt;RFC793 specifies the MSL as 2 minutes.&lt;br&gt;Common implementation values, however, are 30 seconds, 1 minute, or 2 minutes. &lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;h3 id=&quot;TIME-WAIT-이-필요한-이유&quot;&gt;&lt;a href=&quot;#TIME-WAIT-이-필요한-이유&quot; class=&quot;headerlink&quot; title=&quot;TIME_WAIT 이 필요한 이유&quot;&gt;&lt;/a&gt;TIME_WAIT 이 필요한 이유&lt;/h3&gt;&lt;h3 id=&quot;TIME-WAIT-특징&quot;&gt;&lt;a href=&quot;#TIME-WAIT-특징&quot; class=&quot;headerlink&quot; title=&quot;TIME_WAIT 특징&quot;&gt;&lt;/a&gt;TIME_WAIT 특징&lt;/h3&gt;&lt;hr&gt;
 &lt;h2 id=&quot;Linger-옵션&quot;&gt;&lt;a href=&quot;#Linger-옵션&quot; class=&quot;headerlink&quot; title=&quot;Linger 옵션&quot;&gt;&lt;/a&gt;&lt;div id=&quot;sec3&quot;&gt;Linger 옵션&lt;/div&gt;&lt;/h2&gt;&lt;figure class=&quot;highlight c&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;struct&lt;/span&gt;  linger &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; l_onoff;    &lt;span class=&quot;comment&quot;&gt;/* option on/off */&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; l_linger;   &lt;span class=&quot;comment&quot;&gt;/* linger time */&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;소켓에는 데이타가 아직 남아 있을때 종료 방식을 결정하는 링거 옵션이 있다. 아래 3가지 경우로 나뉜다.&lt;/p&gt;
 &lt;ol&gt;
@@ -48,7 +50,7 @@
 &lt;p&gt;&lt;code&gt;RST&lt;/code&gt;는 비정상 종료시 보내는 패킷이다. 수신한 상대방은 Connection reset by peer 오류가 나게 된다.&lt;br&gt;양쪽 모두 바로 연결이 끊어지며, 양쪽 모두 &lt;em&gt;TIME&amp;#95;WAIT&lt;/em&gt; 상태가 남지 않는다는 점에서 가장 빠르고 깔끔해 유용해보이지만 문제는 &lt;strong&gt;비정상 종료&lt;/strong&gt;라는 점이다.&lt;br&gt;&lt;code&gt;RST&lt;/code&gt;는 부작용를 야기할 수 있다. 또한 양쪽 모두에 &lt;em&gt;TIME&amp;#95;WAIT&lt;/em&gt; 을 남기지 않기 때문에 패킷의 오동작을 막아줄 장치가 없다.&lt;/p&gt;
 &lt;p&gt;어떠한 &lt;em&gt;TIME&amp;#95;WAIT&lt;/em&gt; 도 남아 있지 않아야 할 특수한 목적이 아니라면, 일반적으로는 링거 옵션을 사용하지 않아야 하고 &lt;code&gt;RST&lt;/code&gt; 비정상 종료 패킷을 보내는 일이 없어야 한다.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&quot;정리&quot;&gt;&lt;a href=&quot;#정리&quot; class=&quot;headerlink&quot; title=&quot;정리&quot;&gt;&lt;/a&gt;정리&lt;/h2&gt;&lt;p&gt;잦은 연결과 종료는 &lt;em&gt;TIME&amp;#95;WAIT&lt;/em&gt; 상태로 소켓 고갈이 일어날 수 있다.&lt;br&gt;대부분의 문서를 찾아보면 &lt;code&gt;Linger&lt;/code&gt; 옵션을 통해 &lt;em&gt;TIME&amp;#95;WAIT&lt;/em&gt;을 없애려고 한다. 하지만 TCP Protocol은 오랜 역사를 가지고 변해왔지만 &lt;em&gt;TIME&amp;#95;WAIT&lt;/em&gt; 기능은 여전히 남아있다. 이는 &lt;em&gt;TIME&amp;#95;WAIT&lt;/em&gt; 상태가 필요한 존재이기 때문이지 않을까.&lt;/p&gt;
+&lt;h2 id=&quot;정리&quot;&gt;&lt;a href=&quot;#정리&quot; class=&quot;headerlink&quot; title=&quot;정리&quot;&gt;&lt;/a&gt;정리&lt;/h2&gt;&lt;p&gt;잦은 연결과 종료는 &lt;em&gt;TIME&amp;#95;WAIT&lt;/em&gt; 상태로 소켓 고갈이 일어날 수 있다.&lt;br&gt;대부분의 문서를 찾아보면 &lt;code&gt;Linger&lt;/code&gt; 옵션을 통해 &lt;em&gt;TIME&amp;#95;WAIT&lt;/em&gt; 을 없애려고 한다. 하지만 TCP Protocol은 오랜 역사를 가지고 변해왔지만 &lt;em&gt;TIME&amp;#95;WAIT&lt;/em&gt; 기능은 여전히 남아있다. 이는 &lt;em&gt;TIME&amp;#95;WAIT&lt;/em&gt; 상태가 필요한 존재이기 때문이지 않을까.&lt;/p&gt;
 </content>
     
     <summary type="html">
