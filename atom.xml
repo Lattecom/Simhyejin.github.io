@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://simhyejin.github.io/"/>
-  <updated>2016-07-10T14:28:27.000Z</updated>
+  <updated>2016-07-17T13:05:10.000Z</updated>
   <id>https://simhyejin.github.io/</id>
   
   <author>
@@ -14,6 +14,65 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>TIME_WAIT State</title>
+    <link href="https://simhyejin.github.io/2016/07/13/TIME-WAIT/"/>
+    <id>https://simhyejin.github.io/2016/07/13/TIME-WAIT/</id>
+    <published>2016-07-13T07:47:10.000Z</published>
+    <updated>2016-07-17T13:05:10.000Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;em&gt;TIME&amp;#95;WAIT&lt;/em&gt; 상태가 늘어나면 소켓이 고갈되어 커넥션 타임아웃이 발생한다는 얘기가 있다. &lt;em&gt;TIME&amp;#95;WAIT&lt;/em&gt; 은 어떠한 경우에 발생하고 어떤 특징이 있는지 살펴보고 소켓 고갈과의 연관성을 알아본다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;div id=&quot;index&quot;&gt;목차&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#sec1&quot;&gt;TCP Connecion Close : 4 way hand-shake&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#sec2&quot;&gt;TIME_WAIT&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#sec3&quot;&gt;Linger 옵션&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;TCP-Close-4-way-hand-shake&quot;&gt;&lt;a href=&quot;#TCP-Close-4-way-hand-shake&quot; class=&quot;headerlink&quot; title=&quot;TCP Close : 4 way hand-shake&quot;&gt;&lt;/a&gt;&lt;div id=&quot;sec1&quot;&gt;TCP Close : 4 way hand-shake&lt;/div&gt;&lt;/h2&gt;&lt;p&gt;먼저 TCP의 Connection Close에 살펴본다.&lt;br&gt;TCP는 Connection 연결을 3 Way Hand-Shake의 방식을 사용했다면&lt;br&gt;Connection 종료는 &lt;strong&gt;4 Way Hand-Shake&lt;/strong&gt;의 방식으로 한다.&lt;br&gt;&lt;img src=&quot;/images/TCP_close.png&quot; alt=&quot;TCP 4 Way Hand Shake&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;TIME-WAIT&quot;&gt;&lt;a href=&quot;#TIME-WAIT&quot; class=&quot;headerlink&quot; title=&quot;TIME_WAIT&quot;&gt;&lt;/a&gt;&lt;div id=&quot;sec2&quot;&gt;TIME_WAIT&lt;/div&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Active Close&lt;/strong&gt;, 즉 먼저 &lt;code&gt;close()&lt;/code&gt;를 요청한 곳에서 &lt;em&gt;TIME&amp;#95;WAIT&lt;/em&gt; state가 발생하며 2MSL동안 기다렸다가 Close 한다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;MSL(Maximum Segment Lifetime)&lt;br&gt;RFC793 specifies the MSL as 2 minutes.&lt;br&gt;Common implementation values, however, are 30 seconds, 1 minute, or 2 minutes. &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;Linger-옵션&quot;&gt;&lt;a href=&quot;#Linger-옵션&quot; class=&quot;headerlink&quot; title=&quot;Linger 옵션&quot;&gt;&lt;/a&gt;&lt;div id=&quot;sec3&quot;&gt;Linger 옵션&lt;/div&gt;&lt;/h2&gt;&lt;figure class=&quot;highlight c&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;struct&lt;/span&gt;  linger &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; l_onoff;    &lt;span class=&quot;comment&quot;&gt;/* option on/off */&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; l_linger;   &lt;span class=&quot;comment&quot;&gt;/* linger time */&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;소켓에는 데이타가 아직 남아 있을때 종료 방식을 결정하는 링거 옵션이 있다. 아래 3가지 경우로 나뉜다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;l_onoff = 1&lt;/code&gt;, &lt;code&gt;l_linger = 0&lt;/code&gt;&lt;br&gt;즉시 종료하고 Buffer에 남아 있는 데이타는 버린다. 비정상 종료로 &lt;code&gt;RST&lt;/code&gt;를 보내고 즉시 연결을 끊는다. &lt;/li&gt;
+&lt;li&gt;&lt;code&gt;l_onoff = 1&lt;/code&gt;, &lt;code&gt;l_linger = non-zero&lt;/code&gt;&lt;br&gt;명시된 시간(초)동안 정상적으로 진행하며 그 이후에는 비정상 종료(RST) 처리한다.&lt;br&gt;만일 Buffer에 전송되지 못한 메시지가 남아 있다면 명시된 시간 동안은 어플리케이션이 &lt;code&gt;close()&lt;/code&gt;를 진행하지 못하고 최종적으로 &lt;code&gt;RST&lt;/code&gt;를 보내기 위해 &lt;code&gt;sleep&lt;/code&gt; 상태에서 대기하기 때문에 어플리케이션 지연 현상이 발생하므로 유의해야 한다. non-blocking 으로 동작하는 것도 가능은 하다.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;l_onoff = 0&lt;/code&gt;&lt;br&gt;정상적인 4-way handshake 종료 과정을 진행하며 소켓의 기본값이다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;code&gt;RST&lt;/code&gt;는 비정상 종료시 보내는 패킷이다. 수신한 상대방은 Connection reset by peer 오류가 나게 된다.&lt;br&gt;양쪽 모두 바로 연결이 끊어지며, 양쪽 모두 &lt;em&gt;TIME&amp;#95;WAIT&lt;/em&gt; 상태가 남지 않는다는 점에서 가장 빠르고 깔끔해 유용해보이지만 문제는 &lt;strong&gt;비정상 종료&lt;/strong&gt;라는 점이다.&lt;br&gt;&lt;code&gt;RST&lt;/code&gt;는 부작용를 야기할 수 있다. 또한 양쪽 모두에 &lt;em&gt;TIME&amp;#95;WAIT&lt;/em&gt; 을 남기지 않기 때문에 패킷의 오동작을 막아줄 장치가 없다.&lt;/p&gt;
+&lt;p&gt;어떠한 &lt;em&gt;TIME&amp;#95;WAIT&lt;/em&gt; 도 남아 있지 않아야 할 특수한 목적이 아니라면, 일반적으로는 링거 옵션을 사용하지 않아야 하고 &lt;code&gt;RST&lt;/code&gt; 비정상 종료 패킷을 보내는 일이 없어야 한다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;정리&quot;&gt;&lt;a href=&quot;#정리&quot; class=&quot;headerlink&quot; title=&quot;정리&quot;&gt;&lt;/a&gt;정리&lt;/h2&gt;&lt;p&gt;잦은 연결과 종료는 &lt;em&gt;TIME&amp;#95;WAIT&lt;/em&gt; 상태로 소켓 고갈이 일어날 수 있다.&lt;br&gt;대부분의 문서를 찾아보면 &lt;code&gt;Linger&lt;/code&gt; 옵션을 통해 &lt;em&gt;TIME&amp;#95;WAIT&lt;/em&gt;을 없애려고 한다. 하지만 TCP Protocol은 오랜 역사를 가지고 변해왔지만 &lt;em&gt;TIME&amp;#95;WAIT&lt;/em&gt; 기능은 여전히 남아있다. 이는 &lt;em&gt;TIME&amp;#95;WAIT&lt;/em&gt; 상태가 필요한 존재이기 때문이지 않을까.&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;em&gt;TIME&amp;#95;WAIT&lt;/em&gt; 상태가 늘어나면 소켓이 고갈되어 커넥션 타임아웃이 발생한다는 얘기가 있다. &lt;em&gt;TIME&amp;#95;WAIT&lt;/em&gt; 은 어떠한 경우에 발생하고 어떤 특징이 있는지 살펴보고 소켓 고갈과의 연관성을 알아본다.
+    
+    </summary>
+    
+      <category term="CSE" scheme="https://simhyejin.github.io/categories/CSE/"/>
+    
+      <category term="NETWORK" scheme="https://simhyejin.github.io/categories/CSE/NETWORK/"/>
+    
+    
+      <category term="tcp/ip" scheme="https://simhyejin.github.io/tags/tcp-ip/"/>
+    
+      <category term="network" scheme="https://simhyejin.github.io/tags/network/"/>
+    
+      <category term="tcp close" scheme="https://simhyejin.github.io/tags/tcp-close/"/>
+    
+      <category term="TIME_WAIT" scheme="https://simhyejin.github.io/tags/TIME-WAIT/"/>
+    
+      <category term="4 Way Hand Shake" scheme="https://simhyejin.github.io/tags/4-Way-Hand-Shake/"/>
+    
+  </entry>
   
   <entry>
     <title>Tip 1 : 연결지향(Connection Oriented) 프로토콜과 비연결(Connectionless) 프로토콜의 차이점을 이해하라!</title>
@@ -358,7 +417,7 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;strong&gt;URl 링크&lt;/strong&gt;&lt;br&gt;&amp;#60;&lt;a href=&quot;http://google.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://google.com/&lt;/a&gt;&lt;span&gt;&amp;#62;&lt;/span&gt;&lt;br&gt;&amp;#60;example@gmail.com/&amp;#62;&lt;/td&gt;
-&lt;td style=&quot;text-align:left&quot;&gt;&lt;br&gt;&lt;a href=&quot;http://google.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://google.com&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;&amp;#109;&amp;#x61;&amp;#x69;&amp;#x6c;&amp;#x74;&amp;#111;&amp;#x3a;&amp;#x65;&amp;#120;&amp;#x61;&amp;#109;&amp;#x70;&amp;#108;&amp;#101;&amp;#64;&amp;#103;&amp;#109;&amp;#97;&amp;#105;&amp;#x6c;&amp;#46;&amp;#x63;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#x65;&amp;#120;&amp;#x61;&amp;#109;&amp;#x70;&amp;#108;&amp;#101;&amp;#64;&amp;#103;&amp;#109;&amp;#97;&amp;#105;&amp;#x6c;&amp;#46;&amp;#x63;&amp;#111;&amp;#x6d;&lt;/a&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;br&gt;&lt;a href=&quot;http://google.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://google.com&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;&amp;#109;&amp;#x61;&amp;#x69;&amp;#x6c;&amp;#x74;&amp;#111;&amp;#58;&amp;#x65;&amp;#120;&amp;#97;&amp;#109;&amp;#112;&amp;#x6c;&amp;#101;&amp;#x40;&amp;#x67;&amp;#109;&amp;#x61;&amp;#105;&amp;#108;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#x6d;&quot;&gt;&amp;#x65;&amp;#120;&amp;#97;&amp;#109;&amp;#112;&amp;#x6c;&amp;#101;&amp;#x40;&amp;#x67;&amp;#109;&amp;#x61;&amp;#105;&amp;#108;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#x6d;&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;

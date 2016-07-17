@@ -3,18 +3,56 @@
 <head>
     <meta charset="utf-8">
     
-    <title>Tag: 정적 블로그 프레임워크 | JENNY|개발자</title>
+    <title>TIME_WAIT State | JENNY|개발자</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-    <meta name="description" content="Sim Hyejin&apos;s IT, Programming blog">
-<meta property="og:type" content="website">
-<meta property="og:title" content="JENNY|개발자">
-<meta property="og:url" content="https://simhyejin.github.io/tags/정적-블로그-프레임워크/index.html">
+        <meta name="keywords" content="tcp/ip,network,tcp close,TIME_WAIT,4 Way Hand Shake" />
+    
+    <meta name="description" content="TIME&amp;#95;WAIT 상태가 늘어나면 소켓이 고갈되어 커넥션 타임아웃이 발생한다는 얘기가 있다. TIME&amp;#95;WAIT 은 어떠한 경우에 발생하고 어떤 특징이 있는지 살펴보고 소켓 고갈과의 연관성을 알아본다.
+
+
+목차
+TCP Connecion Close : 4 way hand-shake
+TIME_WAIT
+Linger 옵션
+
+
+
+
+TCP Close :">
+<meta property="og:type" content="article">
+<meta property="og:title" content="TIME_WAIT State">
+<meta property="og:url" content="https://simhyejin.github.io/2016/07/13/TIME-WAIT/index.html">
 <meta property="og:site_name" content="JENNY|개발자">
-<meta property="og:description" content="Sim Hyejin&apos;s IT, Programming blog">
+<meta property="og:description" content="TIME&amp;#95;WAIT 상태가 늘어나면 소켓이 고갈되어 커넥션 타임아웃이 발생한다는 얘기가 있다. TIME&amp;#95;WAIT 은 어떠한 경우에 발생하고 어떤 특징이 있는지 살펴보고 소켓 고갈과의 연관성을 알아본다.
+
+
+목차
+TCP Connecion Close : 4 way hand-shake
+TIME_WAIT
+Linger 옵션
+
+
+
+
+TCP Close :">
+<meta property="og:image" content="https://simhyejin.github.io/images/TCP_close.png">
+<meta property="og:updated_time" content="2016-07-17T13:05:10.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="JENNY|개발자">
-<meta name="twitter:description" content="Sim Hyejin&apos;s IT, Programming blog">
+<meta name="twitter:title" content="TIME_WAIT State">
+<meta name="twitter:description" content="TIME&amp;#95;WAIT 상태가 늘어나면 소켓이 고갈되어 커넥션 타임아웃이 발생한다는 얘기가 있다. TIME&amp;#95;WAIT 은 어떠한 경우에 발생하고 어떤 특징이 있는지 살펴보고 소켓 고갈과의 연관성을 알아본다.
+
+
+목차
+TCP Connecion Close : 4 way hand-shake
+TIME_WAIT
+Linger 옵션
+
+
+
+
+TCP Close :">
+<meta name="twitter:image" content="https://simhyejin.github.io/images/TCP_close.png">
     
 
     
@@ -140,90 +178,139 @@ ga('send', 'pageview');
                         <div class="main-body-header">
     <h1 class="header">
     
-    <i class="icon fa fa-tag"></i>Tag: <em>정적 블로그 프레임워크</em>
+    <a class="page-title-link" href="/categories/CSE/">CSE</a><i class="icon fa fa-angle-right"></i><a class="page-title-link" href="/categories/CSE/NETWORK/">NETWORK</a>
     </h1>
 </div>
                         <div class="main-body-content">
-                            
-
-    
-    
+                            <article id="post-TIME-WAIT" class="article article-single article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
         
-        
-        <section class="archives-wrap">
-            <div class="archive-year-wrap">
-                <a href="/archives/2016" class="archive-year"><i class="icon fa fa-calendar-o"></i>2016</a>
-            </div>
-            <div class="archives">
-    
-    
-    
-        <div class="article-row">
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
-        
-        <a href="/2016/06/20/blog-start-hexo/" class="thumbnail">
-    
-    
-        <span style="background-image:url(/images/hexo.png)" alt="Hexo 정적 블로그 프레임워크" class="thumbnail-image"></span>
-    
-    
-        
-<span class="comment-counter">
-    <i class="fa fa-comments-o"></i>
-    
-        <span class="disqus-comment-count" data-disqus-url="https://simhyejin.github.io/2016/06/20/blog-start-hexo/">0</span>
-    
-</span>
-
-    
-</a>
-
-        
-        <div class="article-meta">
-            <p class="category">
-            <a class="article-category-link" href="/categories/Blog/">Blog</a>
-            </p>
-            <p class="date"><time datetime="2016-06-20T05:16:39.000Z" itemprop="datePublished">2016-06-20</time></p>
-        </div>
-        
+            <header class="article-header">
+                
     
         <h1 class="article-title" itemprop="name">
-        <a href="/2016/06/20/blog-start-hexo/">Hexo 정적 블로그 프레임워크</a>
+        TIME_WAIT State
         </h1>
     
 
-        <p class="article-excerpt">
-            블로그 시작을 위해 사용하였던 Hexo 를 소개합니다.
+            </header>
+        
+        <div class="article-subtitle">
+            <a href="/2016/07/13/TIME-WAIT/" class="article-date">
+    <time datetime="2016-07-13T07:47:10.000Z" itemprop="datePublished">2016-07-13</time>
+</a>
+            
+    <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/4-Way-Hand-Shake/">4 Way Hand Shake</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/TIME-WAIT/">TIME_WAIT</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/network/">network</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tcp-close/">tcp close</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tcp-ip/">tcp/ip</a></li></ul>
+
+        </div>
+        <div class="article-entry" itemprop="articleBody">
+            <p><em>TIME&#95;WAIT</em> 상태가 늘어나면 소켓이 고갈되어 커넥션 타임아웃이 발생한다는 얘기가 있다. <em>TIME&#95;WAIT</em> 은 어떠한 경우에 발생하고 어떤 특징이 있는지 살펴보고 소켓 고갈과의 연관성을 알아본다.</p>
+<hr>
+<ul>
+<li><div id="index">목차</div><ul>
+<li><a href="#sec1">TCP Connecion Close : 4 way hand-shake</a></li>
+<li><a href="#sec2">TIME_WAIT</a></li>
+<li><a href="#sec3">Linger 옵션</a></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="TCP-Close-4-way-hand-shake"><a href="#TCP-Close-4-way-hand-shake" class="headerlink" title="TCP Close : 4 way hand-shake"></a><div id="sec1">TCP Close : 4 way hand-shake</div></h2><p>먼저 TCP의 Connection Close에 살펴본다.<br>TCP는 Connection 연결을 3 Way Hand-Shake의 방식을 사용했다면<br>Connection 종료는 <strong>4 Way Hand-Shake</strong>의 방식으로 한다.<br><img src="/images/TCP_close.png" alt="TCP 4 Way Hand Shake"></p>
+<h2 id="TIME-WAIT"><a href="#TIME-WAIT" class="headerlink" title="TIME_WAIT"></a><div id="sec2">TIME_WAIT</div></h2><p><strong>Active Close</strong>, 즉 먼저 <code>close()</code>를 요청한 곳에서 <em>TIME&#95;WAIT</em> state가 발생하며 2MSL동안 기다렸다가 Close 한다.</p>
+<blockquote>
+<p>MSL(Maximum Segment Lifetime)<br>RFC793 specifies the MSL as 2 minutes.<br>Common implementation values, however, are 30 seconds, 1 minute, or 2 minutes. </p>
+</blockquote>
+<h2 id="Linger-옵션"><a href="#Linger-옵션" class="headerlink" title="Linger 옵션"></a><div id="sec3">Linger 옵션</div></h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">struct</span>  linger &#123;</span><br><span class="line">  <span class="keyword">int</span> l_onoff;    <span class="comment">/* option on/off */</span></span><br><span class="line">  <span class="keyword">int</span> l_linger;   <span class="comment">/* linger time */</span></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+<p>소켓에는 데이타가 아직 남아 있을때 종료 방식을 결정하는 링거 옵션이 있다. 아래 3가지 경우로 나뉜다.</p>
+<ol>
+<li><code>l_onoff = 1</code>, <code>l_linger = 0</code><br>즉시 종료하고 Buffer에 남아 있는 데이타는 버린다. 비정상 종료로 <code>RST</code>를 보내고 즉시 연결을 끊는다. </li>
+<li><code>l_onoff = 1</code>, <code>l_linger = non-zero</code><br>명시된 시간(초)동안 정상적으로 진행하며 그 이후에는 비정상 종료(RST) 처리한다.<br>만일 Buffer에 전송되지 못한 메시지가 남아 있다면 명시된 시간 동안은 어플리케이션이 <code>close()</code>를 진행하지 못하고 최종적으로 <code>RST</code>를 보내기 위해 <code>sleep</code> 상태에서 대기하기 때문에 어플리케이션 지연 현상이 발생하므로 유의해야 한다. non-blocking 으로 동작하는 것도 가능은 하다.</li>
+<li><code>l_onoff = 0</code><br>정상적인 4-way handshake 종료 과정을 진행하며 소켓의 기본값이다.</li>
+</ol>
+<p><code>RST</code>는 비정상 종료시 보내는 패킷이다. 수신한 상대방은 Connection reset by peer 오류가 나게 된다.<br>양쪽 모두 바로 연결이 끊어지며, 양쪽 모두 <em>TIME&#95;WAIT</em> 상태가 남지 않는다는 점에서 가장 빠르고 깔끔해 유용해보이지만 문제는 <strong>비정상 종료</strong>라는 점이다.<br><code>RST</code>는 부작용를 야기할 수 있다. 또한 양쪽 모두에 <em>TIME&#95;WAIT</em> 을 남기지 않기 때문에 패킷의 오동작을 막아줄 장치가 없다.</p>
+<p>어떠한 <em>TIME&#95;WAIT</em> 도 남아 있지 않아야 할 특수한 목적이 아니라면, 일반적으로는 링거 옵션을 사용하지 않아야 하고 <code>RST</code> 비정상 종료 패킷을 보내는 일이 없어야 한다.</p>
+<hr>
+<h2 id="정리"><a href="#정리" class="headerlink" title="정리"></a>정리</h2><p>잦은 연결과 종료는 <em>TIME&#95;WAIT</em> 상태로 소켓 고갈이 일어날 수 있다.<br>대부분의 문서를 찾아보면 <code>Linger</code> 옵션을 통해 <em>TIME&#95;WAIT</em>을 없애려고 한다. 하지만 TCP Protocol은 오랜 역사를 가지고 변해왔지만 <em>TIME&#95;WAIT</em> 기능은 여전히 남아있다. 이는 <em>TIME&#95;WAIT</em> 상태가 필요한 존재이기 때문이지 않을까.</p>
+
+        </div>
+        <footer class="article-footer">
+            
 
 
-목차
-Hexo
-Hexo 설치
-Hexo 명령어
 
+    <a data-url="https://simhyejin.github.io/2016/07/13/TIME-WAIT/" data-id="ciqkl3cjx0002hi7jtlziytne" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+<script>
+    (function ($) {
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
 
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
 
+            if ($('#' + id).length) {
+                box = $('#' + id);
 
-HexoHexo 는 Node.js 기반 정적 블로그 프레임워크 입니다.
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
 
-마크다운(Markdown)을 지원하여 손쉬운 포스트 작성 가능 
-GitHub Pages를 이용한 호스팅을 지원
-다양한 테마 제공
+              box = $(html);
 
-등 의 장점으로 이 블로그 또한 Hexo 와
-        </p>
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+        </footer>
     </div>
 </article>
+
+    <section id="comments">
     
-        </div>
+        
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
     
-
-
-    </div></section>
-
-
+    </section>
 
                         </div>
                     </section>
@@ -251,6 +338,19 @@ GitHub Pages를 이용한 호스팅을 지원
             
         </ul>
     </div>
+    
+        
+<nav id="article-nav">
+    
+    
+        <a href="/2016/07/04/connectionoriented-connectionless/" id="article-nav-older" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">older</strong>
+        <p class="article-nav-title">Tip 1 : 연결지향(Connection Oriented) 프로토콜과 비연결(Connectionless) 프로토콜의 차이점을 이해하라!</p>
+        <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
+        </a>
+    
+</nav>
+
     
     <div class="widgets-container">
         
@@ -432,11 +532,13 @@ GitHub Pages를 이용한 호스팅을 지원
     var disqus_shortname = 'coollime';
     
     
+    var disqus_url = 'https://simhyejin.github.io/2016/07/13/TIME-WAIT/';
+    
     (function() {
     var dsq = document.createElement('script');
     dsq.type = 'text/javascript';
     dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
     </script>

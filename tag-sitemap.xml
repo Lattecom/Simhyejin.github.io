@@ -226,20 +226,6 @@
     </url>
 
     <url>
-        <loc>https://simhyejin.github.io/tags/tcp-ip/</loc>
-        <lastmod>2016-07-10T14:28:27.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://simhyejin.github.io/tags/network/</loc>
-        <lastmod>2016-07-10T14:28:27.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://simhyejin.github.io/tags/connection-oriented/</loc>
         <lastmod>2016-07-10T14:28:27.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -249,6 +235,41 @@
     <url>
         <loc>https://simhyejin.github.io/tags/connectionless/</loc>
         <lastmod>2016-07-10T14:28:27.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://simhyejin.github.io/tags/tcp-ip/</loc>
+        <lastmod>2016-07-17T13:05:10.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://simhyejin.github.io/tags/network/</loc>
+        <lastmod>2016-07-17T13:05:10.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://simhyejin.github.io/tags/tcp-close/</loc>
+        <lastmod>2016-07-17T13:05:10.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://simhyejin.github.io/tags/TIME-WAIT/</loc>
+        <lastmod>2016-07-17T13:05:10.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://simhyejin.github.io/tags/4-Way-Hand-Shake/</loc>
+        <lastmod>2016-07-17T13:05:10.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

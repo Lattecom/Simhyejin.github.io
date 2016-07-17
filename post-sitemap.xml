@@ -7,6 +7,14 @@
     </url>
 
     <url>
+        <loc>https://simhyejin.github.io/2016/07/13/TIME-WAIT/</loc>
+        <lastmod>2016-07-17T13:05:10.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://simhyejin.github.io/2016/07/04/connectionoriented-connectionless/</loc>
         <lastmod>2016-07-10T14:28:27.000Z</lastmod>
         <changefreq>weekly</changefreq>
